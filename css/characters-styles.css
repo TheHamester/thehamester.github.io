@@ -1,18 +1,19 @@
+@import "vars.css";
+
 .character-img-left {
     float: left;
-    margin: 20px;
+    margin-right: var(--content-margin);
     border-radius: 10%;
     border-width: 5px;
     border-color: #FFA500;
-    border-style:solid;
+    border-style: solid;
 }
 
 .character-img-right {
     float: right;
-    margin-left: 20px;
-    margin-bottom: 20px;
+    margin-left: var(--content-margin);;
     border-radius: 10%;
     border-width: 5px;
     border-color: #FFA500;
-    border-style:solid;
+    border-style: solid;
 }

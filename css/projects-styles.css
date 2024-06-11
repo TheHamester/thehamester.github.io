@@ -1,19 +1,21 @@
+@import "vars.css";
+
 .project-img-left {
     float: left;
-    margin-right: 20px;
+    margin-right: var(--content-margin);
     border-radius: 50%;
-    border-width: 5px;
-    border-color: #FFA500;
-    border-style:solid;
+    border-width: var(--border-width);
+    border-color: var(--accent-orange);
+    border-style: solid;
 }
 
 .project-img-right {
     float: right;
-    margin-right: 20px;
+    margin-left: var(--content-margin);
     border-radius: 50%;
-    border-width: 5px;
-    border-color: #FFA500;
-    border-style:solid;
+    border-width: var(--border-width);
+    border-color: var(--accent-orange);
+    border-style: solid;
 }
 
 .the-rest {

@@ -1,0 +1,29 @@
+:root {
+    --header-color-from: #B45EFF;
+    --header-color-to: #783FAA;
+    --bg-color-from: #B5D1FF;
+    --bg-color-to: #5c9aff;
+    --accent-orange: #FFA500;
+    --page-color: #FFEBC9;
+    --page-border-color: #C9DDFF;
+    --notification-bg-color: #4FD160;
+    --notification-border-color: green;
+    --bisexual-1: #D70070;
+    --bisexual-2: #9C4E97;
+    --bisexual-3: #0035A9;
+
+    --page-width: 800px;
+    --header-height: 80px;
+    --footer-height: 20px;
+    --paragraph-indent: 30px;
+    --border-width: 5px;
+    --content-padding: 20px;
+    --content-margin: 20px;
+
+    --notification-border-width: 3px;
+    --notification-bottom-to: 50px;
+    --notification-bottom-from: calc(var(--notification-bottom-to) * -1);
+    --notification-anim-time: 1.5s;
+    
+    --main-font: "DM Mono", monospace;
+}
