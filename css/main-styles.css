@@ -14,7 +14,9 @@ html, body {
     background: linear-gradient(to top, #B45EFF, #783FAA);
     border-width: 5px 0 0 0;
     border-color: #FFA500;
-    border-style:solid;
+    border-style: solid;
+    min-width: 800px;
+
 }
 
 .page-wrapper {
@@ -25,6 +27,7 @@ html, body {
 
 .header {
     height: 80px;
+    min-width: 800px;
     background: linear-gradient(to bottom,  #B45EFF, #783FAA);
 
     display: flex;
@@ -35,7 +38,7 @@ html, body {
     padding-right: 10px;
     border-width: 0 0 5px 0;
     border-color: #FFA500;
-    border-style:solid;
+    border-style: solid;
 }
 
 .header a {
@@ -85,6 +88,10 @@ html, body {
     border-width: 0 5px;
     border-color: #C9DDFF;
     border-style: solid;
+}
+
+.content {
+    flex-grow: 100;
 }
 
 h1,h2,h3 {
