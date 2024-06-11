@@ -1,0 +1,169 @@
+* { 
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+     box-sizing: border-box; 
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.footer {
+    height: 20px;
+    background: linear-gradient(to top, #B45EFF, #783FAA);
+    border-width: 5px 0 0 0;
+    border-color: #FFA500;
+    border-style:solid;
+}
+
+.page-wrapper {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to top, #B5D1FF, #5c9aff);
+}
+
+.header {
+    height: 80px;
+    background: linear-gradient(to bottom,  #B45EFF, #783FAA);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding-left: 10px;
+    padding-right: 10px;
+    border-width: 0 0 5px 0;
+    border-color: #FFA500;
+    border-style:solid;
+}
+
+.header a {
+    text-decoration: none;
+    color: white;
+    font-family: "DM Mono", monospace;
+    display: flex;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-left: 20px;
+    margin-right: 20px;
+	padding: 10px;
+}
+
+.nav-links li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.nav-links li a:hover {
+    text-decoration: underline; 
+}
+
+.header h1 {
+    color: white;
+}
+
+.content-wrapper {
+    flex: 1;
+    width: 800px;
+    margin: 0 auto;
+    background-color: #FFEBC9;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    border-width: 0 5px;
+    border-color: #C9DDFF;
+    border-style: solid;
+}
+
+h1,h2,h3 {
+    font-family: "DM Mono", monospace;
+    text-align: center;
+}
+
+p {
+    font-family: "DM Mono", monospace;
+    text-indent: 30px;
+}
+
+.pfp-wrapper {
+    float: left;
+    margin: 20px;
+}
+
+.pfp {
+    border-radius: 50%;
+    border-width: 5px;
+    border-color: #FFA500;
+    border-style:solid;
+}
+
+.pronouns {
+    font-family: "DM Mono", monospace;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contacts {
+    font-family: "DM Mono", monospace;
+    list-style: none;
+}
+
+.links {
+    padding: 5px;
+}
+
+.links div {
+    display: flex;
+    align-items: center;
+}
+
+.links div svg {
+    margin: 5px;
+}
+
+.links div p {
+    margin: 0px;
+}
+
+ul {
+    font-family: "DM Mono", monospace;
+}
+
+#notification {
+    display: block;
+    position: fixed;
+    bottom: -50px;
+    right: 50px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: green;
+    border-radius: 5px;
+    background: #4FD160;
+    padding: 5px;
+    color: green;
+    font-family: "DM Mono", monospace;
+}
+
+.notification-anim {
+    animation-name: appear;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+}
+
+@keyframes appear {
+    0% { bottom: -50px; }
+    66% { bottom: 50px; }
+    100% { bottom: 50px; }
+}
