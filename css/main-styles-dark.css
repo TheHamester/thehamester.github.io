@@ -1,6 +1,10 @@
 @import "vars.css";
 
-.dark * .footer {
+html:has(.dark) {
+    background-color: var(--header-color-from-dark);
+}
+
+.dark .footer {
     background: linear-gradient(to top, var(--header-color-from-dark), var(--header-color-to-dark));
 }
 
