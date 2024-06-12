@@ -93,11 +93,13 @@ html, body {
 h1,h2,h3 {
     font-family: var(--main-font);
     text-align: center;
+    color: var(--text-color);
 }
 
 p {
     font-family: var(--main-font);
     text-indent: var(--paragraph-indent);
+    color: var(--text-color);
 }
 
 .pfp-wrapper {
@@ -116,6 +118,7 @@ p {
     font-family: var(--main-font);
     margin: 0 auto;
     text-align: center;
+    color: var(--text-color);
 }
 
 .contacts {
@@ -134,10 +137,12 @@ p {
 
 .links div p {
     margin: 0px;
+    color: var(--text-color);
 }
 
 ul {
     font-family: var(--main-font);
+    color: var(--text-color);
 }
 
 .notification {
@@ -173,3 +178,4 @@ ul {
     font-style: normal;
     font-weight: bold;
 }
+

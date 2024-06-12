@@ -5,7 +5,7 @@
     margin-right: var(--content-margin);
     border-radius: 10%;
     border-width: 5px;
-    border-color: #FFA500;
+    border-color: var(--accent-orange);
     border-style: solid;
 }
 
@@ -14,6 +14,6 @@
     margin-left: var(--content-margin);;
     border-radius: 10%;
     border-width: 5px;
-    border-color: #FFA500;
+    border-color: var(--accent-orange);
     border-style: solid;
 }

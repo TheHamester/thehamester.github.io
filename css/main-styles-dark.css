@@ -1,0 +1,52 @@
+@import "vars.css";
+
+.dark * .footer {
+    background: linear-gradient(to top, var(--header-color-from-dark), var(--header-color-to-dark));
+}
+
+.dark .page-wrapper {
+    background: linear-gradient(to top, var(--bg-color-from-dark), var(--bg-color-to-dark));
+}
+
+.dark * .header {
+    background: linear-gradient(to bottom,  var(--header-color-from-dark), var(--header-color-to-dark));
+}
+
+.dark * .content-wrapper {
+    background-color: var(--page-color-dark);
+    border-color: var(--page-border-color-dark);
+}
+
+.dark * h1, .dark * h2, .dark * h3 {
+    color: var(--text-color-dark);
+}
+
+.dark >* .content a {
+    color: var(--link-color-dark);
+}
+
+.dark * p {
+    color: var(--text-color-dark);
+}
+
+.dark * .pronouns {
+    color: var(--text-color-dark);
+}
+
+.dark * .links div p {
+    color: var(--text-color-dark);
+}
+
+.dark * ul {
+    color: var(--text-color-dark);
+}
+
+.dark * .bisexual {
+    background: linear-gradient(to right, var(--bisexual-1-dark), var(--bisexual-2-dark), var(--bisexual-3-dark));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-style: normal;
+    font-weight: bold;
+}
+
