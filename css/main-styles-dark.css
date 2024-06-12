@@ -50,3 +50,7 @@
     font-weight: bold;
 }
 
+.dark * .links div svg {
+    filter: invert(86%) sepia(22%) saturate(628%) hue-rotate(334deg) brightness(103%) contrast(105%);
+}
+
