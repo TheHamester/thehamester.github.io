@@ -26,10 +26,9 @@ function toggleDarkMode() {
     }
 }
 
-function onPageLoad() {
+function initDarkMode() {
     if(localStorage.getItem("ham-bio-darkmode") === null) {
-        localStorage.setItem("ham-bio-darkmode", "false");
-        return;
+        localStorage.setItem("ham-bio-darkmode", matchMedia("(prefers-color-scheme: dark)").matches);
     }
 
     if(localStorage.getItem("ham-bio-darkmode") == "true") {
