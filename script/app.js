@@ -30,7 +30,7 @@ function toggleDarkMode() {
     }
 }
 
-function initDarkMode() {
+function initTheme() {
     if(localStorage.getItem("ham-bio-darkmode") === null) {
         localStorage.setItem("ham-bio-darkmode", matchMedia("(prefers-color-scheme: dark)").matches);
     }
