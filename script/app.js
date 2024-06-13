@@ -19,9 +19,13 @@ function copyHandle() {
 function toggleDarkMode() {
     if(localStorage.getItem("ham-bio-darkmode") == "false") {
         document.body.classList.add("dark");
+        document.getElementById("theme-icon-sun").classList.add("theme-icon-visible");
+        document.getElementById("theme-icon-moon").classList.remove("theme-icon-visible");
         localStorage.setItem("ham-bio-darkmode", "true");
     } else {
         document.body.classList.remove("dark");
+        document.getElementById("theme-icon-moon").classList.add("theme-icon-visible");
+        document.getElementById("theme-icon-sun").classList.remove("theme-icon-visible");
         localStorage.setItem("ham-bio-darkmode", "false");
     }
 }
@@ -33,5 +37,9 @@ function initDarkMode() {
 
     if(localStorage.getItem("ham-bio-darkmode") == "true") {
         document.body.classList.add("dark");
+        document.getElementById("theme-icon-sun").classList.add("theme-icon-visible");
+        return;
     }
+
+    document.getElementById("theme-icon-moon").classList.add("theme-icon-visible");
 }
