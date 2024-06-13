@@ -57,18 +57,13 @@ html, body {
 .nav-links {
     display: flex;
     list-style: none;
-    margin: 0;
-    padding: 0;
 }
 
 .nav-links li {
-    margin-left: var(--content-margin);
-    margin-right: var(--content-margin);
 	padding: var(--content-padding);
 }
 
 .nav-links li a {
-    display: block;
     text-decoration: none;
     color: white;
     font-size: 20px;
