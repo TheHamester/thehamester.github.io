@@ -10,10 +10,12 @@
     <link rel="stylesheet" href="css/main-styles-dark.css">
     <link rel="stylesheet" href="css/music-styles.css">
     <link rel="icon" type="image/x-icon" href="img/icon.png">
-    <script type="text/javascript" src="script/app.js"></script>
+    <script type="text/javascript" src="script/main.js"></script>
+    <script type="text/javascript" src="script/http-helper.js"></script>
+    <script type="text/javascript" src="script/music.js"></script>
     <title>Hamester Bio</title>
 </head>
-<body>
+<body onload="loadRecentObsessions()">
     <div class="page-wrapper">
         <div class="header">
             <h1><a href="index.html"><img src="img/HamesterIcon.png" width="50" height="50">Hamester's Bio</a></h1>
@@ -67,24 +69,7 @@
                 </ul>
 
                 <h2>Recent Obsessions</h2>
-                <ul>
-					<li>
-						<a target="_blank" href="https://www.youtube.com/watch?v=rsF5EWOQN9Y">Jerry Terry - Kiss Me (Kill Me)</a> - <i>Jeez, this gave me goosebumps...</i>
-					</li>
-                    <li><a target="_blank" href="https://www.youtube.com/watch?v=Gxbwc1VfgYU">Star - it's_cold_here</a></li>
-                    <li><a target="_blank" href="https://www.youtube.com/watch?v=0MOknESeZgA">Astron - credits song for my death but im the final boss</a></li>
-                    <li><a target="_blank" href="https://www.youtube.com/watch?v=pOkLlpSlbvc">The Chalkeaters - Roll out the Fallout!</a></li>
-                    <li><a target="_blank" href="https://www.youtube.com/watch?v=N6w-UzfGX0c">Porter Robinson - Russian Roulette</a></li>
-                    <li><a target="_blank" href="https://www.youtube.com/watch?v=atdO6YRg5Cw">Hit Single Real: Car's Little Song</a></li>
-                    <li><a target="_blank" href="https://www.youtube.com/watch?v=UEfxK4nGnJ0">Zroze - Rambley Review - Zroze Remix</a></li>
-                    <li><a target="_blank" href="https://www.youtube.com/watch?v=4VAGr5-KUTA">KennyL - Paranoia</a></li>
-                    <li><a target="_blank" href="https://www.youtube.com/watch?v=6436PlXgnYY">BitfoxOriginal - Take Me Jon</a></li>
-                    <li><a target="_blank" href="https://www.youtube.com/watch?v=0rXdQRiN4-4">Last Dinosours - Sense</a></li>
-                    <li><a target="_blank" href="https://www.youtube.com/watch?v=1mXyiCZ1aYQ">JW Francis - John, Take Me With You</a></li>
-                    <li><a target="_blank" href="https://www.youtube.com/watch?v=vChZVD9Blas">HoliznaCC0 - In My ChildHood Daze</a></li>
-                    <li><a target="_blank" href="https://www.youtube.com/watch?v=vJRLDJK6gQM">KennyL - All Stars</a></li>
-                    <li><a target="_blank" href="https://www.youtube.com/watch?v=DntCptxHADc">Shadrow - Never Be Alone</a></li>
-                    <li><a target="_blank" href="https://www.youtube.com/watch?v=AWPB2p1CEZQ">CG5, TLT, Black Gryph0n - Stuck Inside</a></li>
+                <ul id="recent-obsessions">
                 </ul>
 
                 <h2>My Music</h2>
