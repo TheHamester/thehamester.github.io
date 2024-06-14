@@ -15,7 +15,7 @@
     <script type="text/javascript" src="script/music.js"></script>
     <title>Hamester Bio</title>
 </head>
-<body onload="loadRecentObsessions()">
+<body onload="loadRecentObsessions();loadMyMusic();">
     <div class="page-wrapper">
         <div class="header">
             <h1><a href="index.html"><img src="img/HamesterIcon.png" width="50" height="50">Hamester's Bio</a></h1>
@@ -72,37 +72,15 @@
                 <ul id="recent-obsessions">
                     
                 </ul>
-                <input id="load-more-button" type="button" value="Load More" onclick="getMoreSongs()">
+                <div class="loader" id="recent-obsessions-loader"></div>
+                <input id="load-more-button" class="load-more-button-visible" type="button" value="Load More" onclick="getMoreSongs()">
 
                 <h2>My Music</h2>
                 <p>
                     I do try to create my own music sometimes. Most of the times the process ends by barely even starting, 
                     but I can drop some stuff here that did result into some half-decent product or just WIPs.
-                    <div class="songs">
-                        <div class="song">
-                            <p>Electro Creation</p>
-                            <audio controls>
-                                <source src="audio/Electro Creation.mp3" type="audio/mp3">
-                            </audio>
-                        </div>
-                        <div class="song">
-                            <p>Unfinished #1</p>
-                            <audio controls>
-                                <source src="audio/WIP, right(question mark).mp3" type="audio/mp3">
-                            </audio>
-                        </div>
-                        <div class="song">
-                            <p>Unfinished #2</p>
-                            <audio controls>
-                                <source src="audio/idk stuff.mp3" type="audio/mp3">
-                            </audio>
-                        </div>
-                        <div class="song">
-                            <p>Unfinished #3</p>
-                            <audio controls>
-                                <source src="audio/full.mp3" type="audio/mp3">
-                            </audio>
-                        </div>
+                    <div id="my-songs">
+                        <div class="loader" id="my-songs-loader"></div>
                     </div>
                 </p>
             </div>
