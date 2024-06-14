@@ -10,19 +10,19 @@
             "artist": "Star",
             "name": "it's_cold_here",
             "url": "https://www.youtube.com/watch?v=Gxbwc1VfgYU", 
-            "description": ""
+            "description": "The vibest of vibes"
         },
         {
             "artist": "Astron",
             "name": "credits song for my death but im the final boss",
             "url": "https://www.youtube.com/watch?v=0MOknESeZgA", 
-            "description": ""
+            "description": "Hits hard, really good vibe"
         },
         {
             "artist": "The Chalkeaters",
             "name": "Roll out the Fallout!",
             "url": "https://www.youtube.com/watch?v=pOkLlpSlbvc", 
-            "description": ""
+            "description": "Another banger"
         },
         {
             "artist": "Porter Robinson",
@@ -40,7 +40,7 @@
             "artist": "Zroze",
             "name": "Rambley Review - Zroze Remix",
             "url": "https://www.youtube.com/watch?v=UEfxK4nGnJ0", 
-            "description": ""
+            "description": "Great TLT vibe from this"
         },
         {
             "artist": "KennyL",
@@ -64,7 +64,7 @@
             "artist": "JW Francis",
             "name": "John, Take Me With You",
             "url": "https://www.youtube.com/watch?v=1mXyiCZ1aYQ", 
-            "description": "Sad garfld, but original"
+            "description": "Sad garfld... but original"
         },
         {
             "artist": "HoliznaCC0",
@@ -89,6 +89,12 @@
             "name": "Stuck Inside",
             "url": "https://www.youtube.com/watch?v=AWPB2p1CEZQ", 
             "description": "Great collab!"
+        },
+        {
+            "artist": "JVKE",
+            "name": "golden hour",
+            "url": "https://www.youtube.com/watch?v=8XZ7dKan--4", 
+            "description": "Beautiful..."
         }
     ]
 }

@@ -85,7 +85,7 @@ html, body {
     display: block;
 }
 
-.content a {
+#content a {
     color: #1414a1;
 }
 

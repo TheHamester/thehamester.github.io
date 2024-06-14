@@ -1,26 +1,48 @@
+const songPagination = 15;
+let loadedSongs = 0;
+let songList = undefined;
+
 function loadRecentObsessions() {
-    const recentObsessions = document.getElementById("recent-obsessions");
     fetch(getURL("json/recent_obsessions.json"))
         .then(async (res) => {
             const json = await res.json();
-            for(let i = 0; i < json.songs.length; i++) {
-                // <a target="_blank" href="https://www.youtube.com/watch?v=rsF5EWOQN9Y">Jerry Terry - Kiss Me (Kill Me)</a> - <i>Jeez, this gave me goosebumps...</i>
-                const newLi = document.createElement("li");
-                const newAnchor = document.createElement("a");
-
-                newAnchor.setAttribute("target", "_blank");
-                newAnchor.setAttribute("href", json.songs[i].url);
-                newAnchor.innerHTML = json.songs[i].artist + " - " + json.songs[i].name;
-
-                newLi.appendChild(newAnchor);
-                if(json.songs[i].description.length > 0) {
-                    const newI = document.createElement("i");
-                    newI.innerHTML = " - " + json.songs[i].description;
-                    newLi.appendChild(newI);
-                }
-
-                recentObsessions.appendChild(newLi);
-            }
+            songList = json.songs;
+            getMoreSongs();
         })
         .catch((err) => { console.log(err) });
+}
+
+function getMoreSongs() {
+    if(!songList)
+        return;
+
+    const recentObsessions = document.getElementById("recent-obsessions");
+    const end = Math.min(loadedSongs + songPagination, songList.length);
+    for(let i = loadedSongs; i < end; i++) {
+        const newSongElement = createSongElement(songList[i]);
+        recentObsessions.appendChild(newSongElement);
+        loadedSongs++;
+    }
+
+    if(loadedSongs >= songList.length)
+        document.getElementById("content").removeChild(document.getElementById("load-more-button"));
+}
+
+function createSongElement(song) {
+    const li = document.createElement("li");
+    const anchor = document.createElement("a");
+
+    anchor.setAttribute("target", "_blank");
+    anchor.setAttribute("href", song.url);
+    anchor.innerHTML = song.artist + " - " + song.name;
+
+    li.appendChild(anchor);
+
+    if(song.description.length > 0) {
+        const newI = document.createElement("i");
+        newI.innerHTML = " - " + song.description;
+        li.appendChild(newI);
+    }
+
+    return li;
 }
