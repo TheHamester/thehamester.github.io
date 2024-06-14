@@ -5,6 +5,10 @@
     margin: 0 auto;
 }
 
+.song-block {
+    margin: var(--content-margin) 0;
+}
+
 .song {
     display: flex;
     flex-direction: row;
@@ -26,44 +30,12 @@
 
 #load-more-button {
     display: none;
-    margin: 0 auto;
-    width: 200px;
-    height: 30px;
-    border: 1;
-    border-style: solid;
-    border-color: var(--header-color-from-dark);
-    border-radius: 5px;
-    color: white;
-    background: linear-gradient(to left bottom, var(--header-color-from), var(--header-color-to));
-}
-
-
-#load-more-button:hover {
-    background: linear-gradient(to left bottom, var(--header-color-from-dark), var(--header-color-to-dark));
-    color: var(--header-color-from);
-    border-color: var(--header-color-from);
-}
-
-#load-more-button:active {
-    background: linear-gradient(to left bottom, var(--header-color-from-dark), var(--header-color-to-dark));
-    color: var(--header-color-to);
-    border-color: var(--header-color-to);
+    text-align: center;
+    font-size: 16px;
+    font-family: var(--main-font);
+    color: var(--link-color);
 }
 
 .dark * #load-more-button {
-    background: linear-gradient(to left bottom, var(--header-color-from-dark), var(--header-color-to-dark));
-    color: var(--header-color-from);
-    border-color: var(--header-color-from);
-}
-
-.dark * #load-more-button:hover {
-    background: linear-gradient(to left bottom, var(--header-color-from), var(--header-color-to));
-    color: var(--header-color-from-dark);
-    border-color: var(--header-color-from-dark);
-}
-
-.dark * #load-more-button:active {
-    background: linear-gradient(to left bottom, var(--header-color-from), var(--header-color-to));
-    color: var(--header-color-from-to);
-    border-color: var(--header-color-from-to);
+    color: var(--link-color-dark);
 }

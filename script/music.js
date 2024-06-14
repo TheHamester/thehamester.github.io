@@ -1,4 +1,4 @@
-const songPagination = 15;
+const songPagination = 6;
 let loadedSongs = 0;
 let songList = undefined;
 let mySongList = undefined;
@@ -32,9 +32,14 @@ function getMoreSongs() {
 
     const recentObsessions = document.getElementById("recent-obsessions");
     const end = Math.min(loadedSongs + songPagination, songList.length);
+
+    const songBlockDiv = document.createElement("div");
+    songBlockDiv.classList.add("song-block");
+    recentObsessions.appendChild(songBlockDiv);
+
     for(let i = loadedSongs; i < end; i++) {
         const newSongElement = createSongElement(songList[i]);
-        recentObsessions.appendChild(newSongElement);
+        songBlockDiv.appendChild(newSongElement);
         loadedSongs++;
     }
 
