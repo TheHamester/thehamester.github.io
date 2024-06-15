@@ -76,6 +76,7 @@ function createSparkleElement(sparkle, pageWidth, pageHeight) {
     sparkleElement.classList.add("sparkle");
     sparkleElement.setAttribute("width", sparkle.width);
     sparkleElement.setAttribute("src", images[sparkle.imageId]);
+    sparkleElement.setAttribute("draggable", false);
     sparkleElement.style.left = sparkle.x / pageWidth * 100 + "%";
     sparkleElement.style.top = sparkle.y + "px";
     pageWrapper.appendChild(sparkleElement);
