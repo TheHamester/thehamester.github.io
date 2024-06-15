@@ -10,9 +10,13 @@ function loadFeed() {
             postList = json.posts;
             getMorePosts();
             document.getElementById("posts").removeChild(document.getElementById("posts-loader"));
-            document.getElementById("load-more-button").style.display = "block";
+
+            const loadMoreButton = document.getElementById("load-more-button");
+            if(loadMoreButton)
+                loadMoreButton.style.display = "block";
         })
         .catch((err) => console.log(err));
+
 }
 
 function getMorePosts() {
@@ -52,7 +56,7 @@ function createPostDiv(post) {
         image.classList.add("post-img");
         image.classList.add(imagesLoaded % 2 == 0 ? "float-left" : "float-right");
         image.classList.add(post.image.style);
-        
+
         if(post.image.width) image.setAttribute("width", post.image.width);
         if(post.image.height) image.setAttribute("height", post.image.height);
 
