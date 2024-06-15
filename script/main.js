@@ -103,7 +103,7 @@ function createSparkleElement(sparkle, pageWidth, pageHeight) {
 
 function createSparkleObject(pageWidth, pageHeight, setRandomHeight) {
     const width = random(50, 200);
-    const x = sparkleId % 2 == 0 ? random(0, pageWidth / 2 - 250) : random(pageWidth / 2 + 250, pageWidth);
+    const x = sparkleId % 2 == 0 ? random(width + 1, pageWidth / 2 - 250) : random(pageWidth / 2 + 250, pageWidth - width - 1);
     const y = setRandomHeight ? random(0, 750) : 0;
     const speed = random(1, 3);
     const accel = random(0.001, 0.005);

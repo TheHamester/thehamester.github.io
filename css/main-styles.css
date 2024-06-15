@@ -20,7 +20,7 @@ html, body {
     flex-direction: column;
     background: linear-gradient(to top, var(--bg-color-from), var(--bg-color-to));
     position: relative;
-    overflow: hidden;
+    overflow-y: hidden;
 }
 
 #header {
