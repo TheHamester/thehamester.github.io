@@ -1,6 +1,12 @@
 {
     "songs": [
         {
+            "artist": "マサラダ",
+            "name": "㋰責任集合体",
+            "url": "https://www.youtube.com/watch?v=c5_0NPftdlY", 
+            "description": "Funky!"
+        },
+        {
             "artist": "Jerry Terry",
             "name": "Kiss Me (Kill Me)",
             "url": "https://www.youtube.com/watch?v=rsF5EWOQN9Y", 
