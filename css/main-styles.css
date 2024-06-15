@@ -52,6 +52,34 @@ html, body {
     color: white;
 }
 
+#header .nav-links {
+    display: flex;
+    list-style: none;
+}
+
+#header .nav-links li {
+	padding: 10px;
+}
+
+#header .nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+#header .nav-links li a:hover {
+    text-decoration: underline; 
+}
+
+
+#header .nav-links li a svg {
+    display: none;
+}
+
+#header .nav-links li a svg.theme-icon-visible {
+    display: block;
+}
+
 #footer {
     height: var(--footer-height);
     background: linear-gradient(to top, var(--header-color-from), var(--header-color-to));
@@ -60,33 +88,6 @@ html, body {
     border-style: solid;
     min-width: var(--page-width);
     z-index: 1;
-}
-
-.nav-links {
-    display: flex;
-    list-style: none;
-}
-
-.nav-links li {
-	padding: 10px;
-}
-
-.nav-links li a {
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
-}
-
-.nav-links li a:hover {
-    text-decoration: underline; 
-}
-
-.nav-links li a svg {
-    display: none;
-}
-
-.nav-links li a svg.theme-icon-visible {
-    display: block;
 }
 
 #content a {
@@ -208,12 +209,13 @@ ul {
       var(--_g) 0    100%;
     background-size: 40% 40%;
     animation: l38 .5s infinite; 
-  }
-  @keyframes l38 {
-    100% {background-position: 100% 0,100% 100%,0 100%,0 0}
-  }
+}
 
-  .dark * .loader {
+@keyframes l38 {
+    100% {background-position: 100% 0,100% 100%,0 100%,0 0}
+}
+
+.dark * .loader {
     margin: 20px auto;
     width: 35px;
     aspect-ratio: 1;
@@ -225,31 +227,32 @@ ul {
       var(--_g) 0    100%;
     background-size: 40% 40%;
     animation: l38 .5s infinite; 
-  }
-  @keyframes l38 {
-    100% {background-position: 100% 0,100% 100%,0 100%,0 0}
-  }
+}
 
-  .sparkle {
+@keyframes l38 {
+    100% {background-position: 100% 0,100% 100%,0 100%,0 0}
+}
+
+.sparkle {
     position: absolute;
     z-index: 0;
     animation: fade-in;
     animation-duration: 1s;
     opacity: 0.5;
-  }
+}
 
-  .removing-sparkle {
+.removing-sparkle {
     opacity: 0;
     animation: fade-out;
     animation-duration: 1s;
-  }
+}
 
-  @keyframes fade-in {
+@keyframes fade-in {
     from { opacity: 0; }
     to { opacity: 0.5; }
-  }
+}
 
-  @keyframes fade-out {
+@keyframes fade-out {
     from { opacity: 0.5; }
     to { opacity: 0; }
-  }
+}
