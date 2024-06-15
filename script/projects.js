@@ -51,12 +51,14 @@ function createProjectDiv(project, icons, overallProjectCount) {
     projectHeader.innerHTML = project.name;
     projectDiv.appendChild(projectHeader);
 
-    const projectImg = document.createElement("img");
-    projectImg.classList.add(overallProjectCount % 2 == 0 ? "project-img-left" : "project-img-right");
-    projectImg.setAttribute("src", project.image_src);
-    projectImg.setAttribute("width", 150);
-    projectImg.setAttribute("height", 150);
-    projectDiv.appendChild(projectImg);
+    if(project.image_src != "") {
+        const projectImg = document.createElement("img");
+        projectImg.classList.add(overallProjectCount % 2 == 0 ? "project-img-left" : "project-img-right");
+        projectImg.setAttribute("src", project.image_src);
+        projectImg.setAttribute("width", 150);
+        projectImg.setAttribute("height", 150);
+        projectDiv.appendChild(projectImg);
+    }
 
     const projectP = document.createElement("p");
     projectP.innerHTML = project.description;

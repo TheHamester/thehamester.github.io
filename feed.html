@@ -3,19 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/main-styles.css">
     <link rel="stylesheet" href="css/main-styles-dark.css">
-    <link rel="stylesheet" href="css/projects-styles.css">
+    <link rel="stylesheet" href="css/feed-styles.css">
     <link rel="icon" type="image/x-icon" href="img/icon.png">
     <script type="text/javascript" src="script/main.js"></script>
     <script type="text/javascript" src="script/http-helper.js"></script>
-    <script type="text/javascript" src="script/projects.js"></script>
+    <script type="text/javascript" src="script/feed.js"></script>
     <title>Hamester Bio</title>
 </head>
-<body onload="spawnBackgroundEffects();loadProjects()">
+<body onload="spawnBackgroundEffects();loadFeed()">
     <div id="page-wrapper">
         <div id="header">
             <h1><a href="index.html"><img src="img/HamesterIcon.png" width="50" height="50">Hamester's Bio</a></h1>
@@ -33,19 +34,21 @@
             </ul>
         </div>
         <script>initTheme()</script>
-        
+
         <div id="content-wrapper">
             <div id="content">
-                <h1>Projects</h1>
+                <h1>Feed</h1>
                 <hr>
-                <div id="projects">
-                    <div class="loader" id="projects-loader"></div>
+                <div id="posts">
+                    <div class="loader", id="posts-loader"></div>
                 </div>
+                <a id="load-more-button" href="javascript:getMorePosts()">Load More</a>
             </div>
         </div>
-
         <div id="footer"></div>
     </div>
 
+    <div id="notifications">
+    </div>
 </body>
 </html>

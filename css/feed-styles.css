@@ -1,0 +1,52 @@
+@import "vars.css";
+
+.post-img {
+    border-width: var(--border-width);
+    border-color: var(--accent-orange);
+    border-style: solid;
+}
+
+.float-left {
+    margin-right: var(--content-margin);
+    float: left;
+}
+
+.float-right {
+    margin-left: var(--content-margin);
+    float: right;
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+.square {
+    border-radius: 20px;
+}
+
+#load-more-button {
+    display: none;
+    font-size: 16px;
+    font-family: var(--main-font);
+    color: var(--link-color);
+}
+
+.post-p-left {
+    text-align: left;
+    margin-left: 100px;
+}
+
+.post-p-right {
+    text-align: right;
+    margin-right: 100px;
+}
+
+.post-a-left {
+    text-align: left;
+    margin-left: 100px;
+}
+
+.post-a-right {
+    text-align: right;
+    margin-right: 100px;
+}

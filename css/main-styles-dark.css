@@ -4,19 +4,19 @@ html:has(.dark) {
     background-color: var(--header-color-from-dark);
 }
 
-.dark .footer {
+.dark #footer {
     background: linear-gradient(to top, var(--header-color-from-dark), var(--header-color-to-dark));
 }
 
-.dark .page-wrapper {
+.dark #page-wrapper {
     background: linear-gradient(to top, var(--bg-color-from-dark), var(--bg-color-to-dark));
 }
 
-.dark * .header {
+.dark * #header {
     background: linear-gradient(to bottom,  var(--header-color-from-dark), var(--header-color-to-dark));
 }
 
-.dark * .content-wrapper {
+.dark * #content-wrapper {
     background-color: var(--page-color-dark);
     border-color: var(--page-border-color-dark);
 }

@@ -1,0 +1,14 @@
+{
+    "posts": [
+        {
+            "title": "Feed is up!!!!",
+            "date": "15.06.2024",
+            "text": ["This is the section of my website that I will use for posting some updates, maybe on some projects, or just to drop some random thoughts! Not sure how often there will be anything new, but I've been actively working on imporving developement environment for this website, and I haven't been so passionate about developing something for a while.", "There are also some little mods I'm working on and off with my friend, so if I have any meaningful updates on these they will also appear here and also in Upcoming Projects section... So... stay tuned!", "Also... enjoy the cute foxingtons flying around!"],
+            "image": {
+                "src": "img/i_am_an_idiot.png",
+                "style": "square",
+                "width": 300
+            }
+        }
+    ]
+}

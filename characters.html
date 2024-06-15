@@ -13,11 +13,12 @@
     <script type="text/javascript" src="script/main.js"></script>
     <title>Hamester Bio</title>
 </head>
-<body>
-    <div class="page-wrapper">
-        <div class="header">
+<body onload="spawnBackgroundEffects()">
+    <div id="page-wrapper">
+        <div id="header">
             <h1><a href="index.html"><img src="img/HamesterIcon.png" width="50" height="50">Hamester's Bio</a></h1>
             <ul class="nav-links">
+                <li><a href="feed.html">Feed</a></li>
                 <li><a href="characters.html">Characters</a></li>
                 <li><a href="projects.html">Projects</a></li>
                 <li><a href="music.html">Music</a></li>
@@ -31,7 +32,7 @@
         </div>
         <script>initTheme()</script>
         
-        <div class="content-wrapper">
+        <div id="content-wrapper">
             <div id="content">
                 <h1>Characters</h1>
                 <hr>
@@ -188,8 +189,8 @@
                 </div>
             </div>
         </div>
+        <div id="footer"></div>
     </div>
 
-    <div class="footer"></div>
 </body>
 </html>
