@@ -68,7 +68,7 @@ html, body {
 }
 
 .nav-links li {
-	padding: calc(var(--content-padding) * 3 / 4);
+	padding: 10px;
 }
 
 .nav-links li a {

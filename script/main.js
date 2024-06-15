@@ -96,6 +96,7 @@ function createSparkleElement(sparkle, pageWidth, pageHeight) {
             }, 1100);
             timeoutSet = true;
         }
+
     }, 16);
 
     return sparkleElement;
