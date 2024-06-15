@@ -57,7 +57,6 @@ function spawnBackgroundEffects() {
 }
 
 function createSparkle(setRandomHeight) {
-    const pageWrapper = document.getElementById("page-wrapper");
     const pageWidth = Math.max( document.body.scrollWidth, document.body.offsetWidth, 
         document.documentElement.clientWidth, document.documentElement.scrollWidth, document.documentElement.offsetWidth );
     const pageHeight = Math.max( document.body.scrollHeight, document.body.offsetHeight, 
@@ -65,12 +64,12 @@ function createSparkle(setRandomHeight) {
 
     const sparkle = createSparkleObject(pageWidth, pageHeight, setRandomHeight);
     const sparkleElement = createSparkleElement(sparkle, pageWidth, pageHeight);
-    pageWrapper.appendChild(sparkleElement);
 
     sparkleId++;
 }
 
 function createSparkleElement(sparkle, pageWidth, pageHeight) {
+    const pageWrapper = document.getElementById("page-wrapper");
     const images = ["img/HamesterIcon.png", "img/HamesterIcon2.png", "img/HamesterIcon3.png"]
 
     const sparkleElement = document.createElement("img");
@@ -79,6 +78,7 @@ function createSparkleElement(sparkle, pageWidth, pageHeight) {
     sparkleElement.setAttribute("src", images[sparkle.imageId]);
     sparkleElement.style.left = sparkle.x / pageWidth * 100 + "%";
     sparkleElement.style.top = sparkle.y + "px";
+    pageWrapper.appendChild(sparkleElement);
 
     let timeoutSet = false;
     const interval = setInterval(() => { 
