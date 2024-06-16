@@ -28,7 +28,7 @@ spawnSparklesInterval = undefined;
 
 window.addEventListener("resize", (e) => {
     recalculatePageResolution();
-    if(!spawnSparklesInterval && pageWidth > 900) {
+    if(pageWidth > 900) {
         spawnBackgroundEffects();
         return;
     }
@@ -50,7 +50,7 @@ function recalculatePageResolution() {
 
 function spawnBackgroundEffects() {
     recalculatePageResolution();
-    if(pageWidth <= 900)
+    if(pageWidth <= 900 || spawnSparklesInterval)
         return;
 
 
