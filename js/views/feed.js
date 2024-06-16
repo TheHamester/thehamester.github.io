@@ -1,5 +1,5 @@
 function feed() {
-    return `
+    return /* html */ `
         <h1>Feed</h1>
         <hr>
         <div id="posts">

@@ -1,5 +1,5 @@
 function bio() { 
-    return `
+    return /* html */ `
         <h1>Welcome to my bio!</h1>
         <hr>
         <div class="pfp-wrapper">

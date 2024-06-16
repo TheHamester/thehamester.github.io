@@ -1,5 +1,5 @@
 function music() {
-    return `
+    return /* html */ `
     <h1>Music</h1>
     <hr>
     <p>

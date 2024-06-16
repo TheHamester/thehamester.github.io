@@ -1,5 +1,5 @@
 function characters() {
-    return `
+    return /* html */ `
         <h1>Characters</h1>
         <hr>
         <p>

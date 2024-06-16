@@ -1,5 +1,5 @@
 function projects() {
-    return `
+    return /* html */ `
         <h1>Projects</h1>
         <hr>
         <div id="projects">
