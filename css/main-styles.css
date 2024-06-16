@@ -241,7 +241,7 @@ ul {
     z-index: 0;
     animation: fade-in;
     animation-duration: 1s;
-    opacity: 0.5;
+    opacity: 0.2;
 }
 
 .removing-sparkle {
@@ -252,10 +252,10 @@ ul {
 
 @keyframes fade-in {
     from { opacity: 0; }
-    to { opacity: 0.5; }
+    to { opacity: 0.2; }
 }
 
 @keyframes fade-out {
-    from { opacity: 0.5; }
+    from { opacity: 0.2; }
     to { opacity: 0; }
 }

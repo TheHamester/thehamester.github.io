@@ -1,9 +1,14 @@
 const songPagination = 6;
-let loadedSongs = 0;
-let songList = undefined;
-let mySongList = undefined;
+
+let loadedSongs;
+let songList;
+let mySongList;
 
 function loadRecentObsessions() {
+    loadedSongs = 0;
+    songList = undefined;
+    mySongList - undefined;
+
     fetch(getURL("json/recent_obsessions.json"))
         .then(async (res) => {
             const json = await res.json();

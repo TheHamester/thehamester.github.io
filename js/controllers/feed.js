@@ -1,9 +1,15 @@
-let postsLoaded = 0;
-let imagesLoaded = 0;
-let postList = undefined;
 const postPagination = 3;
 
+let postsLoaded;
+let imagesLoaded;
+let postList;
+
+
 function loadFeed() {
+    postsLoaded = 0;
+    imagesLoaded = 0;
+    postList = undefined;
+
     fetch(getURL("json/feed.json"))
         .then(async (res) => {
             const json = await res.json();
@@ -16,7 +22,6 @@ function loadFeed() {
                 loadMoreButton.style.display = "block";
         })
         .catch((err) => console.log(err));
-
 }
 
 function getMorePosts() {

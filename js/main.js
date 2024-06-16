@@ -1,3 +1,34 @@
+const routes = {
+    "#/": { render: bio, onMount: () => {} },
+    "#/404": { render: error404, onMount: () => {} },
+    "#/feed": { render: feed, onMount: loadFeed },
+    "#/characters": { render: characters, onMount: () => {} },
+    "#/projects": { render: projects, onMount: loadProjects },
+    "#/music": { render: music, onMount: () => { loadRecentObsessions();loadMyMusic(); } }
+};
+
+function router(hash) {
+    let view = routes[hash];
+
+    if(view) {
+        document.getElementById("content").innerHTML = view.render();
+        view.onMount();
+        return;
+    }
+
+    if(hash) {
+        router("#/404");
+        return;
+    }
+    router("#/");
+}
+
+window.onhashchange = (e) => {
+    router(window.location.hash);
+};
+
+window.addEventListener("DOMContentLoaded", e => router(window.location.hash));
+
 function pushNotification(text) {
     const notifications = document.getElementById("notifications");
 
