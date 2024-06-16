@@ -55,7 +55,7 @@ function sparkelUpdate(sparkle, sparkleElement, pageWrapper) {
     sparkle.y += sparkle.speed;
     sparkle.speed += sparkle.accel;
 
-    sparkleElement.style.top = sparkle.y / pageHeight * 100 + "%";
+    sparkleElement.style.top = sparkle.y + "px";
     if(sparkle.y > pageHeight - 2 * sparkle.width && !sparkle.timeoutSet) {
         sparkleElement.classList.add("removing-sparkle");
         sparkle.timeout = setTimeout(() => { 
