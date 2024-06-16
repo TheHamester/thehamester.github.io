@@ -3,7 +3,7 @@
         {
             "title": "Improvement",
             "date": "16.06.2024",
-            "text": ["Hii, maybe it's not something most people would notice on my website, but I refactored some code, and turned it into a single page appplication. Transitions between pages should now be more seemless!", "And as a result developement is also made easier, with some tiny compromises, but the codebase for the website is more maintainable now, whichc is of most importance."],
+            "text": ["Hii, maybe it's not something most people would notice on my website, but I refactored some code, and turned it into a single page appplication. Transitions between pages should now be more seemless!", "And as a result developement is also made easier, with some tiny compromises, but the codebase for the website is more maintainable now, which is of most importance."],
             "image": {
                 "src": "img/js_meme.png",
                 "style": "square",
