@@ -10,11 +10,15 @@ let pageWidth = 0;
 let pageHeight = 0;
 let sparkles = [];
 
-function spawnBackgroundEffects() {
+function recalculatePageResolution() {
     pageWidth = Math.max( document.body.scrollWidth, document.body.offsetWidth, 
         document.documentElement.clientWidth, document.documentElement.scrollWidth, document.documentElement.offsetWidth );
     pageHeight = Math.max( document.body.scrollHeight, document.body.offsetHeight, 
         document.documentElement.clientHeight, document.documentElement.scrollHeight, document.documentElement.offsetHeight );
+}
+
+function spawnBackgroundEffects() {
+    recalculatePageResolution();
 
     for(let i = 0; i < INIT_SPARKLE_COUNT; i++)
         setTimeout(() => { createSparkle(true); }, i * INIT_SPARKLE_CREATE_INTERVAL);

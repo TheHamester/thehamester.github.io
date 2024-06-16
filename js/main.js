@@ -13,6 +13,7 @@ function router(hash) {
     if(view) {
         document.getElementById("content").innerHTML = view.render();
         view.onMount();
+        recalculatePageResolution();
         return;
     }
 
