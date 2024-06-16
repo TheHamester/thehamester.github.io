@@ -11,10 +11,10 @@ let pageHeight = 0;
 let sparkles = [];
 
 function recalculatePageResolution() {
-    pageWidth = Math.max( document.body.scrollWidth, document.body.offsetWidth, 
+    const content = document.getElementById("content");
+    pageWidth = Math.max(document.body.scrollWidth, document.body.offsetWidth, 
         document.documentElement.clientWidth, document.documentElement.scrollWidth, document.documentElement.offsetWidth );
-    pageHeight = Math.max( document.body.scrollHeight, document.body.offsetHeight, 
-        document.documentElement.clientHeight, document.documentElement.scrollHeight, document.documentElement.offsetHeight );
+    pageHeight = Math.max( content.scrollHeight, content.offsetHeight);
 }
 
 function spawnBackgroundEffects() {
