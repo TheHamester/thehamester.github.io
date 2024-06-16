@@ -1,3 +1,5 @@
+let prevRoute = "";
+
 const routes = {
     "#/": { render: bio, onMount: () => {} },
     "#/404": { render: error404, onMount: () => {} },
@@ -7,28 +9,49 @@ const routes = {
     "#/music": { render: music, onMount: () => { loadRecentObsessions();loadMyMusic(); } }
 };
 
-function router(hash) {
+function navigate(hash) {
     let view = routes[hash];
 
     if(view) {
         document.getElementById("content").innerHTML = view.render();
         view.onMount();
         recalculatePageResolution();
+        prevRoute = hash;
         return;
     }
 
     if(hash) {
-        router("#/404");
+        navigate("#/404");
         return;
     }
-    router("#/");
+    navigate("#/");
 }
 
-window.onhashchange = (e) => {
-    router(window.location.hash);
-};
+function route() {
+    const split = window.location.hash.split("#");
 
-window.addEventListener("DOMContentLoaded", e => router(window.location.hash));
+    if(split.length == 0 || split.length == 1) {
+        navigate(window.location.hash);
+        return;
+    }
+
+    if(split.length >= 2) {
+        if(prevRoute == `#${split[1]}`)
+            return;
+
+        navigate(`#${split[1]}`);
+        return;
+    }
+}
+
+window.onhashchange = (e) => { route(); };
+window.addEventListener("DOMContentLoaded", e => { route(); });
+window.onclick = (e) => {
+    if(e.target.matches("[in-link]")) {
+        e.preventDefault();
+        document.getElementById(e.target.getAttribute("to")).scrollIntoView();
+    }
+}
 
 function pushNotification(text) {
     const notifications = document.getElementById("notifications");

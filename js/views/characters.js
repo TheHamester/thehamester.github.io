@@ -11,19 +11,19 @@ function characters() {
         <div class="character">
             <h2>The World Overview</h2>
             <p>
-                Since the beginning of times, the balance of the universe was overseen by the Deity of Time named <a href="#xa">Xa</a>, 
-                the Deity of Space named <a href="#oth">Oth</a>, and their 8 folowers put in control of each element and its direct opposite: 
+                Since the beginning of times, the balance of the universe was overseen by the Deity of Time named <a in-link href="/" to="xa">Xa</a>, 
+                the Deity of Space named <a in-link href="/" to="oth">Oth</a>, and their 8 folowers put in control of each element and its direct opposite: 
                 <b>Fire</b> as opposed to <b>Ice</b>, <b>Earth</b> as opposed to <b>Air</b>, <b>Water</b> as opposed to <b>Vapor</b>, and <b>Nature</b> as opposed to <b>Rot</b>. 
                 Each folower's physical form takes the shape of an anthropomorphic animal, opposites of each other share the same speices:
                 <ul>
-                    <li><a href="#hamester">Hamester</a> the Pyromancer Fox</li>
-                    <li><a href="#frysen">Frysen</a> the Cryomancer Fox</li>
-                    <li><a href="#zemothel">Zemothel</a> the Geomancer Griffon Vulture</li>
-                    <li><a href="#bogul">Bogul</a> the Aeromancer Parrotlet</li>
-                    <li><a href="#hyra">Hyra</a> the Hydromancer Shark</li>
-                    <li><a href="#paraoh">Paraoh</a> the Atmomancer Shark</li>
-                    <li><a href="#faenah">Faenah</a> Physiomancer Moth</li>
-                    <li><a href="#tamuth">Tamuth</a> the Necromancer Moth</li>
+                    <li><a in-link href="/" to="hamester">Hamester</a> the Pyromancer Fox</li>
+                    <li><a in-link href="/" to="frysen">Frysen</a> the Cryomancer Fox</li>
+                    <li><a in-link href="/" to="zemothel">Zemothel</a> the Geomancer Griffon Vulture</li>
+                    <li><a in-link href="/" to="bogul">Bogul</a> the Aeromancer Parrotlet</li>
+                    <li><a in-link href="/" to="hyra">Hyra</a> the Hydromancer Shark</li>
+                    <li><a in-link href="/" to="paraoh">Paraoh</a> the Atmomancer Shark</li>
+                    <li><a in-link href="/" to="faenah">Faenah</a> Physiomancer Moth</li>
+                    <li><a in-link href="/" to="tamuth">Tamuth</a> the Necromancer Moth</li>
                 </ul>
 				<p>
 				    Deity of Time's takes the physical form of an Axolotl, and Deity of Space's takes the physical form of a Snake.
@@ -50,7 +50,7 @@ function characters() {
             <h2 id="oth">Oth</h2>
             <img title="Art by Axovoxel" class="character-img-right" src="img/Oth.png" width="200">
             <p>
-                Oth [oθ] (They/Them) - Deity of Space. They orbit <a href="#xa">Xa</a> and their followers in order to provide protective shield for the overseers. 
+                Oth [oθ] (They/Them) - Deity of Space. They orbit <a in-link href="/" to="xa">Xa</a> and their followers in order to provide protective shield for the overseers. 
                 They put the "space" into space-time and are in control of the expansion of the universe. 
             </p>
             <p>
@@ -63,7 +63,7 @@ function characters() {
             <h2 id="hamester">Hamester</h2>
             <img title="Art by Axovoxel" class="character-img-left" src="img/HamesterPixel.png" width="200">
             <p>
-                Hamester [hæmɛstɚ] (He/Him) - God of Fire, one of the eight folowers of <a href="#xa">Xa</a>, who is in control of the element of fire. 
+                Hamester [hæmɛstɚ] (He/Him) - God of Fire, one of the eight folowers of <a in-link href="/" to="xa">Xa</a>, who is in control of the element of fire. 
                 He is able to withstand the highest of temperatures in the universe, and the heat of his flames is able to melt or even 
                 completely disintegrate any matter within seconds.
             </p>
@@ -73,7 +73,7 @@ function characters() {
                     His eyes have a dual colored (blue and orange) iris.
                 </p>
                 <p>
-                    Hamester has a brother named <a href="#frysen">Frysen</a>.
+                    Hamester has a brother named <a in-link href="/" to="frysen">Frysen</a>.
                 </p>
             </div>
 
@@ -81,12 +81,12 @@ function characters() {
             <h2 id="frysen">Frysen</h2>
             <img title="Art by Axovoxel" class="character-img-right" src="img/Frysen.png" width="200">
             <p>
-                Frysen [fɹaɪzɛn] (He/Him) - God of Ice, one of the eight folowers of <a href="#xa">Xa</a>, who is in control of the element of ice. 
+                Frysen [fɹaɪzɛn] (He/Him) - God of Ice, one of the eight folowers of <a in-link href="/" to="xa">Xa</a>, who is in control of the element of ice. 
                 He is able to withstand the lowest of temperatures, and able to instantly freeze anything to absolute zero. 
             </p>
             <p>
                 His physical form resembles an arctic fox with black fur. He has frost light-blue hands and feet. 
-                His eyes have a dual colored (blue and orange) iris, same as his brother <a href="#hamester">Hamester</a>. 
+                His eyes have a dual colored (blue and orange) iris, same as his brother <a in-link href="/" to="hamester">Hamester</a>. 
                 He has a scar on his chest, as a result of a cheap attack by an unknown corvid entity.
                 <br><br>
             </p>
@@ -95,7 +95,7 @@ function characters() {
         <div class="character">
             <h2 id="zemothel">Zemothel</h2>
             <p>
-                Zemothel [zɛmoθɛl] (He/Him) - God of Earth, one of the eight folowers of <a href="#xa">Xa</a>, who is in control of the element of earth.
+                Zemothel [zɛmoθɛl] (He/Him) - God of Earth, one of the eight folowers of <a in-link href="/" to="xa">Xa</a>, who is in control of the element of earth.
             </p>
             <p>
                 Zemothel's takes the physical form of a brown griffon vulture.
@@ -106,7 +106,7 @@ function characters() {
             <h2 id="bogul">Bogul</h2>
             <img title="Art by Hamester" class="character-img-left" src="img/bogul.png" width="200">
             <p>
-                Bogul [bəʊɡəl] (He/Him) - God of Air, one of the eight folowers of <a href="#xa">Xa</a>, who is in control of the element of air. 
+                Bogul [bəʊɡəl] (He/Him) - God of Air, one of the eight folowers of <a in-link href="/" to="xa">Xa</a>, who is in control of the element of air. 
                 He's in control of all things in the gaseous state, on the lower level he may create the strongest of hurricanes and tornadoes.
             </p>
             <p>
@@ -118,12 +118,12 @@ function characters() {
         <div class="character">
             <h2 id="hyra">Hyra</h2>
             <p>
-                Hyra [haɪ̯ɹə] (She/Her) - God of Water, one of the eight folowers of <a href="#xa">Xa</a>, who is in control of the element of water. She has a british accent.
+                Hyra [haɪ̯ɹə] (She/Her) - God of Water, one of the eight folowers of <a in-link href="/" to="xa">Xa</a>, who is in control of the element of water. She has a british accent.
             </p>
 
             <h2 id="paraoh">Paraoh</h2>
             <p>
-                Paraoh [pɛːɹəʊ] (He/Him) - God of Vapor, one of the eight folowers of <a href="#xa">Xa</a>, who is in control of the element of vapor.
+                Paraoh [pɛːɹəʊ] (He/Him) - God of Vapor, one of the eight folowers of <a in-link href="/" to="xa">Xa</a>, who is in control of the element of vapor.
             </p>
         </div>
 
@@ -131,7 +131,7 @@ function characters() {
             <h2 id="faenah">Faenah</h2>
             <img title="&quot;Art&quot; by Hamester" class="character-img-right" src="img/faenah.png" width="200" height="230">
             <p>
-                Faenah [feɪnə] (She/Her) - Godess of Nature, one of the eight folowers of <a href="#xa">Xa</a>, who is in control of the element of nature.
+                Faenah [feɪnə] (She/Her) - Godess of Nature, one of the eight folowers of <a in-link href="/" to="xa">Xa</a>, who is in control of the element of nature.
             </p>
 
             <p>
@@ -147,7 +147,7 @@ function characters() {
         <div class="character">
             <h2 id="tamuth">Tamuth</h2>
             <p>
-                Tamuth [tæməθ] (She/Her) - Godess of Rot, one of the eight folowers of <a href="#xa">Xa</a>, who is in control of the element of rot.
+                Tamuth [tæməθ] (She/Her) - Godess of Rot, one of the eight folowers of <a in-link href="/" to="xa">Xa</a>, who is in control of the element of rot.
             </p>
             <p>
                 Tamuth's takes the physical form of a death's-head hawkmoth. She weilds a staff made out of dark wood riddled with bones.
