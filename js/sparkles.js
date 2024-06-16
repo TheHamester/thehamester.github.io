@@ -9,21 +9,40 @@ let sparkleId = 0;
 let pageWidth = 0;
 let pageHeight = 0;
 let sparkles = [];
+spawnSparklesInterval = undefined;
+
+window.addEventListener("resize", (e) => {
+    recalculatePageResolution();
+    if(!spawnSparklesInterval && pageWidth > 900) {
+        spawnBackgroundEffects();
+        return;
+    }
+
+    if(pageWidth <= 900) {
+        clearInterval(spawnSparklesInterval);
+        for(let i = 0; i < sparkles.length; i++)
+            sparkles[i].shouldBeRemoved = true;
+        spawnSparklesInterval = undefined;
+    }
+})
 
 function recalculatePageResolution() {
     const content = document.getElementById("content");
     pageWidth = Math.max(document.body.scrollWidth, document.body.offsetWidth, 
         document.documentElement.clientWidth, document.documentElement.scrollWidth, document.documentElement.offsetWidth );
-    pageHeight = Math.max( content.scrollHeight, content.offsetHeight);
+    pageHeight = Math.max(content.scrollHeight, content.offsetHeight);
 }
 
 function spawnBackgroundEffects() {
     recalculatePageResolution();
+    if(pageWidth <= 900)
+        return;
+
 
     for(let i = 0; i < INIT_SPARKLE_COUNT; i++)
         setTimeout(() => { createSparkle(true); }, i * INIT_SPARKLE_CREATE_INTERVAL);
     
-    setInterval(() => {
+    spawnSparklesInterval = setInterval(() => {
         setTimeout(() => { createSparkle(false); }, parseInt(Math.floor(Math.random() * NEW_SPARKLE_INTERVAL_SPREAD)))
     }, NEW_SPARKLE_SCHEDULE_INTERVAL);
 }
@@ -71,7 +90,7 @@ function sparkelUpdate(sparkle, sparkleElement, pageWrapper) {
         sparkle.timeoutSet = true;
     }
 
-    if(sparkle.y > pageHeight - sparkle.width - 1) {
+    if(sparkle.y > pageHeight - sparkle.width - 1 || sparkle.shouldBeRemoved) {
         pageWrapper.removeChild(sparkleElement);
         sparkles.splice(sparkles.indexOf(sparkle), 1);
         clearInterval(sparkle.interval);
@@ -98,7 +117,8 @@ function createSparkleObject(setRandomHeight) {
         y: y,
         timeoutSet: false,
         timeout: undefined,
-        interval: undefined
+        interval: undefined,
+        shouldBeRemoved: false
     };
 }
 

@@ -3,7 +3,10 @@
         {
             "title": "Improvement",
             "date": "16.06.2024",
-            "text": ["Hii, maybe it's not something most people would notice on my website, but I refactored some code, and turned it into a single page appplication. Transitions between pages should now be more seemless!", "And as a result developement is also made easier, with some tiny compromises, but the codebase for the website is more maintainable now, which is of most importance."],
+            "text": [
+                "Hii, maybe it's not something most people would notice on my website, but I refactored some code, and turned it into a single page appplication. Transitions between pages should now be more seemless!", 
+                "And as a result developement is also made easier, with some tiny compromises, but the codebase for the website is more maintainable now, which is of most importance."
+            ],
             "image": {
                 "src": "img/js_meme.png",
                 "style": "square",
@@ -13,7 +16,10 @@
         {
             "title": "Feed is up!!!!",
             "date": "15.06.2024",
-            "text": ["This is the section of my website that I will use for posting some updates, maybe on some projects, or just to drop some random thoughts! Not sure how often there will be anything new, but I've been actively working on imporving developement environment for this website, and I haven't been so passionate about developing something for a while.", "There are also some little mods I'm working on and off with my friend, so if I have any meaningful updates on these they will also appear here and also in Upcoming Projects section... So... stay tuned!", "Also... enjoy the cute foxingtons flying around!"],
+            "text": [
+                "This is the section of my website that I will use for posting some updates, maybe on some projects, or just to drop some random thoughts! Not sure how often there will be anything new, but I've been actively working on imporving developement environment for this website, and I haven't been so passionate about developing something for a while.", 
+                "There are also some little mods I'm working on and off with my friend, so if I have any meaningful updates on these they will also appear here and also in Upcoming Projects section... So... stay tuned!", "Also... enjoy the cute foxingtons flying around!"
+            ],
             "image": {
                 "src": "img/i_am_an_idiot.png",
                 "style": "square",
