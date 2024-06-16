@@ -3,7 +3,22 @@ const INIT_SPARKLE_CREATE_INTERVAL = 20;
 const NEW_SPARKLE_SCHEDULE_INTERVAL = 500;
 const NEW_SPARKLE_INTERVAL_SPREAD = 1000;
 const UPDATE_RATE = 16;
-const IMAGES = ["img/HamesterIcon.png", "img/HamesterIcon2.png"];
+const IMAGES = [
+    /* "img/sparkles/sparkle.png" */
+    "img/sparkles/hamester.png", 
+    "img/sparkles/arrow_left_red.png", 
+    "img/sparkles/arrow_left_yellow.png", 
+    "img/sparkles/arrow_left_blue.png",
+    "img/sparkles/arrow_up_red.png", 
+    "img/sparkles/arrow_up_yellow.png", 
+    "img/sparkles/arrow_up_blue.png",
+    "img/sparkles/arrow_down_red.png", 
+    "img/sparkles/arrow_down_yellow.png", 
+    "img/sparkles/arrow_down_blue.png",
+    "img/sparkles/arrow_right_red.png", 
+    "img/sparkles/arrow_right_yellow.png", 
+    "img/sparkles/arrow_right_blue.png"
+]
 
 let sparkleId = 0;
 let pageWidth = 0;
@@ -105,7 +120,10 @@ function createSparkleObject(setRandomHeight) {
     const y = setRandomHeight ? random(0, 750) : 0;
     const speed = random(1, 3);
     const accel = random(0.001, 0.005);
-    const imageId = Math.floor(random(0, IMAGES.length));
+    let imageId = Math.floor(random(0, 3));
+    if(imageId == 2) {
+        imageId = Math.floor(random(2, IMAGES.length));
+    }
     const flip = Math.random() < 0.5;
     return {
         width: width,

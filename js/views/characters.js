@@ -33,7 +33,7 @@ function characters() {
 
         <div class="character">
             <h2 id="xa">Xa</h2>
-            <img title="Art by Axovoxel" class="character-img-left" src="img/Xa.png" width="200">
+            <img title="Art by Axovoxel" class="character-img-left" src="img/characters/Xa.png" width="200">
             <p>
                 Xa [za] (They/Them) - Deity of Time. From their infinite gills flow scribes telling of everthing that has ever happened, is happenning, 
                 will happen, and will never happen. They don't intervine in the natural flow of time, but are able to see all the possibilities, 
@@ -48,7 +48,7 @@ function characters() {
 
         <div class="character">
             <h2 id="oth">Oth</h2>
-            <img title="Art by Axovoxel" class="character-img-right" src="img/Oth.png" width="200">
+            <img title="Art by Axovoxel" class="character-img-right" src="img/characters/Oth.png" width="200">
             <p>
                 Oth [oθ] (They/Them) - Deity of Space. They orbit <a in-link href="/" to="xa">Xa</a> and their followers in order to provide protective shield for the overseers. 
                 They put the "space" into space-time and are in control of the expansion of the universe. 
@@ -61,7 +61,7 @@ function characters() {
 
         <div class="character">
             <h2 id="hamester">Hamester</h2>
-            <img title="Art by Axovoxel" class="character-img-left" src="img/HamesterPixel.png" width="200">
+            <img title="Art by Axovoxel" class="character-img-left" src="img/characters/HamesterPixel.png" width="200">
             <p>
                 Hamester [hæmɛstɚ] (He/Him) - God of Fire, one of the eight folowers of <a in-link href="/" to="xa">Xa</a>, who is in control of the element of fire. 
                 He is able to withstand the highest of temperatures in the universe, and the heat of his flames is able to melt or even 
@@ -79,7 +79,7 @@ function characters() {
 
         <div class="character">
             <h2 id="frysen">Frysen</h2>
-            <img title="Art by Axovoxel" class="character-img-right" src="img/Frysen.png" width="200">
+            <img title="Art by Axovoxel" class="character-img-right" src="img/characters/Frysen.png" width="200">
             <p>
                 Frysen [fɹaɪzɛn] (He/Him) - God of Ice, one of the eight folowers of <a in-link href="/" to="xa">Xa</a>, who is in control of the element of ice. 
                 He is able to withstand the lowest of temperatures, and able to instantly freeze anything to absolute zero. 
@@ -104,7 +104,7 @@ function characters() {
 
         <div class="character">
             <h2 id="bogul">Bogul</h2>
-            <img title="Art by Hamester" class="character-img-left" src="img/bogul.png" width="200">
+            <img title="Art by Hamester" class="character-img-left" src="img/characters/bogul.png" width="200">
             <p>
                 Bogul [bəʊɡəl] (He/Him) - God of Air, one of the eight folowers of <a in-link href="/" to="xa">Xa</a>, who is in control of the element of air. 
                 He's in control of all things in the gaseous state, on the lower level he may create the strongest of hurricanes and tornadoes.
@@ -129,7 +129,7 @@ function characters() {
 
         <div class="character">
             <h2 id="faenah">Faenah</h2>
-            <img title="&quot;Art&quot; by Hamester" class="character-img-right" src="img/faenah.png" width="200" height="230">
+            <img title="&quot;Art&quot; by Hamester" class="character-img-right" src="img/characters/faenah.png" width="200" height="230">
             <p>
                 Faenah [feɪnə] (She/Her) - Godess of Nature, one of the eight folowers of <a in-link href="/" to="xa">Xa</a>, who is in control of the element of nature.
             </p>

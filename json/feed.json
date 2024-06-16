@@ -8,7 +8,7 @@
                 "And as a result developement is also made easier, with some tiny compromises, but the codebase for the website is more maintainable now, which is of most importance."
             ],
             "image": {
-                "src": "img/js_meme.png",
+                "src": "img/feed/js_meme.png",
                 "style": "square",
                 "width": 300
             }
@@ -21,7 +21,7 @@
                 "There are also some little mods I'm working on and off with my friend, so if I have any meaningful updates on these they will also appear here and also in Upcoming Projects section... So... stay tuned!", "Also... enjoy the cute foxingtons flying around!"
             ],
             "image": {
-                "src": "img/i_am_an_idiot.png",
+                "src": "img/feed/i_am_an_idiot.png",
                 "style": "square",
                 "width": 300
             }

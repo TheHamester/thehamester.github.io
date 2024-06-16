@@ -6,7 +6,7 @@
                 {
                     "name": "Hit Indication",
                     "description": "This mod adds indicators to show where you got damaged from, much like in games such as Call of Duty, and Halo. The config options allow you to change stuff such as the opacity of the indicators, their fade out rate, and even whether a blue block indicator should appear if you block an attack with a shield.<br><br>",
-                    "image_src": "img/hit-indication.png",
+                    "image_src": "img/projects/hit-indication.png",
                     "links": [
                         {
                             "resource": "GitHub",
@@ -30,7 +30,7 @@
                 {
                     "name": "Diophantine Equations",
                     "description": "Simple module where you have to find a specific set of integers solving a linear diophantine equation. Basically turned one of my uni math homeworks into a module... Not what you usually expect from a well designed KTaNE module, but it was just an experiment, if I liked modding this game. I ended up designing one more module, that I didn't finish and I'm not going to return to KTaNE modding ever, I don't think.",
-                    "image_src": "img/diophantine_equations.png",
+                    "image_src": "img/projects/diophantine_equations.png",
                     "links": [
                         {
                             "resource": "GitHub",
