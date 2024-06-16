@@ -3,13 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-
     <link rel="icon" type="image/x-icon" href="img/favicon.png">
+    <title>Hamester Bio</title>
 
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
 
+    <!-- Styles -->
     <link rel="stylesheet" href="css/main-styles.css">
     <link rel="stylesheet" href="css/main-styles-dark.css">
     <link rel="stylesheet" href="css/characters-styles.css">
@@ -17,6 +19,7 @@
     <link rel="stylesheet" href="css/music-styles.css">
     <link rel="stylesheet" href="css/feed-styles.css">
 
+    <!-- Views -->
     <script type="text/javascript" src="js/views/404.js"></script>
     <script type="text/javascript" src="js/views/bio.js"></script>
     <script type="text/javascript" src="js/views/characters.js"></script>
@@ -24,18 +27,17 @@
     <script type="text/javascript" src="js/views/music.js"></script>
     <script type="text/javascript" src="js/views/feed.js"></script>
 
+    <!-- Controllers and Utils -->
     <script type="text/javascript" src="js/http-helper.js"></script>
     <script type="text/javascript" src="js/controllers/projects.js"></script>
     <script type="text/javascript" src="js/controllers/music.js"></script>
     <script type="text/javascript" src="js/controllers/feed.js"></script>
 
+    <!-- Common Scripts -->
     <script type="text/javascript" src="js/main.js"></script>
     <script type="text/javascript" src="js/sparkles.js"></script>
-
-
-    <title>Hamester Bio</title>
 </head>
-<body onload="spawnBackgroundEffects()">
+<body>
     <div id="page-wrapper">
         <div id="header">
             <h1><a href="/#/"><img src="img/icon.png" width="50" height="50">Hamester</a></h1>
@@ -52,7 +54,7 @@
                 </li>
             </ul>
         </div>
-        <script>initTheme()</script>
+        <script>initTheme();</script>
 
         <div id="content-wrapper">
             <div id="content">

@@ -14,7 +14,7 @@ function loadRecentObsessions() {
             const json = await res.json();
             songList = json.songs;
             getMoreSongs();
-            document.getElementById("content").removeChild(document.getElementById("recent-obsessions-loader"));
+            document.getElementById("recent-obsessions").removeChild(document.getElementById("recent-obsessions-loader"));
             document.getElementById("load-more-button").style.display = "block";
         })
         .catch((err) => { console.log(err) });
@@ -64,22 +64,29 @@ function getMyMusic() {
 }
 
 function createSongElement(song) {
-    const li = document.createElement("li");
+    const div = document.createElement("div");
+    const innerDiv = document.createElement("div");
     const anchor = document.createElement("a");
+    const img = document.createElement("img");
+
+    const videoId = new URL(song.url).searchParams.get("v");
+    img.setAttribute("width", 60);
+    img.setAttribute("src", `https://img.youtube.com/vi/${videoId}/0.jpg`);
+    div.appendChild(img);
+    div.appendChild(innerDiv);
 
     anchor.setAttribute("target", "_blank");
     anchor.setAttribute("href", song.url);
     anchor.innerHTML = song.artist + " - " + song.name;
-
-    li.appendChild(anchor);
+    innerDiv.appendChild(anchor);
 
     if(song.description.length > 0) {
         const newI = document.createElement("i");
-        newI.innerHTML = " - " + song.description;
-        li.appendChild(newI);
+        newI.innerHTML = song.description;
+        innerDiv.appendChild(newI);
     }
 
-    return li;
+    return div;
 }
 
 function createMySongElement(song) {

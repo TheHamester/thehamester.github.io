@@ -2,6 +2,7 @@ const INIT_SPARKLE_COUNT = 10;
 const INIT_SPARKLE_CREATE_INTERVAL = 20;
 const NEW_SPARKLE_SCHEDULE_INTERVAL = 500;
 const NEW_SPARKLE_INTERVAL_SPREAD = 1000;
+const REMOVING_ELEMENT_TIMEOUT = 1100;
 const UPDATE_RATE = 16;
 const IMAGES = [
     /* "img/sparkles/sparkle.png" */
@@ -24,7 +25,9 @@ let sparkleId = 0;
 let pageWidth = 0;
 let pageHeight = 0;
 let sparkles = [];
-spawnSparklesInterval = undefined;
+let spawnSparklesInterval = undefined;
+const contetResizeObserver = new ResizeObserver(recalculatePageResolution);
+
 
 window.addEventListener("resize", (e) => {
     recalculatePageResolution();
@@ -39,13 +42,20 @@ window.addEventListener("resize", (e) => {
             sparkles[i].shouldBeRemoved = true;
         spawnSparklesInterval = undefined;
     }
-})
+});
+
+window.onload = () => {
+    contetResizeObserver.observe(document.getElementById("content"));
+    spawnBackgroundEffects();
+}
 
 function recalculatePageResolution() {
-    const content = document.getElementById("content");
+    document.getElementById("content");
     pageWidth = Math.max(document.body.scrollWidth, document.body.offsetWidth, 
         document.documentElement.clientWidth, document.documentElement.scrollWidth, document.documentElement.offsetWidth );
     pageHeight = Math.max(content.scrollHeight, content.offsetHeight);
+
+    console.log(pageHeight);
 }
 
 function spawnBackgroundEffects() {
@@ -101,7 +111,7 @@ function sparkelUpdate(sparkle, sparkleElement, pageWrapper) {
             sparkles.splice(sparkles.indexOf(sparkle), 1);
             clearInterval(sparkle.interval); 
             removed = true;
-        }, 1100);
+        }, REMOVING_ELEMENT_TIMEOUT);
         sparkle.timeoutSet = true;
     }
 
@@ -120,9 +130,9 @@ function createSparkleObject(setRandomHeight) {
     const y = setRandomHeight ? random(0, 750) : 0;
     const speed = random(1, 3);
     const accel = random(0.001, 0.005);
-    let imageId = Math.floor(random(0, 3));
-    if(imageId == 2) {
-        imageId = Math.floor(random(2, IMAGES.length));
+    let imageId = Math.floor(random(0, 2));
+    if(imageId == 1) {
+        imageId = Math.floor(random(1, IMAGES.length));
     }
     const flip = Math.random() < 0.5;
     return {

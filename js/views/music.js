@@ -34,10 +34,9 @@ function music() {
         </ul>
 
         <h2>Recent Obsessions</h2>
-        <ul id="recent-obsessions">
-                    
-        </ul>
-        <div class="loader" id="recent-obsessions-loader"></div>
+        <div id="recent-obsessions">
+            <div class="loader" id="recent-obsessions-loader"></div>
+        </div>
         <a id="load-more-button" href="javascript:getMoreSongs()">Load More</a>
 
         <h2>My Music</h2>
