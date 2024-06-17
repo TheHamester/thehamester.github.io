@@ -5,7 +5,7 @@ const NEW_SPARKLE_INTERVAL_SPREAD = 1000;
 const REMOVING_ELEMENT_TIMEOUT = 1100;
 const UPDATE_RATE = 16;
 const IMAGES = [
-    /* "img/sparkles/sparkle.png" */
+    "img/sparkles/jeff_the_killer_jumpscare.png",
     "img/sparkles/hamester.png", 
     "img/sparkles/arrow_left_red.png", 
     "img/sparkles/arrow_left_yellow.png", 
@@ -128,10 +128,13 @@ function createSparkleObject(setRandomHeight) {
     const y = setRandomHeight ? random(0, 750) : 0;
     const speed = random(1, 3);
     const accel = random(0.001, 0.005);
-    let imageId = Math.floor(random(0, 2));
-    if(imageId == 1) {
-        imageId = Math.floor(random(1, IMAGES.length));
+    let imageId = Math.floor(random(1, 3));
+    if(imageId == 2) {
+        imageId = Math.floor(random(2, IMAGES.length));
     }
+    if(random(0, 1000000) < 1.0)
+        imageId = 0;
+
     const flip = Math.random() < 0.5;
     return {
         width: width,

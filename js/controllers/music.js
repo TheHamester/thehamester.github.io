@@ -22,13 +22,13 @@ function loadRecentObsessions() {
 
 function loadMyMusic() {
     fetch(getURL("json/my_music.json"))
-    .then(async (res) => {
-        const json = await res.json();
-        mySongList = json.songs;
-        getMyMusic();
-        document.getElementById("my-songs").removeChild(document.getElementById("my-songs-loader"));
-    })
-    .catch((err) => { console.log(err) });
+        .then(async (res) => {
+            const json = await res.json();
+            mySongList = json.songs;
+            getMyMusic();
+            document.getElementById("my-songs").removeChild(document.getElementById("my-songs-loader"));
+        })
+        .catch((err) => { console.log(err) });
 }
 
 function getMoreSongs() {

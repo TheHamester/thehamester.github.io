@@ -4,9 +4,9 @@ const routes = {
     "#/": { render: bio, onMount: () => {} },
     "#/404": { render: error404, onMount: () => {} },
     "#/feed": { render: feed, onMount: loadFeed },
-    "#/characters": { render: characters, onMount: () => {} },
+    "#/wiki": { render: wiki, onMount: wikiOnMount  },
     "#/projects": { render: projects, onMount: loadProjects },
-    "#/music": { render: music, onMount: () => { loadRecentObsessions();loadMyMusic(); } }
+    "#/music": { render: music, onMount: () => { loadRecentObsessions(); loadMyMusic(); } }
 };
 
 function navigate(hash) {
@@ -28,7 +28,7 @@ function navigate(hash) {
 }
 
 function route() {
-    const split = window.location.hash.split("#");
+    const split = window.location.hash.split("/");
 
     if(split.length == 0 || split.length == 1) {
         navigate(window.location.hash);
@@ -36,10 +36,7 @@ function route() {
     }
 
     if(split.length >= 2) {
-        if(prevRoute == `#${split[1]}`)
-            return;
-
-        navigate(`#${split[1]}`);
+        navigate(`#/${split[1]}`);
         return;
     }
 }

@@ -1,6 +1,19 @@
 {
     "posts": [
         {
+            "title": "Wiki Section",
+            "date": "17.06.2024",
+            "text": [
+                "New website update! Replaced character seciond with Wiki Section! Currently there's not a lot written, and a lot of the pages are pretty empty, but in the future I do plan on expanding the universe of my characters.",
+                "I'm really overengineer my personal website lmao..."
+            ],
+            "image": {
+                "src": "img/feed/wiki_update.png",
+                "style": "square",
+                "width": 300
+            }
+        },
+        {
             "title": "Improvement",
             "date": "16.06.2024",
             "text": [
