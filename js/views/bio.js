@@ -8,7 +8,7 @@ function bio() {
         </div>
         <p>
             Hello! My name is Hamester, or you can just call me Ham or Azzy. I'm your local <em class="bisexual">bisexual</em> pyromancer arctic fox!
-            You can find more information about my characters on the <a href="/#/characters">Characters</a> page! Some updates and random thoughts I will be posting on the
+            You can find more information about my characters and lore on the <a href="/#/wiki">Wiki</a> page! Some updates and random thoughts I will be posting on the
             <a href="/#/feed">Feed</a> page.
         </p>
 
