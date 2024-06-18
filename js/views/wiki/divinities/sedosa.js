@@ -26,4 +26,9 @@ export const html = /* html */ `
     <br><br><br><br><br>
 `;
 
-export const seeAlso = ["main", "divinities/anetha", "overseers/hamester", "overseers/oth", "locations/island-pyx"];
+export const seeAlso = [
+    { title: "World Overview", route: "main" }, 
+    { title: "Anetha", route: "divinities/anetha" }, 
+    { title: "Hamester", route: "overseers/hamester"}, 
+    { title: "Island Pyx", route:"locations/island-pyx" }
+];

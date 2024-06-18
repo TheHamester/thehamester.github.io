@@ -15,4 +15,9 @@ export const html = /* html */ `
     </p>
 `;
 
-export const seeAlso = ["main", "divinities/sedosa", "overseers/frysen", "locations/island-pyx"];
+export const seeAlso = [
+    { title: "World Overview", route: "main" }, 
+    { title: "Sedosa", route: "divinities/sedosa" }, 
+    { title: "Frysen", route: "overseers/frysen"}, 
+    { title: "Island Pyx", route:"locations/island-pyx" }
+];

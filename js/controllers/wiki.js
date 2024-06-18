@@ -52,10 +52,9 @@ async function loadPage(name) {
                 const newA = document.createElement("a");
                 divElement.appendChild(newA);
 
-                await import(`/js/views/wiki/${seeAlso[i]}.js`).then(async (seeAlsoModule) => {
-                    newA.setAttribute("href", `#/wiki/${seeAlso[i]}`);
-                    newA.innerHTML = await seeAlsoModule.title;
-                });
+                newA.setAttribute("href", `#/wiki/${seeAlso[i].route}`);
+                newA.innerHTML = seeAlso[i].title;
+
             }
         }
 

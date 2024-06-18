@@ -17,4 +17,8 @@ export const html = /* html */ `
     </p>
 `;
 
-export const seeAlso = ["main", "overseers/xa", "divinities/sedosa"];
+export const seeAlso = [
+    { title: "World Overview", route: "main" }, 
+    { title: "Xa", route:"overseers/xa" },
+    { title: "Sedosa", route:"divinities/sedosa" }
+];

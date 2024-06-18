@@ -13,4 +13,8 @@ export const html = /* html */ `
     </p>
 `;
 
-export const seeAlso = ["main", "overseers/xa", "overseers/hamester"];
+export const seeAlso = [
+    { title: "World Overview", route: "main" }, 
+    { title: "Xa", route:"overseers/xa" },
+    { title: "Hamester", route:"overseers/hamester" }
+];

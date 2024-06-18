@@ -21,4 +21,8 @@ export const html = /* html */ `
     </p>
 `;
 
-export const seeAlso = ["main", "locations/moryx-system"];
+export const seeAlso = [
+    { title: "World Overview", route: "main" }, 
+    { title: "Moryx System", route:"locations/moryx-system" },
+    { title: "Moryx", route:"locations/moryx" }
+];
