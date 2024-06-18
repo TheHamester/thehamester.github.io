@@ -23,4 +23,7 @@ export const html = /* html */ `
             <li>On a bad side of <a href="/#/wiki/overseers/oth">Oth</a> for making matter out of nowhere by stretching her arms and taking up too much space in the process.</li>
         </ul>
     </p>
+    <br><br><br><br><br>
 `;
+
+export const seeAlso = ["main", "divinities/anetha", "overseers/hamester", "overseers/oth", "locations/island-pyx"];

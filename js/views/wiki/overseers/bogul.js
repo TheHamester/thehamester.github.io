@@ -6,7 +6,7 @@ export const html = /* html */ `
         They are in control of all things in the gaseous state, on the lower level they may create the strongest of hurricanes and tornadoes.
     </p>
     <p>
-        <i>Character is primarely based on the character of Bagels, owned by <a target="_blank" href="https://github.com/BakersDozenBagels">BakerDozenBagels</a>.</i>
+        <i>Character is primarely based on the character of Bagels, owned by <a target="_blank" href="https://github.com/BakersDozenBagels">BakersDozenBagels</a>.</i>
     </p>
 
     <h2>Appearance</h2>
@@ -14,3 +14,5 @@ export const html = /* html */ `
         Their physical resembles a parrotlet, with green feathered head, yellow body, light purple tail, cyan outlined purple eyes and yellow beak.
     </p>
 `;
+
+export const seeAlso = ["main", "overseers/xa", "overseers/zemothel"];

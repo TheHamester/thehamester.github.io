@@ -20,3 +20,5 @@ export const html = /* html */ `
         Her bright green eyes also glow in the dark. She has a staff made out of birchwood with an orb on top of it.
     </p>
 `;
+
+export const seeAlso = ["main", "overseers/xa", "overseers/tamuth"];

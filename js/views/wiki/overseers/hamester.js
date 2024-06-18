@@ -18,3 +18,5 @@ export const html = /* html */ `
         His eyes have a dual colored (blue and orange) iris.
     </p>
 `;
+
+export const seeAlso = ["main", "overseers/xa", "overseers/frysen"];

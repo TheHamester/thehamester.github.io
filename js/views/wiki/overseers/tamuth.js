@@ -9,3 +9,5 @@ export const html = /* html */ `
         Tamuth's takes the physical form of a death's-head hawkmoth. She weilds a staff made out of dark wood riddled with bones.
     </p>
 `;
+
+export const seeAlso = ["main", "overseers/xa", "overseers/faenah"];

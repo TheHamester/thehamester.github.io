@@ -34,9 +34,32 @@ async function loadPage(name) {
     }
 
     await import(`/js/views/wiki/${name}.js`).then(async (module) => {
-        const wikiPage = document.getElementById("wiki-page");
-        const title = document.getElementById("wiki-page-title");
-        wikiPage.innerHTML = await module.html;
-        title.innerHTML = await module.title;
+        const wikiPageElement = document.getElementById("wiki-page");
+        const titleElement = document.getElementById("wiki-page-title");
+        const seeAlsoElement = document.getElementById("wiki-see-also");
+
+        const html = await module.html;
+        const title = await module.title;
+        const seeAlso = await module.seeAlso;
+        if(seeAlso.length != 0) {
+            const divElement = document.createElement("div");
+            const h2 = document.createElement("h2");
+            h2.innerHTML = "See Also"
+            seeAlsoElement.appendChild(h2);
+            seeAlsoElement.appendChild(divElement);
+
+            for(let i = 0; i < seeAlso.length; i++) {
+                const newA = document.createElement("a");
+                divElement.appendChild(newA);
+
+                await import(`/js/views/wiki/${seeAlso[i]}.js`).then(async (seeAlsoModule) => {
+                    newA.setAttribute("href", `#/wiki/${seeAlso[i]}`);
+                    newA.innerHTML = await seeAlsoModule.title;
+                });
+            }
+        }
+
+        wikiPageElement.innerHTML = html;
+        titleElement.innerHTML = title;
     });
 }

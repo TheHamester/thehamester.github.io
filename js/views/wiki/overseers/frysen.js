@@ -12,3 +12,5 @@ export const html = /* html */ `
         He has a scar on his chest, as a result of a cheap attack by an unknown corvid entity.
     </p>
 `;
+
+export const seeAlso = ["main", "overseers/xa", "overseers/hamester"];

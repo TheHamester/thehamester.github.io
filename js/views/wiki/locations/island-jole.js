@@ -5,3 +5,5 @@ export const html = /* html */ `
         It's the closest island to <a href="/#/wiki/locations/moryx">. Desert.
     </p>
 `;
+
+export const seeAlso = ["main", "locations/moryx-system"];

@@ -18,3 +18,5 @@ export const html = /* html */ `
         Moryx System is often informally referred to as "The Checkpoint of the Universe".
     </p>
 `;
+
+export const seeAlso = ["main", "locations/moryx", "locations/the-nucleus"];

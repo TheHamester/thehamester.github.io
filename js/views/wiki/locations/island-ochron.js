@@ -20,3 +20,5 @@ export const html = /* html */ `
         every location and significant historical figure. 
     </p>
 `;
+
+export const seeAlso = ["main", "locations/moryx-system"];

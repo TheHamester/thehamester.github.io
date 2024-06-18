@@ -12,3 +12,5 @@ export const html = /* html */ `
         long distances to then come into existance at random points in space or time, which is percieved by inhabitants of nearby planets as northern lights.
     </p>
 `;
+
+export const seeAlso = ["main", "overseers/oth"];

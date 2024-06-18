@@ -15,6 +15,10 @@ html, body {
     padding: 0;
 }
 
+.dark * hr {
+    border-color: var(--text-color-dark);
+}
+
 #page-wrapper {
     display: flex;
     flex-direction: column;
@@ -70,7 +74,6 @@ html, body {
     text-decoration: underline; 
 }
 
-
 #header .nav-links li a svg {
     display: none;
 }
@@ -94,7 +97,7 @@ html, body {
 }
 
 #content a {
-    color: #1414a1;
+    color: var(--link-color);
 }
 
 #content-wrapper {

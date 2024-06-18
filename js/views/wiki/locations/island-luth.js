@@ -5,3 +5,5 @@ export const html = /* html */ `
         It's the outermost island from <a href="/#/wiki/locations/moryx">Moryx</a>. It's very icey.
     </p>
 `;
+
+export const seeAlso = ["main", "locations/moryx-system"];

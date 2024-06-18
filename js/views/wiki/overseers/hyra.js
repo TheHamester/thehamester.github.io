@@ -5,3 +5,5 @@ export const html = /* html */ `
         She has a british accent.
     </p>
 `;
+
+export const seeAlso = ["main", "overseers/xa", "overseers/paraoh"];

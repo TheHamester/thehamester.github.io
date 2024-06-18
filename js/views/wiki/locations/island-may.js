@@ -22,3 +22,5 @@ export const html = /* html */ `
         To be expanded...
     </p>
 `;
+
+export const seeAlso = ["main", "locations/moryx-system"];

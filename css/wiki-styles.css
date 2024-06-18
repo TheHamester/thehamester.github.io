@@ -1,0 +1,29 @@
+@import "vars.css";
+
+#wiki-see-also div {
+    display:flex;
+    flex-flow: row wrap;
+    justify-content:center;
+    align-content:center;
+    align-items:center;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+#wiki-see-also div a {
+    text-align: center;
+    min-width: 200px;
+
+    align-self: center;
+    font-family: var(--main-font);
+    border-color: var(--text-color);
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.dark * #wiki-see-also div a {
+    border-color: var(--text-color-dark);  
+}
+
+

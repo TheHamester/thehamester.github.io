@@ -14,3 +14,5 @@ export const html = /* html */ `
         Best friends with with <a href="/#/wiki/overseers/frysen">Frysen</a> and <a href="/#/wiki/divinities/sedosa">Sedosa</a>.
     </p>
 `;
+
+export const seeAlso = ["main", "divinities/sedosa", "overseers/frysen", "locations/island-pyx"];

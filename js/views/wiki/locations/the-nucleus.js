@@ -10,3 +10,5 @@ export const html = /* html */ `
         in order to provide a protective shield for the overseers.
     </p>
 `;
+
+export const seeAlso = ["main", "overseers/xa", "overseers/oth"];

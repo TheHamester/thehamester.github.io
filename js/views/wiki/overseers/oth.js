@@ -16,3 +16,5 @@ export const html = /* html */ `
         Holds a grudge on <a href="/#/wiki/divinities/sedosa">Sedosa</a> for constantly making matter out of nowhere with here stretching arms.
     </p>
 `;
+
+export const seeAlso = ["main", "overseers/xa", "divinities/sedosa"];

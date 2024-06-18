@@ -21,3 +21,5 @@ export const html = /* html */ `
         structure of the star's core, but to this very day it has not been fully explained.
     </p>
 `;
+
+export const seeAlso = ["main", "locations/moryx-system"];
