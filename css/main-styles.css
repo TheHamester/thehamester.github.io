@@ -8,6 +8,7 @@
 
 html {
     background-color: var(--header-color-from);
+    font-family: var(--main-font);
 }
 
 html, body {
@@ -48,7 +49,6 @@ html, body {
 
     text-decoration: none;
     color: white;
-    font-family: var(--main-font);
 }
 
 #header h1 {
@@ -114,13 +114,11 @@ html, body {
 }
 
 h1,h2,h3 {
-    font-family: var(--main-font);
     text-align: center;
     color: var(--text-color);
 }
 
 p {
-    font-family: var(--main-font);
     text-indent: var(--paragraph-indent);
     color: var(--text-color);
 }
@@ -138,14 +136,12 @@ p {
 }
 
 .pronouns {
-    font-family: var(--main-font);
     margin: 0 auto;
     text-align: center;
     color: var(--text-color);
 }
 
 .contacts {
-    font-family: var(--main-font);
     list-style: none;
 }
 
@@ -164,7 +160,6 @@ p {
 }
 
 ul {
-    font-family: var(--main-font);
     color: var(--text-color);
 }
 
@@ -179,7 +174,6 @@ ul {
     background: var(--notification-bg-color);
     padding: 5px;
     color: var(--notification-border-color);
-    font-family: var(--main-font);
 
     animation-name: appear;
     animation-duration: var(--notification-anim-time);

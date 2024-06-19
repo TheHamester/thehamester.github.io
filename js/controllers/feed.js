@@ -8,7 +8,7 @@ let postList;
 function loadFeed() {
     postsLoaded = 0;
     imagesLoaded = 0;
-    postList = undefined;
+    postList = null;
 
     fetch(getURL("json/feed.json"))
         .then(async (res) => {
@@ -33,18 +33,21 @@ function getMorePosts() {
     for(let i = postsLoaded; i < end; i++) {
         const postDiv = createPostDiv(postList[i]);
         postsDiv.appendChild(postDiv);
+        if(i != postList.length - 1)
+            postsDiv.appendChild(document.createElement("hr"));
         postsLoaded++;
     }
 
     const loadMoreButton = document.getElementById("load-more-button");
     loadMoreButton.classList.remove(...loadMoreButton.classList);
-    loadMoreButton.classList.add(postsLoaded % 2 == 0 ? "post-a-left" : "post-a-right")
+    loadMoreButton.classList.add("center-link");
     if(postsLoaded >= postList.length)
         document.getElementById("content").removeChild(loadMoreButton);
 }
 
 function createPostDiv(post) {
     const postDiv = document.createElement("div");
+    postDiv.setAttribute("id", `post-${postsLoaded}`);
 
     const header = document.createElement("h3");
     if(postsLoaded % 2 == 0) {
@@ -70,11 +73,31 @@ function createPostDiv(post) {
         imagesLoaded++;
     }
 
-    for(let i = 0; i < post.text.length; i++) {
+    for(let i = 0; i < 2; i++) {
         const p = document.createElement("p");
         p.innerHTML = post.text[i];
         postDiv.appendChild(p);
     }
 
+    if(post.text.length > 2) {
+        const readMoreA = document.createElement("a");
+        readMoreA.classList.add("center-link");
+        readMoreA.setAttribute("href", `javascript:readMore(${postsLoaded})`);
+        readMoreA.setAttribute("id", `post-${postsLoaded}-read-more`)
+        readMoreA.innerHTML = "Read More";
+        postDiv.appendChild(readMoreA);
+    }
+
     return postDiv;
+}
+
+function readMore(id) {
+    const postDiv = document.getElementById(`post-${id}`);
+    for(let i = 2; i < postList[id].text.length; i++) {
+        const p = document.createElement("p");
+        p.innerHTML = postList[id].text[i];
+        postDiv.appendChild(p);
+    }
+
+    postDiv.removeChild(document.getElementById(`post-${id}-read-more`));
 }

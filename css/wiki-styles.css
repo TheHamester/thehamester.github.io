@@ -15,7 +15,6 @@
     min-width: 200px;
 
     align-self: center;
-    font-family: var(--main-font);
     border-color: var(--text-color);
     border-radius: 5px;
     border-style: solid;
