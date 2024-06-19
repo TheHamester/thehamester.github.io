@@ -7,7 +7,7 @@
                 "Today I've been porting my Hit Indication mod to a new Minecraft version 1.21... Usually takes like an hour max: Forge setup, it would do all the decomp for the first time (20 minutes), I would copy all the files from previous version, change a few method names here and there, and I would be good to go...",
                 "Well... decomp did take 20 minutes... to then throw an OutOfMemory exception... after like an hour of trying giving it more RAM, and waiting, I figured I had to set Java version in IntelliJ to Java21, and then the exception didn't happen.",
                 "Ok... now the copying thing, just a few changes with how some objects are created and how you get potion effects from the item stack, not that hard... except for when it came to the main thing - <b>RENDERING THE INDICATORS</b>. They completely removed any event related to Gui redering, and I only found out why when I looked through the forge commit history, because Mojang implemented a better system for layered GUI rendering... which, ofcourse, they didn't leave any API to access... Long story short, I ended up using mixins, for a mod that was going strong without them for a while.",
-                "And then I find out that those APIs do exist in NeoForge, and Forge API feature request template even links to NeoForge Discord server, and to this day I was really confused about what's even the reason there are two different incompatable versions of forge, and it's some drama or something... Maybe I do need to move to NeoForge instead for newer versions of Minecraft idk.",
+                "And then I find out that those APIs do exist in NeoForge, and Forge API feature request template even links to NeoForge Discord server, and to this day I was really confused about what's even the reason there are two different incompatable forks of forge, and it's some drama or something... Maybe I do need to move to NeoForge instead for newer versions of Minecraft idk.",
                 "Anyway, rant over, been quite a ride today, Hit Indication for 1.21 is out, probably not a big deal, but it IS FOR ME!! Also might release a smaller mod at request of a friend that respawns you in a random location each time you die for 1.18.2, nothing big."
             ],
             "image": {
@@ -20,7 +20,7 @@
             "title": "Wiki Section",
             "date": "17.06.2024",
             "text": [
-                "New website update! Replaced character seciond with Wiki Section! Currently there's not a lot written, and a lot of the pages are pretty empty, but in the future I do plan on expanding the universe of my characters.",
+                "New website update! Replaced character secion with Wiki Section! Currently there's not a lot written, and a lot of the pages are pretty empty, but in the future I do plan on expanding the universe of my characters.",
                 "I'm really overengineer my personal website lmao..."
             ],
             "image": {
