@@ -30,14 +30,6 @@
                         {
                             "resource": "GitHub",
                             "url": "https://github.com/TheHamester/Random-Respawns"
-                        },
-                        {
-                            "resource": "CurseForge",
-                            "url": "https://legacy.curseforge.com/minecraft/mc-mods/random-respawns"
-                        },
-                        {
-                            "resource": "Modrinth",
-                            "url": "https://modrinth.com/mod/random-respawns"
                         }
                     ] 
                 }
