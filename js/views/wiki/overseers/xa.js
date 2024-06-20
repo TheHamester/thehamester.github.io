@@ -1,6 +1,6 @@
 export const title = "Xa";
 export const html = /* html */ `
-    <img title="Art by Axovoxel" class="character-img-left" src="img/characters/Xa.png" width="200">
+    <img title="Art by Axovoxel" class="float-left square" src="img/characters/Xa.png" width="200">
     <p>
         Xa [za] (They/Them) - Deity of Time. From their infinite gills flow scribes telling of everthing that has ever happened, is happenning, 
         will happen, and will never happen. They don't intervine in the natural flow of time, but are able to see all the possibilities, 

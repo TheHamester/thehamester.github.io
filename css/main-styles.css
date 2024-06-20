@@ -3,7 +3,7 @@
 * { 
     -moz-box-sizing: border-box; 
     -webkit-box-sizing: border-box; 
-     box-sizing: border-box; 
+    box-sizing: border-box; 
 }
 
 html {
@@ -16,8 +16,18 @@ html, body {
     padding: 0;
 }
 
-.dark * hr {
-    border-color: var(--text-color-dark);
+h1, h2, h3 {
+    text-align: center;
+    color: var(--text-color);
+}
+
+p {
+    text-indent: var(--paragraph-indent);
+    color: var(--text-color);
+}
+
+ul {
+    color: var(--text-color);
 }
 
 #page-wrapper {
@@ -92,14 +102,6 @@ html, body {
     z-index: 1;
 }
 
-#content {
-    min-height: var(--page-height);
-}
-
-#content a {
-    color: var(--link-color);
-}
-
 #content-wrapper {
     flex: 1;
     width: var(--page-width);
@@ -113,26 +115,24 @@ html, body {
     z-index: 1;
 }
 
-h1,h2,h3 {
-    text-align: center;
-    color: var(--text-color);
+#content {
+    min-height: var(--page-height);
 }
 
-p {
-    text-indent: var(--paragraph-indent);
-    color: var(--text-color);
+#content * a {
+    color: var(--link-color);
+}
+
+#content * img {
+    border-width: var(--border-width);
+    border-color: var(--accent-orange);
+    border-style: solid;
+    margin-bottom: 5px;
 }
 
 .pfp-wrapper {
     float: left;
     margin: var(--content-margin);
-}
-
-.pfp {
-    border-radius: 50%;
-    border-width: var(--border-width);
-    border-color: var(--accent-orange);
-    border-style: solid;
 }
 
 .pronouns {
@@ -159,8 +159,22 @@ p {
     color: var(--text-color);
 }
 
-ul {
-    color: var(--text-color);
+.float-left {
+    margin-right: var(--content-margin);
+    float: left;
+}
+
+.float-right {
+    margin-left: var(--content-margin);
+    float: right;
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+.square {
+    border-radius: 20px;
 }
 
 .notification {
@@ -213,46 +227,4 @@ ul {
 
 @keyframes l38 {
     100% {background-position: 100% 0,100% 100%,0 100%,0 0}
-}
-
-.dark * .loader {
-    margin: 20px auto;
-    width: 35px;
-    aspect-ratio: 1;
-    --_g: no-repeat radial-gradient(farthest-side,var(--text-color-dark) 94%,#0000);
-    background:
-      var(--_g) 0    0,
-      var(--_g) 100% 0,
-      var(--_g) 100% 100%,
-      var(--_g) 0    100%;
-    background-size: 40% 40%;
-    animation: l38 .5s infinite; 
-}
-
-@keyframes l38 {
-    100% {background-position: 100% 0,100% 100%,0 100%,0 0}
-}
-
-.sparkle {
-    position: absolute;
-    z-index: 0;
-    animation: fade-in;
-    animation-duration: 1s;
-    opacity: 0.2;
-}
-
-.removing-sparkle {
-    opacity: 0;
-    animation: fade-out;
-    animation-duration: 1s;
-}
-
-@keyframes fade-in {
-    from { opacity: 0; }
-    to { opacity: 0.2; }
-}
-
-@keyframes fade-out {
-    from { opacity: 0.2; }
-    to { opacity: 0; }
 }

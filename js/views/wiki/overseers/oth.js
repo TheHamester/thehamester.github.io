@@ -1,6 +1,6 @@
 export const title = "Oth";
 export const html = /* html */ `
-    <img title="Art by Axovoxel" class="character-img-right" src="img/characters/Oth.png" width="200">
+    <img title="Art by Axovoxel" class="float-left square" src="img/characters/Oth.png" width="200">
     <p>
         Oth [oθ] (They/Them) - Deity of Space. They orbit <a href="/#/wiki/overseers/xa">Xa</a> and their followers in order to provide protective shield for the overseers. 
         They put the "space" into space-time and are in control of the expansion of the universe. 
@@ -12,9 +12,9 @@ export const html = /* html */ `
     </p>
 
     <h2>Relationships</h2>
-    <p>
-        Holds a grudge on <a href="/#/wiki/divinities/sedosa">Sedosa</a> for constantly making matter out of nowhere with here stretching arms.
-    </p>
+    <ul>
+        <li>Holds a grudge on <a href="/#/wiki/divinities/sedosa">Sedosa</a> for constantly making matter out of nowhere with here stretching arms.</li>
+    </ul>
 `;
 
 export const seeAlso = [

@@ -4,7 +4,7 @@ export const html = /* html */ `
         The Nucleus - the center of the universe. The Nucleus is where the universe began, 
         its gravitational force keeps the whole universe from falling apart. 
         It is the home to the overseers. <a href="/#/wiki/overseers/xa">Xa</a> resides in the very middle, 
-        with 8 of his followers' orbiting them as if they were electrons of an atom, 
+        with 8 of their followers' orbiting them as if they were electrons of an atom, 
         followers with opposite elements orbit at opposite sides of each other. <a href="/#/wiki/overseers/oth">Oth</a> 
         resides at the outermost orbit of The Nucleus, revolving around <a href="/#/wiki/overseers/xa">Xa</a> and their followers, 
         in order to provide a protective shield for the overseers.

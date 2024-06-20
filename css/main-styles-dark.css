@@ -4,6 +4,10 @@ html:has(.dark) {
     background-color: var(--header-color-from-dark);
 }
 
+.dark * hr {
+    border-color: var(--text-color-dark);
+}
+
 .dark #footer {
     background: linear-gradient(to top, var(--header-color-from-dark), var(--header-color-to-dark));
 }
@@ -56,5 +60,24 @@ html:has(.dark) {
 
 .dark * .links div svg {
     filter: invert(86%) sepia(22%) saturate(628%) hue-rotate(334deg) brightness(103%) contrast(105%);
+}
+
+/* Loader copied from https://css-loaders.com/ */
+.dark * .loader {
+    margin: 20px auto;
+    width: 35px;
+    aspect-ratio: 1;
+    --_g: no-repeat radial-gradient(farthest-side,var(--text-color-dark) 94%,#0000);
+    background:
+      var(--_g) 0    0,
+      var(--_g) 100% 0,
+      var(--_g) 100% 100%,
+      var(--_g) 0    100%;
+    background-size: 40% 40%;
+    animation: l38 .5s infinite; 
+}
+
+@keyframes l38 {
+    100% {background-position: 100% 0,100% 100%,0 100%,0 0}
 }
 

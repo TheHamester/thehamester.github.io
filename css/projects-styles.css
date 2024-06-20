@@ -1,23 +1,5 @@
 @import "vars.css";
 
-.project-img-left {
-    float: left;
-    margin-right: var(--content-margin);
-    border-radius: 50%;
-    border-width: var(--border-width);
-    border-color: var(--accent-orange);
-    border-style: solid;
-}
-
-.project-img-right {
-    float: right;
-    margin-left: var(--content-margin);
-    border-radius: 50%;
-    border-width: var(--border-width);
-    border-color: var(--accent-orange);
-    border-style: solid;
-}
-
 .project-links {
     display: flex;
     flex-direction: row;

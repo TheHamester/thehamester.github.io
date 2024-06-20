@@ -10,31 +10,6 @@
     text-align: center;
 }
 
-.post-img {
-    border-width: var(--border-width);
-    border-color: var(--accent-orange);
-    border-style: solid;
-    margin-bottom: 5px;
-}
-
-.float-left {
-    margin-right: var(--content-margin);
-    float: left;
-}
-
-.float-right {
-    margin-left: var(--content-margin);
-    float: right;
-}
-
-.circle {
-    border-radius: 50%;
-}
-
-.square {
-    border-radius: 20px;
-}
-
 #load-more-button {
     display: none;
     font-size: 16px;
