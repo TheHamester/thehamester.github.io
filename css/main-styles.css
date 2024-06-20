@@ -127,7 +127,7 @@ ul {
     border-width: var(--border-width);
     border-color: var(--accent-orange);
     border-style: solid;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 .pfp-wrapper {

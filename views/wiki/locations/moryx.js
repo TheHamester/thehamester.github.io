@@ -2,9 +2,9 @@ export const title = "Moryx";
 export const html = /* html */ `
     <p>
         The central star of the <a href="/#/wiki/locations/moryx-system">Moryx System</a>. Moryx is a red dwarf. 
-            Alongside regular heat a star provides for the islands orbitting it, 
-            it is also radiating healing and calming energy that is often reffered to as Liquia 
-            by the common visitors of the islands, exact sources of which to this very day are unknown.
+        Alongside regular heat a star provides for the islands orbitting it, 
+        it is also radiating healing and calming energy that is often reffered to as Liquia 
+        by the common visitors of the islands, exact sources of which to this very day are unknown.
     </p>
 
     <h2>Origin</h2>

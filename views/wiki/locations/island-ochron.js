@@ -2,8 +2,8 @@ export const title = "Island Ochron";
 export const html = /* html */ `
     <p>
         Island Ochron is a one of the five islands orbiting the central star of the <a href="/#/wiki/locations/moryx-system">Moryx System</a>. 
-            It's the 4th outermost island from <a href="/#/wiki/locations/moryx">Moryx</a>. It is utilized as a universal library, archive and storage of all knowledge. 
-            The library is located at the far most point of the island, to which there's a clear path through the Scrype Forest. 
+        It's the 4th outermost island from <a href="/#/wiki/locations/moryx">Moryx</a>. It is utilized as a universal library, archive and storage of all knowledge. 
+        The library is located at the far most point of the island, to which there's a clear path through the Scrype Forest. 
     </p>
 
     <h2>Scrype Forest</h2>

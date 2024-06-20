@@ -14,13 +14,32 @@
                         },
                         {
                             "resource": "CurseForge",
-                            "url": "https://www.curseforge.com/minecraft/mc-mods/hit-indication"
+                            "url": "https://legacy.curseforge.com/minecraft/mc-mods/hit-indication"
                         },
                         {
                             "resource": "Modrinth",
                             "url": "https://modrinth.com/mod/hit-indication"
                         }
                     ]
+                },
+                {
+                    "name": "Random Respawns",
+                    "description": "This mod changes the way respawns in the game work by completely randomizing your respawn location on each death, making it almost semi-hardcore mode. Mod allows you to configure options related to the radius from the world origin within which the new respawn location will be determined, weather the random respawns should occur with respect to your death location, weather it should avoid oceans and/or hazards, and weather time should be set to 0 on death.",
+                    "image_src": "content/img/projects/random-respawns.png",
+                    "links": [
+                        {
+                            "resource": "GitHub",
+                            "url": "https://github.com/TheHamester/Random-Respawns"
+                        },
+                        {
+                            "resource": "CurseForge",
+                            "url": "https://legacy.curseforge.com/minecraft/mc-mods/random-respawns"
+                        },
+                        {
+                            "resource": "Modrinth",
+                            "url": "https://modrinth.com/mod/random-respawns"
+                        }
+                    ] 
                 }
             ]
         },

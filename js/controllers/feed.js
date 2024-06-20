@@ -5,23 +5,19 @@ let imagesLoaded;
 let postList;
 
 
-function loadFeed() {
+async function loadFeed() {
     postsLoaded = 0;
     imagesLoaded = 0;
     postList = null;
 
-    fetch(getURL("content/json/feed.json"))
-        .then(async (res) => {
-            const json = await res.json();
-            postList = json.posts;
-            getMorePosts();
-            document.getElementById("posts").removeChild(document.getElementById("posts-loader"));
+    const json = await fetchJSON("content/json/feed.json");
+    postList = json.posts;
+    getMorePosts();
+    document.getElementById("posts").removeChild(document.getElementById("posts-loader"));
 
-            const loadMoreButton = document.getElementById("load-more-button");
-            if(loadMoreButton)
-                loadMoreButton.style.display = "block";
-        })
-        .catch((err) => console.log(err));
+    const loadMoreButton = document.getElementById("load-more-button");
+    if(loadMoreButton)
+        loadMoreButton.style.display = "block";
 }
 
 function getMorePosts() {
@@ -73,7 +69,7 @@ function createPostDiv(post) {
         imagesLoaded++;
     }
 
-    for(let i = 0; i < 2; i++) {
+    for(let i = 0; i < Math.min(2, post.text.length); i++) {
         const p = document.createElement("p");
         p.innerHTML = post.text[i];
         postDiv.appendChild(p);

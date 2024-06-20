@@ -4,31 +4,24 @@ let loadedSongs;
 let songList;
 let mySongList;
 
-function loadRecentObsessions() {
+async function loadRecentObsessions() {
     loadedSongs = 0;
     songList = undefined;
     mySongList - undefined;
 
-    fetch(getURL("content/json/recent_obsessions.json"))
-        .then(async (res) => {
-            const json = await res.json();
-            songList = json.songs;
-            getMoreSongs();
-            document.getElementById("recent-obsessions").removeChild(document.getElementById("recent-obsessions-loader"));
-            document.getElementById("load-more-button").style.display = "block";
-        })
-        .catch((err) => { console.log(err) });
+    const json = await fetchJSON("content/json/recent_obsessions.json");
+    songList = json.songs;
+    getMoreSongs();
+    document.getElementById("recent-obsessions").removeChild(document.getElementById("recent-obsessions-loader"));
+    document.getElementById("load-more-button").style.display = "block";
 }
 
-function loadMyMusic() {
-    fetch(getURL("content/json/my_music.json"))
-        .then(async (res) => {
-            const json = await res.json();
-            mySongList = json.songs;
-            getMyMusic();
-            document.getElementById("my-songs").removeChild(document.getElementById("my-songs-loader"));
-        })
-        .catch((err) => { console.log(err) });
+async function loadMyMusic() {
+    const json = await fetchJSON("content/json/my_music.json");
+
+    mySongList = json.songs;
+    getMyMusic();
+    document.getElementById("my-songs").removeChild(document.getElementById("my-songs-loader"));
 }
 
 function getMoreSongs() {
