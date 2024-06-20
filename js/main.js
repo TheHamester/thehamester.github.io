@@ -9,6 +9,15 @@ const routes = {
     "#/music": { render: music, onMount: () => { loadRecentObsessions(); loadMyMusic(); } }
 };
 
+window.onhashchange = (e) => { route(); };
+window.addEventListener("DOMContentLoaded", e => { route(); });
+window.onclick = (e) => {
+    if(e.target.matches("[in-link]")) {
+        e.preventDefault();
+        document.getElementById(e.target.getAttribute("to")).scrollIntoView();
+    }
+}
+
 function navigate(hash) {
     let view = routes[hash];
 
@@ -38,15 +47,6 @@ function route() {
     if(split.length >= 2) {
         navigate(`#/${split[1]}`);
         return;
-    }
-}
-
-window.onhashchange = (e) => { route(); };
-window.addEventListener("DOMContentLoaded", e => { route(); });
-window.onclick = (e) => {
-    if(e.target.matches("[in-link]")) {
-        e.preventDefault();
-        document.getElementById(e.target.getAttribute("to")).scrollIntoView();
     }
 }
 

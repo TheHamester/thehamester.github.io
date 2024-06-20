@@ -10,7 +10,7 @@ function loadFeed() {
     imagesLoaded = 0;
     postList = null;
 
-    fetch(getURL("json/feed.json"))
+    fetch(getURL("content/json/feed.json"))
         .then(async (res) => {
             const json = await res.json();
             postList = json.posts;

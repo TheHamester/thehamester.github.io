@@ -1,6 +1,6 @@
 export const title = "Sedosa";
 export const html = /* html */ `
-    <img title="Art by Axovoxel" class="float-left square" src="img/characters/Sedo.png" width="200">
+    <img title="Art by Axovoxel" class="float-left square" src="content/img/wiki/Sedo.png" width="200">
     <p>
         Sedosa [sedəʊsa] (She/Her) - The divinity of Change and Morph. Watches over the changes of the universe. Can stretch arms infinitely.
     </p>
@@ -15,7 +15,7 @@ export const html = /* html */ `
     </p>
 
     <h2>Relationships</h2>
-    <img title="Art by Axovoxel" class="float-right square" src="img/characters/OthMad.png" width="200">
+    <img title="Art by Axovoxel" class="float-right square" src="content/img/wiki/OthMad.png" width="200">
     <p>
         <ul>
             <li>Best friends with <a href="/#/wiki/overseers/hamester">Hamester</a> and <a href="/#/wiki/divinities/anetha">Anetha</a>.</li>

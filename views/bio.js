@@ -3,7 +3,7 @@ function bio() {
         <h1>Welcome to my bio!</h1>
         <hr>
         <div class="pfp-wrapper">
-            <img title="Art by Fauvfox" class="circle" src="img/ham.png" width="200" height="200">
+            <img title="Art by Fauvfox" class="circle" src="content/img/ham.png" width="200" height="200">
             <div class="pronouns">Azzy - any/all</div>
         </div>
         <p>

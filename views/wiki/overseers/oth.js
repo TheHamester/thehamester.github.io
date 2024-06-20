@@ -1,6 +1,6 @@
 export const title = "Oth";
 export const html = /* html */ `
-    <img title="Art by Axovoxel" class="float-left square" src="img/characters/Oth.png" width="200">
+    <img title="Art by Axovoxel" class="float-left square" src="content/img/wiki/Oth.png" width="200">
     <p>
         Oth [oθ] (They/Them) - Deity of Space. They orbit <a href="/#/wiki/overseers/xa">Xa</a> and their followers in order to provide protective shield for the overseers. 
         They put the "space" into space-time and are in control of the expansion of the universe. 

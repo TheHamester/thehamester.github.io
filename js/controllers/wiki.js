@@ -1,11 +1,13 @@
 const wikiPages = [
     "main", 
-
+    // Overseers
     "overseers/oth", "overseers/xa", "overseers/bogul", "overseers/hamester", "overseers/frysen", 
     "overseers/hyra", "overseers/oth", "overseers/paraoh", "overseers/tamuth", "overseers/zemothel", "overseers/faenah",
 
+    // Divinities
     "divinities/sedosa", "divinities/anetha",
 
+    // Locations
     "locations/island-jole", "locations/island-luth", "locations/island-may", "locations/island-ochron", "locations/island-pyx",
     "locations/moryx-system", "locations/the-nucleus", "locations/moryx"
 ]
@@ -33,7 +35,7 @@ async function loadPage(name) {
         return;
     }
 
-    await import(`/js/views/wiki/${name}.js`).then(async (module) => {
+    await import(`/views/wiki/${name}.js`).then(async (module) => {
         const wikiPageElement = document.getElementById("wiki-page");
         const titleElement = document.getElementById("wiki-page-title");
         const seeAlsoElement = document.getElementById("wiki-see-also");
@@ -54,7 +56,6 @@ async function loadPage(name) {
 
                 newA.setAttribute("href", `#/wiki/${seeAlso[i].route}`);
                 newA.innerHTML = seeAlso[i].title;
-
             }
         }
 

@@ -1,5 +1,5 @@
 function loadProjects() {
-    fetch(getURL("json/projects.json"))
+    fetch(getURL("content/json/projects.json"))
     .then(async (res) => {
         const json = await res.json();
         mountAllProjects(json);

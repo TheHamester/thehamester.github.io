@@ -11,7 +11,7 @@
                 "Anyway, rant over, been quite a ride today, Hit Indication for 1.21 is out, probably not a big deal, but it IS FOR ME!! Also might release a smaller mod at request of a friend that respawns you in a random location each time you die for 1.18.2, nothing big."
             ],
             "image": {
-                "src": "img/feed/out_of_memory.png",
+                "src": "content/img/feed/out_of_memory.png",
                 "style": "square",
                 "width": 300
             }
@@ -24,7 +24,7 @@
                 "I'm really overengineer my personal website lmao..."
             ],
             "image": {
-                "src": "img/feed/wiki_update.png",
+                "src": "content/img/feed/wiki_update.png",
                 "style": "square",
                 "width": 300
             }
@@ -37,7 +37,7 @@
                 "And as a result developement is also made easier, with some tiny compromises, but the codebase for the website is more maintainable now, which is of most importance."
             ],
             "image": {
-                "src": "img/feed/js_meme.png",
+                "src": "content/img/feed/js_meme.png",
                 "style": "square",
                 "width": 300
             }
@@ -50,7 +50,7 @@
                 "There are also some little mods I'm working on and off with my friend, so if I have any meaningful updates on these they will also appear here and also in Upcoming Projects section... So... stay tuned! Also... enjoy the cute foxingtons flying around!"
             ],
             "image": {
-                "src": "img/feed/i_am_an_idiot.png",
+                "src": "content/img/feed/i_am_an_idiot.png",
                 "style": "square",
                 "width": 300
             }

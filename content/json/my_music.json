@@ -2,19 +2,19 @@
     "songs": [
         {
             "name": "Electro Creation",
-            "src": "audio/Electro Creation.mp3"
+            "src": "content/audio/Electro Creation.mp3"
         },
         {
             "name": "Unfinished #1",
-            "src": "audio/WIP, right(question mark).mp3"
+            "src": "content/audio/WIP, right(question mark).mp3"
         },
         {
             "name": "Unfinished #2",
-            "src": "audio/idk stuff.mp3"
+            "src": "content/audio/idk stuff.mp3"
         },
         {
             "name": "Unfinished #3",
-            "src": "audio/full.mp3"
+            "src": "content/audio/full.mp3"
         }
     ]
 }

@@ -1,6 +1,6 @@
 export const title = "Faenah";
 export const html = /* html */ `
-    <img title="&quot;Art&quot; by Hamester" class="float-left square" src="img/characters/faenah.png" width="200" height="230">
+    <img title="&quot;Art&quot; by Hamester" class="float-left square" src="content/img/wiki/faenah.png" width="200" height="230">
     <p>
         Faenah [feɪnə] (She/Her) - Godess of Nature, one of the eight folowers of <a href="/#/wiki/overseers/xa">Xa</a>, who is in control of the element of nature.
     </p>

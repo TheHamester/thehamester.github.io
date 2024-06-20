@@ -9,7 +9,7 @@ function loadRecentObsessions() {
     songList = undefined;
     mySongList - undefined;
 
-    fetch(getURL("json/recent_obsessions.json"))
+    fetch(getURL("content/json/recent_obsessions.json"))
         .then(async (res) => {
             const json = await res.json();
             songList = json.songs;
@@ -21,7 +21,7 @@ function loadRecentObsessions() {
 }
 
 function loadMyMusic() {
-    fetch(getURL("json/my_music.json"))
+    fetch(getURL("content/json/my_music.json"))
         .then(async (res) => {
             const json = await res.json();
             mySongList = json.songs;

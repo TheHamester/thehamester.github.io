@@ -1,7 +1,7 @@
 export const title = "Hamester";
 export const html = /* html */ `
     <h2 id="hamester">Hamester</h2>
-    <img title="Art by Axovoxel" class="float-left square" src="img/characters/HamesterPixel.png" width="200">
+    <img title="Art by Axovoxel" class="float-left square" src="content/img/wiki/HamesterPixel.png" width="200">
     <p>
         Hamester [hæmɛstɚ] (He/Him) - God of Fire, one of the eight folowers of <a href="/#/wiki/overseers/xa">Xa</a>, who is in control of the element of fire. 
         He is able to withstand the highest of temperatures in the universe, and the heat of his flames is able to melt or even 
