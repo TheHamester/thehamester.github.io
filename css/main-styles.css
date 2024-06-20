@@ -53,6 +53,10 @@ ul {
     z-index: 1;
 }
 
+#header img {
+    margin-right: 10px;
+}
+
 #header a {
     display: flex;
     align-items: center;
