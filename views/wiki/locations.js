@@ -1,7 +1,7 @@
 export const title = "Locations";
 export const html = /* html */ `
     <p>
-
+        
     </p>
     <ul>
         <li><a href="/#/wiki/locations/the-nucleus">The Nucleus</a> - the center of the universe where the overseers reside.</li>

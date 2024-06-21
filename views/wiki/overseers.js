@@ -1,5 +1,6 @@
 export const title = "Overseers";
 export const html = /* html */ `
+    <img src="content/img/wiki/Libra Elementum.png" class="square float-left" width="250">
     <p>
         Since the beginning of times, the balance of the universe was overseen by the Deity of Time named <a href="/#/wiki/overseers/xa">Xa</a>, 
         the Deity of Space named <a href="/#/wiki/overseers/oth">Oth</a>, and their 8 folowers put in control of each element and its direct opposite: 
@@ -20,20 +21,21 @@ export const html = /* html */ `
 
     <h2>Reincarnation</h2>
 	<p>
-		Overseers' physical forms are not immortal, but yet their spirits are, and have a way of reincarnation in a new body through the process of natural birth. 
+		Overseers' physical forms are not immortal, yet their spirits are, and have a way of reincarnation in a new body through the process of natural birth. 
         Upon death their spirits are freed of their physical form, and roam the universe in search for a suitable host with the ability to give birth, often already 
-        pregnant living being, species of which should mostly resemble their physical form species, and preferably lacking advanced conciousness in order to avoid panic 
-        and disruption among the anthropomorphic beings. The spirit of an overseer does not replace the already present embryos, but merely appends themselves to the count. 
+        pregnant living beings, species of which should mostly resemble their physical form species, and preferably lacking advanced conciousness in order to avoid panic 
+        and disruption among the anthropomorphic population.
     </p>
     <p>
-        The host does not feel any different and the sensations during birth do not differ from natural process of birth among host's species. For mammals it would be live birth; 
-        for insects, like moths they would go through the whole process of Egg -> Catterpillar -> Pupa -> Moth, which is probably the quickest and the least disruptive type
-        of reincarnation.
-        
+        The spirit of an overseer does not replace the already present embryos, but merely appends themselves to the count. 
+        If the host was to have 3 babies, they would give birth to 3 babies + to the overseer. The host does not feel any different and the sensations during 
+        birth do not differ from natural process of birth among host's species. For mammals it would be live birth; for insects like, for example, moths they would go 
+        through the whole process of: Egg -> Catterpillar -> Pupa -> Moth, which is probably the quickest and the least disruptive way of reincarnation.
 	</p>
     <p>
-		Upon being reborn the growth rate of the physical body of the overseer is much more rapid than the one of the average host's species representative.
-        Upon reaching maturity the overseer in question comes back to <a href="/#/wiki/locations/the-nucleus">The Nucleus</a>.
+		Upon being reborn the overseer resembles the baby version of their physical form. The growth rate of the physical body of the overseer is much more rapid 
+        than the one of the average host's species representative. Upon reaching maturity the overseer in question comes back 
+        to <a href="/#/wiki/locations/the-nucleus">The Nucleus</a>.
 	</p>
 `;
 

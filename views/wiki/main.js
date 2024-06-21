@@ -1,7 +1,7 @@
-export const title = "My Lore Wiki (?)";
+export const title = "Libra Elementum Wiki";
 export const html = /* html */ `
     <p>
-        Welcome to the world of my lore (cant think of a good name for it yet). Here you can find links to the main hubs of the wiki:
+        Welcome to the world of Libra Elementum. Here you can find links to the main hubs of the wiki:
     </p>
 
     <div id="wiki-hubs">
@@ -16,6 +16,5 @@ export const html = /* html */ `
 `;
 
 export const seeAlso = [];
-
 export const hub = null;
 

@@ -140,7 +140,6 @@ ul {
     width: 80%;
 }
 
-
 .pfp-wrapper {
     float: left;
     margin: var(--content-margin);
@@ -186,6 +185,11 @@ ul {
 
 .square {
     border-radius: 20px;
+}
+
+.img-center {
+    display: block;
+    margin: 0 auto;
 }
 
 .notification {

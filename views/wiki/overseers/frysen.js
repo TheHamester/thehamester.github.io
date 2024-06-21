@@ -5,6 +5,7 @@ export const html = /* html */ `
         Frysen [fɹaɪzɛn] (He/Him) - God of Ice, one of the eight folowers of <a href="/#/wiki/overseers/xa">Xa</a>, who is in control of the element of ice. 
         He is able to withstand the lowest of temperatures, and able to instantly freeze anything to absolute zero. 
     </p>
+    
     <h2>Appearance</h2>
     <p>
         His physical form resembles an arctic fox with black fur. He has frost light-blue hands and feet. 
