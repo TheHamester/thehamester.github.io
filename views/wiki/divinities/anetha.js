@@ -16,8 +16,9 @@ export const html = /* html */ `
 `;
 
 export const seeAlso = [
-    { title: "World Overview", route: "main" }, 
     { title: "Sedosa", route: "divinities/sedosa" }, 
     { title: "Frysen", route: "overseers/frysen"}, 
     { title: "Island Pyx", route:"locations/island-pyx" }
 ];
+
+export const hub = { title: "Divinities", link: "divinities" };

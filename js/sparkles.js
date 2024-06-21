@@ -87,6 +87,7 @@ function addSparkleElement(sparkle) {
     sparkleElement.setAttribute("width", sparkle.width);
     sparkleElement.setAttribute("src", IMAGES[sparkle.imageId]);
     sparkleElement.setAttribute("draggable", false);
+    sparkleElement.setAttribute("unselectable", "on");
     sparkleElement.style.left = sparkle.x / pageWidth * 100 + "%";
     sparkleElement.style.top = sparkle.y + "px";
     if(sparkle.flip)

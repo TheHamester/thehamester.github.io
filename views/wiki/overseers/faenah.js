@@ -22,7 +22,8 @@ export const html = /* html */ `
 `;
 
 export const seeAlso = [
-    { title: "World Overview", route: "main" }, 
     { title: "Xa", route:"overseers/xa" },
     { title: "Tamuth", route:"overseers/tamuth" }
 ];
+
+export const hub = { title: "Overseers", link: "overseers" };

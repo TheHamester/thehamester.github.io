@@ -27,9 +27,10 @@ export const html = /* html */ `
 `;
 
 export const seeAlso = [
-    { title: "World Overview", route: "main" }, 
     { title: "Anetha", route: "divinities/anetha" }, 
     { title: "Hamester", route: "overseers/hamester"}, 
     { title: "Oth", route: "overseers/oth"}, 
     { title: "Island Pyx", route:"locations/island-pyx" }
 ];
+
+export const hub = { title: "Divinities", link: "divinities" };

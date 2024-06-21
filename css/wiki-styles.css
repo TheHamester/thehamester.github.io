@@ -1,5 +1,28 @@
 @import "vars.css";
 
+#wiki-hubs {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    justify-items: center;
+}
+
+.wiki-hub-link {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: var(--text-color);
+    vertical-align: middle;
+    text-align: center;
+    line-height: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
 #wiki-see-also div {
     display:flex;
     flex-flow: row wrap;
@@ -23,6 +46,10 @@
 
 .dark * #wiki-see-also div a {
     border-color: var(--text-color-dark);  
+}
+
+.dark * .wiki-hub-link {
+    border-color: var(--text-color-dark);
 }
 
 

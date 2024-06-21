@@ -7,7 +7,8 @@ export const html = /* html */ `
 `;
 
 export const seeAlso = [
-    { title: "World Overview", route: "main" }, 
     { title: "Xa", route:"overseers/xa" },
     { title: "Paraoh", route:"overseers/paraoh" }
 ];
+
+export const hub = { title: "Overseers", link: "overseers" };

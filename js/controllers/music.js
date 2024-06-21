@@ -35,6 +35,13 @@ function getMoreSongs() {
     songBlockDiv.classList.add("song-block");
     recentObsessions.appendChild(songBlockDiv);
 
+
+    if(loadedSongs != 0) {
+        const hr = document.createElement("hr");
+        hr.classList.add("separator");
+        songBlockDiv.appendChild(hr);
+    }
+
     for(let i = loadedSongs; i < end; i++) {
         const newSongElement = createSongElement(songList[i]);
         songBlockDiv.appendChild(newSongElement);

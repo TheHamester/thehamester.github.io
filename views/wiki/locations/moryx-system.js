@@ -20,7 +20,8 @@ export const html = /* html */ `
 `;
 
 export const seeAlso = [
-    { title: "World Overview", route: "main" }, 
     { title: "Moryx System", route:"locations/moryx-system" },
     { title: "Moryx", route:"locations/moryx" }
 ];
+
+export const hub = { title: "Locations", link: "locations" };

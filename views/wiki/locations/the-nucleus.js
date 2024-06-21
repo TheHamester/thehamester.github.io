@@ -12,7 +12,8 @@ export const html = /* html */ `
 `;
 
 export const seeAlso = [
-    { title: "World Overview", route: "main" }, 
     { title: "Xa", route:"overseers/xa" },
     { title: "Oth", route:"overseers/oth" }
 ];
+
+export const hub = { title: "Locations", link: "locations" };

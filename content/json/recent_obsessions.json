@@ -1,6 +1,24 @@
 {
     "songs": [
         {
+            "artist": "Sixpence None the Richer",
+            "name": "Kiss Me",
+            "url": "https://www.youtube.com/watch?v=hII0JXUJNDo", 
+            "description": "Damn, the original is just as cool as the spooky version.."
+        },
+        {
+            "artist": "The Stupendium & Dan Bull",
+            "name": "Production Line",
+            "url": "https://www.youtube.com/watch?v=HYdOZOdjXnI", 
+            "description": "Giftbox... MINE!"
+        },
+        {
+            "artist": "Dan Bull",
+            "name": "FALLOUT 4 SPECIAL RAP",
+            "url": "https://www.youtube.com/watch?v=tuQPfVZbMbg", 
+            "description": "swell"
+        },
+        {
             "artist": "The 88",
             "name": "Biggering (Original Demo)",
             "url": "https://www.youtube.com/watch?v=cpyuolKoeAY", 

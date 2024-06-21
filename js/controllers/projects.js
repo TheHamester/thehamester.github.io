@@ -18,6 +18,12 @@ function mountAllProjects(json) {
         const sectionDiv = createSectionDiv(sections[i], icons, overallProjectCount);
         projectsElement.append(sectionDiv);
         overallProjectCount += sections[i].projects.length;
+
+        if(i != sections.length - 1) {
+            const hr = document.createElement("hr");
+            hr.classList.add("separator");
+            sectionDiv.appendChild(hr);
+        }
     }
 }
 

@@ -29,8 +29,11 @@ function getMorePosts() {
     for(let i = postsLoaded; i < end; i++) {
         const postDiv = createPostDiv(postList[i]);
         postsDiv.appendChild(postDiv);
-        if(i != postList.length - 1)
-            postsDiv.appendChild(document.createElement("hr"));
+        if(i != postList.length - 1) {
+            const hr = document.createElement("hr");
+            hr.classList.add("separator");
+            postsDiv.appendChild(hr);
+        }
         postsLoaded++;
     }
 

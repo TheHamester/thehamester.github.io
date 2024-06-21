@@ -134,6 +134,13 @@ ul {
     margin-bottom: 10px;
 }
 
+
+.separator {
+    opacity: 25%;
+    width: 80%;
+}
+
+
 .pfp-wrapper {
     float: left;
     margin: var(--content-margin);
