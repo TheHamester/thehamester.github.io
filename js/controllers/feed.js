@@ -4,7 +4,6 @@ let postsLoaded;
 let imagesLoaded;
 let postList;
 
-
 async function loadFeed() {
     postsLoaded = 0;
     imagesLoaded = 0;
