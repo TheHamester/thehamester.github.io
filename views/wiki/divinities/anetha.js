@@ -12,6 +12,7 @@ export const html = /* html */ `
     <h2>Relationships</h2>
     <p>
         Best friends with with <a href="/#/wiki/overseers/frysen">Frysen</a> and <a href="/#/wiki/divinities/sedosa">Sedosa</a>.
+        <li>She and <a href="/#/wiki/divinities/sedosa">Sedosa</a> often meet on the <a href="/#/wiki/locations/island-pyx">Island Pyx</a>.</li>
     </p>
 `;
 

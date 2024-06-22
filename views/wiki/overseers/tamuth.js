@@ -6,7 +6,7 @@ export const html = /* html */ `
     
     <h2>Appearance</h2>
     <p>
-        Tamuth's takes the physical form of a death's-head hawkmoth. She weilds a staff made out of dark wood riddled with bones.
+        Tamuth takes the physical form of a death's-head hawkmoth. She weilds a staff made out of dark wood riddled with bones.
     </p>
 `;
 

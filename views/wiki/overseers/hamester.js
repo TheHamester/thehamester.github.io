@@ -13,8 +13,8 @@ export const html = /* html */ `
 
     <h2>Appearance</h2>
     <p>
-        His physical form resembles an arctic fox with white fur, black ears with orange lynx-like tufts. His arms and legs from 
-        palms to shoulders and from feet to waste have black to brown to orange to white gradient. 
+        His physical form resembles an arctic fox with white fur, black ears with brown lynx-like tufts. His arms and legs from 
+        palms to shoulders, and from feet to waste have black to brown to orange to white gradient. 
         His eyes have a dual colored (blue and orange) iris.
     </p>
 `;
