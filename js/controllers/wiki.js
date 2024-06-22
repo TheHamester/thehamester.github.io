@@ -60,8 +60,8 @@ async function loadPage(name) {
             content.appendChild(hubLinkAnchorElement);
 
             hubLinkElement.classList.add("wiki-hub-link");
+            hubLinkElement.innerHTML = hub.title;
             hubLinkAnchorElement.setAttribute("href", `#/wiki/${hub.link}`);
-            hubLinkAnchorElement.innerHTML = hub.title;
         }
 
         wikiPageElement.innerHTML = html;
