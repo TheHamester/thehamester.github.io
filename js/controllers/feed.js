@@ -71,7 +71,7 @@ function createPostDiv(post) {
         imagesLoaded++;
     }
 
-    for(let i = 0; i < Math.min(2, post.text.length); i++) {
+    for(let i = 0; i < Math.min(3, post.text.length); i++) {
         const p = document.createElement("p");
         p.innerHTML = post.text[i];
         postDiv.appendChild(p);

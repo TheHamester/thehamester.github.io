@@ -8,7 +8,7 @@ export const html = /* html */ `
     <p>
         Tamuth takes the physical form of a death's-head hawkmoth. She weilds a staff made out of dark wood riddled with bones. Her neck-fluff is red and orange.
         Her abdomen is striped and follows similar color pallette to her neckfluff. Her eyes are glowing yellow. Just like regular death's head hawk moths she has
-        a skull on her back. Her wings has slightly more desaturated color to her abdomen and neck-fluff.
+        a white skull on her back side. Her wings have the same dark color as her body, with a tint of abdomen orange.
     </p>
 `;
 

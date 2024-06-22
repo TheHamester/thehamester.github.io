@@ -1,6 +1,19 @@
 {
     "posts": [
         {
+            "title": "Nothing Much",
+            "date": "22.06.2024",
+            "text": [
+                "Not much progress made on the wiki. I did pick a name for the universe, and decided to call it Libra Elemetum, which is Latin for something like \"Element of Balance\". I fixed a few typos today, improved navigation, and added the ability to view full resolution versions of images when you click on them in the content pages. Also I made a cute pixel art yesterday, representing more symbolically how <a href=\"#/wiki/locations/the-nucleus\">The Nucleus</a> is laid out, you can see it on the <a href=\"#/wiki/overseers\">Overseers</a> page.",
+                "Other than that, didn't make much progress on developing the characters or locations, just tiny additions and tried to pick color pallettes for them, which you can see in the post image. Those are in no way final, I don't think. They certainly need tweaking, especially I need to come up with more features for <a href=\"#/wiki/overseers/hyra\">Hyra</a> and <a href=\"#/wiki/overseers/paraoh\">Paraoh</a>. I'm not sure I'm completely happy with the colors, and I still need to come up with distinct designs for the remaining overseers. Preferably something actually original and not just generic shark, griffon vulture, or whatever. <a href=\"#/wiki/overseers/zemothel\">Zemothel</a> currently feels like any other vulture character. Maybe outfits is what will make them unique and not body coloring. Stuff like that always was really difficult for me."
+            ],
+            "image": {
+                "src": "content/img/feed/palletes.png",
+                "style": "square",
+                "width": 300
+            }
+        },
+        {
             "title": "New Mod!!",
             "date": "20.06.2024",
             "text": [
@@ -10,7 +23,7 @@
             "image": {
                 "src": "content/img/feed/random-respawns.png",
                 "style": "square",
-                "width": 150
+                "width": 200
             }
         },
         {
