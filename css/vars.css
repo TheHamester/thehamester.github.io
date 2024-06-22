@@ -1,13 +1,13 @@
 :root {
     --accent-orange: #FFA500;
 
-    --page-border-color: #C9DDFF;
+    --page-border-color: #1a3849;
     --header-color-from: #B45EFF;
     --header-color-to: #783FAA;
-    --bg-color-from: #98c0ff;
-    --bg-color-to: #3f89ff;
-    --page-color: #FFEBC9;
-    --text-color: #383735;
+    --bg-color-from: #6d8ab8;
+    --bg-color-to: #2d62b8;
+    --page-color: #ffdc9f;
+    --text-color: black;
     --link-color: #3c3992;
 
     --header-color-from-dark: #411d61;

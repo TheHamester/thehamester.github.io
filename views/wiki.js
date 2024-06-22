@@ -6,6 +6,5 @@ function wiki() {
             <div class="loader" id="wiki-page-loader"></div>
         </div>
         <div id="wiki-see-also"></div>
-        <div id="back-to-hub"></div>
     `;
 }

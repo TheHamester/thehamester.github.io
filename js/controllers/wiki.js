@@ -57,10 +57,10 @@ async function loadPage(name) {
             const hubLinkAnchorElement = document.createElement("a");
 
             hubLinkAnchorElement.appendChild(hubLinkElement);
-            content.appendChild(hubLinkAnchorElement);
+            content.insertBefore(hubLinkAnchorElement, titleElement);
 
-            hubLinkElement.classList.add("wiki-hub-link");
-            hubLinkElement.innerHTML = hub.title;
+            hubLinkElement.classList.add("wiki-back-to-hub");
+            hubLinkElement.innerHTML = `<< ${hub.title}`;
             hubLinkAnchorElement.setAttribute("href", `#/wiki/${hub.link}`);
         }
 

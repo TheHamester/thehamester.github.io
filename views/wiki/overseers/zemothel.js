@@ -12,7 +12,7 @@ export const html = /* html */ `
 
 export const seeAlso = [
     { title: "Xa", route:"overseers/xa" },
-    { title: "Bogul", route:"overseers/bogul" }
+    { title: "Voz", route:"overseers/voz" }
 ];
 
 export const hub = { title: "Overseers", link: "overseers" };
