@@ -15,7 +15,7 @@ function bio() {
         <h2>Music</h2>
         <p>
             I spend most of my days sitting on my PC, listening to my limited playlist of music, mostly indie, rock, and EDM, 
-                and a lot of the time I listen to the same few songs on repeat until I get tired of them! Also slight fan of indie pop and metal.
+                and a lot of the time I listen to the same few songs on repeat until I get tired of them! Also slight fan of hyper pop and metal.
             You can read more about my musical preferences on the <a href="/#/music">Music</a> page!
         </p>
 

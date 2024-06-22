@@ -16,7 +16,7 @@ function music() {
             <a target="_blank" href="https://music.youtube.com/channel/UCOk35jhmr5852r8_XHQSguQ">Lemon Demon</a>, 
             <a target="_blank" href="https://music.youtube.com/channel/UCbI9iBN07igKwQQ9bJ2Mk4g">Good Kid</a>,
             <a target="_blank" href="https://music.youtube.com/channel/UC5EH9egdct4dmAo3AHwzPBA">The Living Tombstone</a> on Indie Rock side; 
-            <a target="_blank" href="https://www.youtube.com/@underscores">underscores</a> on Indie Pop side, specifically the 
+            <a target="_blank" href="https://www.youtube.com/@underscores">underscores</a> on Hyper Pop side, specifically the 
             <a target="_blank" href="https://www.youtube.com/playlist?list=PLP8-VIosTTwGFG1lutyBq_54kC3X9fCaY">fishmonger</a> album;
             <a target="_blank" href="https://music.youtube.com/channel/UCNWlpvpVcwDOOEge616cKew">Dan Bull</a>,
             <a target="_blank" href="https://music.youtube.com/channel/UCu4RfL3ws2Vdn_McCqbmQEA">Stupendium</a> on the Nerdcore side.
