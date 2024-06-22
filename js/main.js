@@ -15,7 +15,32 @@ window.onclick = (e) => {
     if(e.target.matches("[in-link]")) {
         e.preventDefault();
         document.getElementById(e.target.getAttribute("to")).scrollIntoView();
+        return;
     }
+
+    if(e.target.matches("#recent-obsessions img")) {
+        return;
+    }
+
+    if(e.target.matches("#content img")) {
+        const imageView = document.getElementById("image-view");
+        const imageViewImage = document.getElementById("image-view-image");
+        const imageViewClose = document.getElementById("close-image");
+
+        const imageWidth = Math.min(e.target.naturalWidth, 600);
+        const imageHeight = imageWidth * e.target.naturalHeight / e.target.naturalWidth;
+
+        imageViewImage.setAttribute("src", e.target.getAttribute("src"));
+        imageViewImage.setAttribute("width", imageWidth);
+
+        imageView.style.display = "block";
+        imageViewClose.style.transform = `translate(calc(-50% + ${imageWidth}px / 2), calc(-50% - ${imageHeight}px / 2))`;
+    }
+}
+
+function closeImageView() {
+    const imageView = document.getElementById("image-view");
+    imageView.style.display = "none";
 }
 
 function navigate(hash) {

@@ -68,11 +68,15 @@ function createSongElement(song) {
     const innerDiv = document.createElement("div");
     const anchor = document.createElement("a");
     const img = document.createElement("img");
+    const imgAnchor = document.createElement("a");
+
+    imgAnchor.appendChild(img);
+    imgAnchor.setAttribute("href", song.url);
 
     const videoId = new URL(song.url).searchParams.get("v");
     img.setAttribute("width", 60);
     img.setAttribute("src", `https://img.youtube.com/vi/${videoId}/0.jpg`);
-    div.appendChild(img);
+    div.appendChild(imgAnchor);
     div.appendChild(innerDiv);
 
     anchor.setAttribute("target", "_blank");
