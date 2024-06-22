@@ -10,10 +10,10 @@ export const html = /* html */ `
     </p>
 
     <h2>Relationships</h2>
-    <p>
-        Best friends with with <a href="/#/wiki/overseers/frysen">Frysen</a> and <a href="/#/wiki/divinities/sedosa">Sedosa</a>.
+    <ul>
+        <li>Best friends with with <a href="/#/wiki/overseers/frysen">Frysen</a> and <a href="/#/wiki/divinities/sedosa">Sedosa</a>.</li>
         <li>She and <a href="/#/wiki/divinities/sedosa">Sedosa</a> often meet on the <a href="/#/wiki/locations/island-pyx">Island Pyx</a>.</li>
-    </p>
+    </ul>
 `;
 
 export const seeAlso = [
