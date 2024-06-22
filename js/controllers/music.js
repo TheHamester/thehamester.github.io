@@ -72,6 +72,7 @@ function createSongElement(song) {
 
     imgAnchor.appendChild(img);
     imgAnchor.setAttribute("href", song.url);
+    imgAnchor.setAttribute("target", "_blank");
 
     const videoId = new URL(song.url).searchParams.get("v");
     img.setAttribute("width", 60);
