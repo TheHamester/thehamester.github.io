@@ -9,7 +9,7 @@ export const html = /* html */ `
     <h2>Appearance</h2>
     <p>
         His physical form resembles an arctic fox with black fur. He has frost light-blue hands and feet. 
-        His eyes have a dual colored (blue and orange) iris, same as his brother <a href="/#/wiki/overseers/hamester">Hamester</a>. 
+        His eyes have a dual colored (blue and orange) iris, same as his brother <a href="/#/wiki/overseers/hamester">Hamester</a>, except their order is mirrored. 
         He has a scar on his chest, as a result of a cheap attack by an unknown corvid entity.
     </p>
 `;

@@ -28,7 +28,7 @@ window.onclick = (e) => {
         const imageViewClose = document.getElementById("close-image");
 
         const imageWidth = Math.min(e.target.naturalWidth, 600);
-        const imageHeight = imageWidth * e.target.naturalHeight / e.target.naturalWidth;
+        const imageHeight = Math.min(imageWidth * e.target.naturalHeight / e.target.naturalWidth, window.innerHeight - 200);
 
         imageViewImage.setAttribute("src", e.target.getAttribute("src"));
         imageViewImage.setAttribute("width", imageWidth);

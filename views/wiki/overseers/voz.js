@@ -7,8 +7,8 @@ export const html = /* html */ `
 
     <h2>Appearance</h2>
     <p>
-        Their physical form resembles a gynandromorphic<sup>*</sup> owl, with one half of their body having lighter gray with a bit of blue feathers, 
-        and the other half having darker tint of the same color, cyan outlined purple eyes and yellow beak.
+        Their physical form resembles a gynandromorphic<sup>*</sup> owl, with one half of their body having lighter gray with just a bit of blue feathers, 
+        and the other half having darker and more blue tint of the same color, cyan outlined purple eyes and yellow beak.
         They wear a light desaturated brown robe with red outlines.
     </p>
 

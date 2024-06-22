@@ -5,19 +5,6 @@
     margin: 0 auto;
 }
 
-.song {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-self: center;
-    gap: var(--content-margin);
-    margin: 5px;
-}
-
-.song p {
-    min-width: 200px;
-}
-
 #recent-obsessions .song-block {
     margin: var(--content-margin) 0;
 }
@@ -52,9 +39,24 @@
 
 #load-more-button {
     display: none;
-    text-align: center;
     font-size: 16px;
     color: var(--link-color);
+    margin: 0 auto;
+    text-align: center;
+    max-width: 100px;
+}
+
+.song {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-self: center;
+    gap: var(--content-margin);
+    margin: 5px;
+}
+
+.song p {
+    min-width: 200px;
 }
 
 .dark * #recent-obsessions div {

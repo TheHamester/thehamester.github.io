@@ -13,6 +13,7 @@ export const html = /* html */ `
         Her physical form resembles a desaturated yellow furred moth covered in green glowing in the dark vanes. 
         Neck-fluff has desaturated brownish color. Her bushy antennae are bright yellow and glow in the dark. 
         Her bright green eyes also glow in the dark. She has a staff made out of birchwood with an orb on top of it.
+        Her abdomen and wings has similar color to her neck-fluff.
     </p>
 `;
 
