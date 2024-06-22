@@ -55,11 +55,13 @@ async function loadPage(name) {
         if(hub) {
             const hubLinkElement = document.createElement("div");
             const hubLinkAnchorElement = document.createElement("a");
-            hubLinkAnchorElement.setAttribute("href", `#/wiki/${hub.link}`);
-            hubLinkElement.appendChild(hubLinkAnchorElement);
-            hubLinkElement.classList.add("wiki-hub-link");
-            hubLinkAnchorElement.innerHTML = hub.title;
+            
+            hubLinkAnchorElement.appendChild(hubLinkElement);
             content.appendChild(hubLinkElement);
+
+            hubLinkElement.classList.add("wiki-hub-link");
+            hubLinkAnchorElement.setAttribute("href", `#/wiki/${hub.link}`);
+            hubLinkAnchorElement.innerHTML = hub.title;
         }
 
         wikiPageElement.innerHTML = html;
