@@ -1,7 +1,7 @@
 export const title = "Voz";
 export const html = /* html */ `
     <p>
-        Voz [vɔs] (They/Them) - God of Air, one of the eight folowers of <a href="/#/wiki/overseers/xa">Xa</a>, who are in control of the element of air. 
+        Voz [vɔs] (They/Them) - Deity of Air, one of the eight folowers of <a href="/#/wiki/overseers/xa">Xa</a>, who are in control of the element of air. 
         They are in control of all things in the gaseous state. On the lower level they may create the strongest of hurricanes and tornadoes.
     </p>
 
