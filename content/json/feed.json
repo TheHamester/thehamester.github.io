@@ -1,6 +1,19 @@
 {
     "posts": [
         {
+            "title": "New Hit Indication Update",
+            "date": "24.06.2024",
+            "text": [
+                "Well, today has been a long day, of debuggin my math, and propagate all new features to all supported by Hit Indication Minecraft versions!.. Took longer than I excepted, as always... But, hey, now you can configure color of indicators and you can enable edge of screen modifiers in place of normal mode, where they appear around your crosshair, because some people prefr those instead.",
+                "Haven't been working on wiki much... also new update for Random Respawns and another small inventory related mod is coming soon..."
+            ],
+            "image": {
+                "src": "content/img/feed/is_this_javascript.png",
+                "style": "square",
+                "width": 250
+            }
+        },
+        {
             "title": "Nothing Much",
             "date": "22.06.2024",
             "text": [

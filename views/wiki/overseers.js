@@ -15,8 +15,8 @@ export const html = /* html */ `
         <li><a href="/#/wiki/overseers/voz">Voz</a> the Aeromancer Owl</li>
         <li><a href="/#/wiki/overseers/hyra">Hyra</a> the Hydromancer Shark</li>
         <li><a href="/#/wiki/overseers/paraoh">Paraoh</a> the Atmomancer Shark</li>
-        <li><a href="/#/wiki/overseers/faenah">Faenah</a> Physiomancer Moth</li>
-        <li><a href="/#/wiki/overseers/tamuth">Tamuth</a> the Necromancer Moth</li>
+        <li><a href="/#/wiki/overseers/faenah">Faenah</a> the Physiomancer Moth</li>
+        <li><a href="/#/wiki/overseers/tamuth">Tamuth</a> the Fthoramancer Moth</li>
     </ul>
 
     <h2>Reincarnation</h2>
