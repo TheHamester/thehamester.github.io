@@ -14,7 +14,6 @@ async function wikiOnMount() {
 
     const end = split[split.length - 1] ? split.length : split.length - 1;
     await loadPage(split.slice(2, end).join("/"));
-    document.body.scrollIntoView();
 }
 
 async function loadPage(name) {

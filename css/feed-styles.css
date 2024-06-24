@@ -1,14 +1,13 @@
 @import "vars.css";
 
-.center-link {
-    display: block;
-    text-align: center;
-}
-
 #load-more-button {
     display: none;
     font-size: 16px;
     color: var(--link-color);
+}
+
+#back-to-feed {
+    display: none;
 }
 
 .read-more-button {
@@ -34,4 +33,17 @@
 .post-a-right {
     text-align: right;
     margin-right: 100px;
+}
+
+.center-link {
+    display: block;
+    text-align: center;
+}
+
+#posts div h3 a {
+    color: var(--text-color);
+}
+
+.dark * #posts div h3 a {
+    color: var(--text-color-dark);
 }

@@ -41,6 +41,8 @@ window.onclick = (e) => {
 function navigate(hash, params) {
     let view = routes[hash];
 
+    document.body.scrollIntoView();
+
     if(view) {
         document.getElementById("content").innerHTML = view.render();
         view.onMount(parseParams(params));

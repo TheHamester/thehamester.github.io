@@ -9,21 +9,19 @@ async function loadFeed(params) {
     imagesLoaded = 0;
     postList = null;
 
-    const json = await fetchJSON("content/json/feed.json");
-    postList = json.posts;
+    if(!postList) {
+        const json = await fetchJSON("content/json/feed.json");
+        postList = json.posts;
+    }
 
-    if(!params) {
+    if(params && params.id && params.id >= 0 && params.id < postList.length)
+        loadOnePost(params.id);
+    else {
         getMorePosts();
 
         const loadMoreButton = document.getElementById("load-more-button");
         if(loadMoreButton)
             loadMoreButton.style.display = "block";
-    }
-    else if(params.id && params.id >= 0 && params.id < postList.length)
-        loadOnePost(params.id);
-    else {
-        navigate("#/404", null);
-        return;
     }
 
     document.getElementById("posts").removeChild(document.getElementById("posts-loader"));
@@ -36,7 +34,7 @@ function getMorePosts() {
     const end = Math.min(postsLoaded + postPagination, postList.length);
     const postsDiv = document.getElementById("posts");
     for(let i = postsLoaded; i < end; i++) {
-        const postDiv = createPostDiv(postList[i]);
+        const postDiv = createPostDiv(postList[i], false);
         postsDiv.appendChild(postDiv);
         if(i != postList.length - 1) {
             const hr = document.createElement("hr");
@@ -58,23 +56,42 @@ function loadOnePost(id) {
         return;
 
     const postsDiv = document.getElementById("posts");
-    const postDiv = createPostDiv(postList[postList.length - id - 1]);
+    const postDiv = createPostDiv(postList[postList.length - id - 1], true);
     postsDiv.appendChild(postDiv);
+
+    const backToFeed = document.getElementById("back-to-feed");
+    backToFeed.setAttribute("href", `#/feed`);
+    backToFeed.style.display = "block";
 }
 
-function createPostDiv(post) {
+function createPostDiv(post, displayFull) {
     const postDiv = document.createElement("div");
-    postDiv.setAttribute("id", `post-${postsLoaded}`);
+    postDiv.setAttribute("id", `post-${postList.length - postsLoaded - 1}`);
 
     const header = document.createElement("h3");
-    if(postsLoaded % 2 == 0) {
-        header.classList.add("post-p-left");
-        header.innerHTML = post.title + " - " + post.date;
-    } else {
-        header.classList.add("post-p-right");
-        header.innerHTML = post.date + " - " + post.title;
-    }
     postDiv.appendChild(header);
+    if(!displayFull) {
+        const headerLink = document.createElement("a");
+        headerLink.setAttribute("href", `#/feed?id=${postList.length - postsLoaded - 1}`);
+        header.appendChild(headerLink);
+        if(postsLoaded % 2 == 0) {
+            header.classList.add("post-p-left");
+            headerLink.innerHTML = post.title;
+            header.innerHTML += " - " + post.date;
+        } else {
+            header.classList.add("post-p-right");
+            headerLink.innerHTML = post.title;
+            header.innerHTML = post.date + " - " + header.innerHTML;
+        }
+    } else {
+        if(postsLoaded % 2 == 0) {
+            header.classList.add("post-p-left");
+            header.innerHTML = post.title + " - " + post.date;
+        } else {
+            header.classList.add("post-p-right");
+            header.innerHTML = post.date + " - " + post.title;
+        }
+    }
 
     if(post.image) {
         const image = document.createElement("img");
@@ -90,13 +107,13 @@ function createPostDiv(post) {
         imagesLoaded++;
     }
 
-    for(let i = 0; i < Math.min(3, post.text.length); i++) {
+    for(let i = 0; i < (displayFull ? post.text.length : Math.min(3, post.text.length)); i++) {
         const p = document.createElement("p");
         p.innerHTML = post.text[i];
         postDiv.appendChild(p);
     }
 
-    if(post.text.length > 2) {
+    if(!displayFull && post.text.length > 2) {
         const readMoreA = document.createElement("a");
         readMoreA.classList.add("center-link");
         readMoreA.setAttribute("href", `javascript:readMore(${postsLoaded})`);
