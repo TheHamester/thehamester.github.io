@@ -1,4 +1,4 @@
-function loadProjects() {
+function loadProjects(params) {
     fetch(getURL("content/json/projects.json"))
     .then(async (res) => {
         const json = await res.json();

@@ -30,6 +30,10 @@ ul {
     color: var(--text-color);
 }
 
+#header .nav-links li a svg#rss {
+    display: block;
+}
+
 #page-wrapper {
     position: relative;
     display: flex;

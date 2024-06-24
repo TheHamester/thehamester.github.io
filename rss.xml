@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+
+<title>Hamester</title>
+<link>https://thehamester.github.io/</link>
+<description>RSS Feed for my personal website updates</description>
+
+<item>
+    <title>New Hit Indication Update</title>
+    <link>https://thehamester.github.io/#/feed?id=6</link>
+    <pubDate>Mon, 25 Jul 2024</pubDate>
+</item>
+
+<item>
+    <title>Nothing Much</title>
+    <link>https://thehamester.github.io/#/feed?id=5</link>
+    <pubDate>Sat, 22 Jul 2024</pubDate>
+</item>
+
+<item>
+    <title>New Mod!!</title>
+    <link>https://thehamester.github.io/#/feed?id=4</link>
+    <pubDate>Thu, 19 Jul 2024</pubDate>
+</item>
+
+<item>
+    <title>Hit Indicate my Balls</title>
+    <link>https://thehamester.github.io/#/feed?id=3</link>
+    <pubDate>Wed, 19 Jul 2024</pubDate>
+</item>
+
+<item>
+    <title>Wiki Section</title>
+    <link>https://thehamester.github.io/#/feed?id=2</link>
+    <pubDate>Mon, 17 Jul 2024</pubDate>
+</item>
+
+<item>
+    <title>Improvement</title>
+    <link>https://thehamester.github.io/#/feed?id=1</link>
+    <pubDate>Sun, 16 Jul 2024</pubDate>
+</item>
+
+<item>
+    <title>Feed is up!!!!</title>
+    <link>https://thehamester.github.io/#/feed?id=0</link>
+    <pubDate>Sat, 15 Jul 2024</pubDate>
+</item>
+
+
+</channel>
+</rss>

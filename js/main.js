@@ -1,12 +1,12 @@
 let prevRoute = "";
 
 const routes = {
-    "#/": { render: bio, onMount: () => {} },
-    "#/404": { render: error404, onMount: () => {} },
+    "#/": { render: bio, onMount: (params) => {} },
+    "#/404": { render: error404, onMount: (params) => {} },
     "#/feed": { render: feed, onMount: loadFeed },
     "#/wiki": { render: wiki, onMount: wikiOnMount  },
     "#/projects": { render: projects, onMount: loadProjects },
-    "#/music": { render: music, onMount: () => { loadRecentObsessions(); loadMyMusic(); } }
+    "#/music": { render: music, onMount: (params) => { loadRecentObsessions(); loadMyMusic(); } }
 };
 
 window.onhashchange = (e) => { route(); };
@@ -38,39 +38,51 @@ window.onclick = (e) => {
     }
 }
 
-function closeImageView() {
-    const imageView = document.getElementById("image-view");
-    imageView.style.display = "none";
-}
-
-function navigate(hash) {
+function navigate(hash, params) {
     let view = routes[hash];
 
     if(view) {
         document.getElementById("content").innerHTML = view.render();
-        view.onMount();
+        view.onMount(parseParams(params));
         recalculatePageResolution();
         prevRoute = hash;
         return;
     }
 
     if(hash) {
-        navigate("#/404");
+        navigate("#/404", null);
         return;
     }
-    navigate("#/");
+    navigate("#/", null);
+}
+
+function parseParams(p) {
+    if(!p)
+        return null;
+
+    const regex = /([^&=#]+)=([^&#]*)/g;
+    const params = {};
+    let match = null;
+
+    while(match = regex.exec(p)) {
+        params[match[1]] = match[2];
+    }
+
+    return params;
 }
 
 function route() {
-    const split = window.location.hash.split("/");
+    const splitByQuestion = window.location.hash.split("?");
+    const split = splitByQuestion[0].split("/");
+    const params = splitByQuestion[1];
 
     if(split.length == 0 || split.length == 1) {
-        navigate(window.location.hash);
+        navigate(window.location.hash, params);
         return;
     }
 
     if(split.length >= 2) {
-        navigate(`#/${split[1]}`);
+        navigate(`#/${split[1]}`, params);
         return;
     }
 }
@@ -119,4 +131,9 @@ function initTheme() {
     }
 
     document.getElementById("theme-icon-moon").classList.add("theme-icon-visible");
+}
+
+function closeImageView() {
+    const imageView = document.getElementById("image-view");
+    imageView.style.display = "none";
 }

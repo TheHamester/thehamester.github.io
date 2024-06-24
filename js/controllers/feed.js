@@ -4,19 +4,29 @@ let postsLoaded;
 let imagesLoaded;
 let postList;
 
-async function loadFeed() {
+async function loadFeed(params) {
     postsLoaded = 0;
     imagesLoaded = 0;
     postList = null;
 
     const json = await fetchJSON("content/json/feed.json");
     postList = json.posts;
-    getMorePosts();
-    document.getElementById("posts").removeChild(document.getElementById("posts-loader"));
 
-    const loadMoreButton = document.getElementById("load-more-button");
-    if(loadMoreButton)
-        loadMoreButton.style.display = "block";
+    if(!params) {
+        getMorePosts();
+
+        const loadMoreButton = document.getElementById("load-more-button");
+        if(loadMoreButton)
+            loadMoreButton.style.display = "block";
+    }
+    else if(params.id && params.id >= 0 && params.id < postList.length)
+        loadOnePost(params.id);
+    else {
+        navigate("#/404", null);
+        return;
+    }
+
+    document.getElementById("posts").removeChild(document.getElementById("posts-loader"));
 }
 
 function getMorePosts() {
@@ -41,6 +51,15 @@ function getMorePosts() {
     loadMoreButton.classList.add("center-link");
     if(postsLoaded >= postList.length)
         document.getElementById("content").removeChild(loadMoreButton);
+}
+
+function loadOnePost(id) {
+    if(!postList)
+        return;
+
+    const postsDiv = document.getElementById("posts");
+    const postDiv = createPostDiv(postList[postList.length - id - 1]);
+    postsDiv.appendChild(postDiv);
 }
 
 function createPostDiv(post) {

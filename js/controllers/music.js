@@ -4,7 +4,7 @@ let loadedSongs;
 let songList;
 let mySongList;
 
-async function loadRecentObsessions() {
+async function loadRecentObsessions(params) {
     loadedSongs = 0;
     songList = undefined;
     mySongList - undefined;
