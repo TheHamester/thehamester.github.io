@@ -31,7 +31,7 @@
             "date": "20.06.2024",
             "text": [
                 "I released a new small mod that changes the way respawn mechanics work by randomizing the respawn location after each death, making it like semi-hardcore(ish).",
-                "You can read more about what config options you can change on the CurseForge, Modrinth (Review Pending), GitHub, or info in the Projects tab."
+                "You can read more about what config options you can change on the CurseForge, Modrinth, GitHub, or info in the Projects tab."
             ],
             "image": {
                 "src": "content/img/feed/random-respawns.png",
