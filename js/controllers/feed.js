@@ -14,7 +14,7 @@ async function loadFeed(params) {
         postList = json.posts;
     }
 
-    if(params && params.id && params.id >= 0 && params.id < postList.length)
+    if(params && params.id)
         loadOnePost(params.id);
     else {
         getMorePosts();
@@ -59,6 +59,13 @@ function loadOnePost(id) {
         return;
 
     const postsDiv = document.getElementById("posts");
+    if(id < 0 || id >= postList.length) {
+        const nothingHere = document.createElement("h2");
+        nothingHere.innerHTML = "Nothing here...";
+        postsDiv.appendChild(nothingHere);
+        return;
+    }
+
     const postDiv = createPostDiv(postList[postList.length - id - 1], true);
     postsDiv.appendChild(postDiv);
 

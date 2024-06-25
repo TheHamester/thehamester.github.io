@@ -29,7 +29,7 @@ let sparkles = [];
 let spawnSparklesInterval = null;
 const contetResizeObserver = new ResizeObserver(recalculatePageResolution);
 
-window.addEventListener("resize", (e) => {
+window.onresize = (e) => {
     recalculatePageResolution();
     if(pageWidth > 900) {
         spawnBackgroundEffects();
@@ -42,7 +42,7 @@ window.addEventListener("resize", (e) => {
             sparkles[i].shouldBeRemoved = true;
         spawnSparklesInterval = undefined;
     }
-});
+};
 
 window.onload = () => {
     contetResizeObserver.observe(document.getElementById("content"));
