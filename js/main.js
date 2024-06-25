@@ -1,16 +1,10 @@
+const routes = ["", "404", "feed", "wiki", "projects", "music"];
+const paramsRegex = /([^&=#]+)=([^&#]*)/g;
+
 let prevRoute = "";
 
-const routes = {
-    "#/": { render: bio, onMount: (params) => {} },
-    "#/404": { render: error404, onMount: (params) => {} },
-    "#/feed": { render: feed, onMount: loadFeed },
-    "#/wiki": { render: wiki, onMount: wikiOnMount  },
-    "#/projects": { render: projects, onMount: loadProjects },
-    "#/music": { render: music, onMount: (params) => { loadRecentObsessions(); loadMyMusic(); } }
-};
-
-window.onhashchange = (e) => { route(); };
-window.addEventListener("DOMContentLoaded", e => { route(); });
+window.onhashchange = async (e) => { await route(); };
+window.addEventListener("DOMContentLoaded", async e => { await route(); });
 window.onclick = (e) => {
     if(e.target.matches("[in-link]")) {
         e.preventDefault();
@@ -38,53 +32,55 @@ window.onclick = (e) => {
     }
 }
 
-function navigate(hash, params) {
-    let view = routes[hash];
+async function loadView(jsFileName, params) {
+    const backToFeed = document.getElementById("back-link");
+    backToFeed.style.display = "none";
+    
+    await import(jsFileName).then(async (module) => {
+        document.getElementById("page-title").innerHTML = await module.title;
+        document.getElementById("content").innerHTML = await module.html;
+        (await module.onMount)(params);
+    });
+}
 
+async function navigate(hash, params) {
     document.body.scrollIntoView();
 
-    if(view) {
-        document.getElementById("content").innerHTML = view.render();
-        view.onMount(parseParams(params));
+    if(routes.includes(hash)) {
+        await loadView(hash ? `/views/${hash}.js` : `/views/bio.js`, parseParams(params));
         recalculatePageResolution();
         prevRoute = hash;
         return;
     }
 
-    if(hash) {
-        navigate("#/404", null);
-        return;
-    }
-    navigate("#/", null);
+    await navigate("404", null);
 }
 
-function parseParams(p) {
-    if(!p)
+function parseParams(params) {
+    if(!params)
         return null;
 
-    const regex = /([^&=#]+)=([^&#]*)/g;
-    const params = {};
+    const parsed = {};
     let match = null;
 
-    while(match = regex.exec(p)) {
-        params[match[1]] = match[2];
-    }
-
-    return params;
+    while(match = paramsRegex.exec(params))
+        parsed[match[1]] = match[2];
+    
+    return parsed;
 }
 
-function route() {
+async function route() {
     const splitByQuestion = window.location.hash.split("?");
     const split = splitByQuestion[0].split("/");
     const params = splitByQuestion[1];
 
     if(split.length == 0 || split.length == 1) {
-        navigate(window.location.hash, params);
+        await navigate(window.location.hash.slice(2), params);
         return;
     }
 
     if(split.length >= 2) {
-        navigate(`#/${split[1]}`, params);
+        await navigate(split[1], params);
         return;
     }
 }

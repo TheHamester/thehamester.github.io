@@ -30,8 +30,9 @@ ul {
     color: var(--text-color);
 }
 
-#header .nav-links li a svg#rss {
-    display: block;
+#back-link {
+    display: none;
+    color: var(--link-color);
 }
 
 #page-wrapper {
@@ -144,6 +145,10 @@ ul {
 
 #header .nav-links li a svg {
     display: none;
+}
+
+#header .nav-links li a svg#rss {
+    display: block;
 }
 
 #header .nav-links li a svg.theme-icon-visible {

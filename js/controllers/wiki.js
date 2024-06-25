@@ -3,28 +3,28 @@ async function wikiOnMount() {
     const split = hash.split("/");
 
     if(split.length < 2) {
-        navigate("#/404");
+        navigate("404");
         return;
     }
 
     if(split.length == 2 || split.length == 3 && split[2] == "") {
-        await loadPage("main");
+        await loadWikiPage("main");
         return;
     }
 
     const end = split[split.length - 1] ? split.length : split.length - 1;
-    await loadPage(split.slice(2, end).join("/"));
+    await loadWikiPage(split.slice(2, end).join("/"));
 }
 
-async function loadPage(name) {
+async function loadWikiPage(name) {
     if(!wikiPages.includes(name)) {
-        navigate("#/404");
+        navigate("404");
         return;
     }
 
     await import(`/views/wiki/${name}.js`).then(async (module) => {
         const wikiPageElement = document.getElementById("wiki-page");
-        const titleElement = document.getElementById("wiki-page-title");
+        const titleElement = document.getElementById("page-title");
         const seeAlsoElement = document.getElementById("wiki-see-also");
 
         const html = await module.html;
@@ -47,19 +47,16 @@ async function loadPage(name) {
             }
         }
 
+        const hubLinkAnchorElement = document.getElementById("back-link");
         const content = document.getElementById("content");
         const hr = document.createElement("hr");
         hr.classList.add("separator");
         content.insertBefore(hr, seeAlsoElement);
+        hubLinkAnchorElement.style.display = "none";
         if(hub) {
-            const hubLinkElement = document.createElement("div");
-            const hubLinkAnchorElement = document.createElement("a");
+            hubLinkAnchorElement.style.display = "block";
 
-            hubLinkAnchorElement.appendChild(hubLinkElement);
-            content.insertBefore(hubLinkAnchorElement, titleElement);
-
-            hubLinkElement.classList.add("wiki-back-to-hub");
-            hubLinkElement.innerHTML = `<< ${hub.title}`;
+            hubLinkAnchorElement.innerHTML = `<< ${hub.title}`;
             hubLinkAnchorElement.setAttribute("href", `#/wiki/${hub.link}`);
         }
 

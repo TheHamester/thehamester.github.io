@@ -1,7 +1,8 @@
-function music() {
-    return /* html */ `
-    <h1>Music</h1>
-    <hr>
+export const title = "Music";
+
+export const onMount = (params) => { loadRecentObsessions(); loadMyMusic(); }
+
+export const html = /* html */ `
     <p>
         My music taste mostly contains from EDM, Indie Rock, Hyper Pop, Nerdcore and Metal. When I find new music I like, I usually relisten the hell out of it
         on repeat for a while, and as a result a lot of the time I have a strong association of a song or an album with a certain time period. I have 2 main 
@@ -47,5 +48,4 @@ function music() {
                 <div class="loader" id="my-songs-loader"></div>
             </div>
         </p>
-    `;
-}
+`;

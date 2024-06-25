@@ -49,6 +49,9 @@ function getMorePosts() {
     loadMoreButton.classList.add("center-link");
     if(postsLoaded >= postList.length)
         document.getElementById("content").removeChild(loadMoreButton);
+
+    const backToFeed = document.getElementById("back-link");
+    backToFeed.style.display = "none";
 }
 
 function loadOnePost(id) {
@@ -59,7 +62,8 @@ function loadOnePost(id) {
     const postDiv = createPostDiv(postList[postList.length - id - 1], true);
     postsDiv.appendChild(postDiv);
 
-    const backToFeed = document.getElementById("back-to-feed");
+    const backToFeed = document.getElementById("back-link");
+    backToFeed.innerHTML = "<< Back to Feed";
     backToFeed.setAttribute("href", `#/feed`);
     backToFeed.style.display = "block";
 }

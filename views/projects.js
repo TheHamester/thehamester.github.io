@@ -1,9 +1,9 @@
-function projects() {
-    return /* html */ `
-        <h1>Projects</h1>
-        <hr>
-        <div id="projects">
-            <div class="loader" id="projects-loader"></div>
-        </div>
-    `;
-}
+export const title = "Projects";
+
+export const onMount = (params) => loadProjects();
+
+export const html =  /* html */ `
+    <div id="projects">
+        <div class="loader" id="projects-loader"></div>
+    </div>
+`;

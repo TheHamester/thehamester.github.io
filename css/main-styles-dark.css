@@ -8,6 +8,10 @@ html:has(.dark) {
     border-color: var(--text-color-dark);
 }
 
+.dark * #back-link {
+    color: var(--link-color-dark);
+}
+
 .dark #footer {
     background: linear-gradient(to top, var(--header-color-from-dark), var(--header-color-to-dark));
 }
