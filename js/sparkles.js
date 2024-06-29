@@ -27,7 +27,7 @@ let pageWidth = 0;
 let pageHeight = 0;
 let sparkles = [];
 let spawnSparklesInterval = null;
-const contetResizeObserver = new ResizeObserver(recalculatePageResolution);
+let contentResizeObserver = null;
 
 window.onresize = (e) => {
     recalculatePageResolution();
@@ -45,12 +45,16 @@ window.onresize = (e) => {
 };
 
 window.onload = () => {
-    contetResizeObserver.observe(document.getElementById("content"));
+    contentResizeObserver = new ResizeObserver(recalculatePageResolution);
+    contentResizeObserver.observe(document.getElementById("content"));
     spawnBackgroundEffects();
 }
 
 function recalculatePageResolution() {
     const content = document.getElementById("content");
+    if(!content || !document.body || !document.documentElement)
+        return;
+
     pageWidth = Math.max(document.body.scrollWidth, document.body.offsetWidth, 
         document.documentElement.clientWidth, document.documentElement.scrollWidth, document.documentElement.offsetWidth);
     pageHeight = Math.max(content.scrollHeight, content.offsetHeight);

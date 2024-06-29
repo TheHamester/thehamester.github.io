@@ -1,6 +1,12 @@
 {
     "songs": [
         {
+            "artist": "mididuck",
+            "name": "flickering",
+            "url": "https://www.youtube.com/watch?v=qLJe-osKQzw", 
+            "description": "cute vocal chops"
+        },
+        {
             "artist": "underscores",
             "name": "Loansharks (feat. gabby start)",
             "url": "https://www.youtube.com/watch?v=2U4UOH7mSpU", 
