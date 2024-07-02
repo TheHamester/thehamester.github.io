@@ -1,6 +1,24 @@
 {
     "songs": [
         {
+            "artist": "The Stupendium",
+            "name": "The House Always Wins",
+            "url": "https://www.youtube.com/watch?v=nWJ1PcSt73E", 
+            "description": "The house always wins..."
+        },
+        {
+            "artist": "Dan Bull",
+            "name": "Quiet Please!",
+            "url": "https://www.youtube.com/watch?v=eW-iEHkU6nU", 
+            "description": "hush hush hush indeed"
+        },
+        {
+            "artist": "Dan Bull",
+            "name": "Flocking Hostile",
+            "url": "https://www.youtube.com/watch?v=vK55-9bYiKM", 
+            "description": "sheep villain ark goes hard"
+        },
+        {
             "artist": "mididuck",
             "name": "flickering",
             "url": "https://www.youtube.com/watch?v=qLJe-osKQzw", 
