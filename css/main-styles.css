@@ -30,6 +30,12 @@ ul {
     color: var(--text-color);
 }
 
+#credits-link {
+    color: white;
+    display: block;
+    text-align: center;
+}
+
 #back-link {
     display: none;
     color: var(--link-color);
@@ -163,6 +169,9 @@ ul {
     border-style: solid;
     min-width: var(--page-width);
     z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #content-wrapper {

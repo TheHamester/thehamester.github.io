@@ -1,4 +1,4 @@
-const routes = ["", "404", "feed", "wiki", "projects", "music"];
+const routes = ["", "404", "feed", "wiki", "projects", "music", "credits"];
 const paramsRegex = /([^&=#]+)=([^&#]*)/g;
 
 let prevRoute = "";

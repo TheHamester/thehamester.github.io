@@ -1,4 +1,5 @@
 const postPagination = 3;
+const paragraphsUntilReadMore = 3;
 
 let postsLoaded;
 let imagesLoaded;
@@ -118,17 +119,17 @@ function createPostDiv(post, displayFull) {
         imagesLoaded++;
     }
 
-    for(let i = 0; i < (displayFull ? post.text.length : Math.min(3, post.text.length)); i++) {
+    for(let i = 0; i < (displayFull ? post.text.length : Math.min(paragraphsUntilReadMore, post.text.length)); i++) {
         const p = document.createElement("p");
         p.innerHTML = post.text[i];
         postDiv.appendChild(p);
     }
 
-    if(!displayFull && post.text.length > 2) {
+    if(!displayFull && post.text.length > paragraphsUntilReadMore) {
         const readMoreA = document.createElement("a");
         readMoreA.classList.add("center-link");
-        readMoreA.setAttribute("href", `javascript:readMore(${postsLoaded})`);
-        readMoreA.setAttribute("id", `post-${postsLoaded}-read-more`)
+        readMoreA.setAttribute("href", `javascript:readMore(${postList.length - postsLoaded - 1})`);
+        readMoreA.setAttribute("id", `post-${postList.length - postsLoaded - 1}-read-more`)
         readMoreA.innerHTML = "Read More";
         postDiv.appendChild(readMoreA);
     }
@@ -138,9 +139,9 @@ function createPostDiv(post, displayFull) {
 
 function readMore(id) {
     const postDiv = document.getElementById(`post-${id}`);
-    for(let i = 2; i < postList[id].text.length; i++) {
+    for(let i = paragraphsUntilReadMore; i < postList[postList.length - id - 1].text.length; i++) {
         const p = document.createElement("p");
-        p.innerHTML = postList[id].text[i];
+        p.innerHTML = postList[postList.length - id - 1].text[i];
         postDiv.appendChild(p);
     }
 

@@ -2,11 +2,11 @@
     --accent-orange: #FFA500;
 
     --page-border-color: #1a3849;
-    --header-color-from: #B45EFF;
-    --header-color-to: #783FAA;
-    --bg-color-from: #6d8ab8;
-    --bg-color-to: #2d62b8;
-    --page-color: #ffdc9f;
+    --header-color-from: #8e44cf;
+    --header-color-to: #582a80;
+    --bg-color-from: #5371a1;
+    --bg-color-to: #2558aa;
+    --page-color: #ffc6a4;
     --text-color: black;
     --link-color: #3c3992;
 
@@ -33,7 +33,7 @@
     --page-width: 800px;
     --page-height: 1000px;
     --header-height: 80px;
-    --footer-height: 20px;
+    --footer-height: 40px;
     --paragraph-indent: 3ch;
     --border-width: 5px;
     --content-padding: 20px;

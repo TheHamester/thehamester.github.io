@@ -1,6 +1,20 @@
 {
     "posts": [
         {
+            "title": "I need a break...",
+            "date": "06.07.2024",
+            "text": [
+                "Haven't been posting for a while, and I think I got burntout from working on Hit Indication... I won't get into too much detail of what caused it, but I can assure whoever is reading this, its not anyone's fault.",
+                "I realised how spaghetti and bloated Hit Indication has become, and I decided to take a break from woking on it for undetermined amount of time. After my break I'm planning to take my time in refactoring some code and not rushing to get it updates out.",
+                "I've also decided to limit the releases to only 3 main Minecraft versions: 1.12.2, 1.16.5, 1.18.2 and not taking feature requests to avoid any further burn out. You will still be able to download older versions of the mod for earlier supported Minecraft versions, but they will not be recieving any new features. Thank you for your understanding."
+            ],
+            "image": {
+                "src": "content/img/feed/sad_fox.png",
+                "style": "square",
+                "width": 250
+            }
+        },
+        {
             "title": "New Hit Indication Update",
             "date": "24.06.2024",
             "text": [
