@@ -17,7 +17,7 @@ export const html = /* html */ `
 
     <h3>Feed</h3>
     <ul>
-        <li>Sleepy Arctic Fox (Cropped) - <a target="_blank" href="https://www.flickr.com/photos/wcdumonts/8642074270">Source</a> - <a target="_blank" href="https://creativecommons.org/licenses/by-nc/2.0/">License</a></li>
+        <li>Sleepy Arctic Fox (Cropped) - by Mark Dumont - <a target="_blank" href="https://www.flickr.com/photos/wcdumonts/8642074270">Source</a> - <a target="_blank" href="https://creativecommons.org/licenses/by-nc/2.0/">License</a></li>
     </ul>
 
     <h3>Wiki</h3>
