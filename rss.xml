@@ -4,7 +4,11 @@
     <title>Hamester</title>
     <link>https://thehamester.github.io</link>
     <description>Updates in my websites feed section</description>
-
+    <item>
+        <title>New character?</title>
+        <link>https://thehamester.github.io/#/feed?id=8</link>
+        <pubDate>Sun, 14 Jul 2024 21:00:00 GMT</pubDate>
+    </item>
     <item>
         <title>I need a break...</title>
         <link>https://thehamester.github.io/#/feed?id=7</link>

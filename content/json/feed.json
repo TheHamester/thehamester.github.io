@@ -1,12 +1,25 @@
 {
     "posts": [
         {
+            "title": "New character?",
+            "date": "14.07.2024",
+            "text": [
+                "Had a weird dream today: the arc was something like... there was some sort of school assignment or something I had to do, and as a result my brain came up with a new original character for myself. And I could really vividly see it in my dream: it was like a dark purple cat, wearing a grey shirt with a purple/pink skull.",
+                "Also my brain came up with some basic lore, namely that she used to be into gambling, and that she used to be royal guard back from like IX century AD or something who was reincarnated as a cat person in modern days.",
+                "I really liked the idea and decided to make a pixel art of her soon after waking up. I took a lot of inspiration from Mae Borowski from Night in the Woods, and I even see her as having a similar temper. I love her!"
+            ],
+            "image": {
+                "src": "content/img/feed/Leelo.png",
+                "style": "square"
+            }
+        },
+        {
             "title": "I need a break...",
             "date": "06.07.2024",
             "text": [
-                "Haven't been posting for a while, and I think I got burntout from working on Hit Indication... I won't get into too much detail of what caused it, but I can assure whoever is reading this, its not anyone's fault.",
-                "I realised how spaghetti and bloated Hit Indication has become, and I decided to take a break from woking on it for undetermined amount of time. After my break I'm planning to take my time in refactoring some code and not rushing to get it updates out.",
-                "I've also decided to limit the releases to only 3 main Minecraft versions: 1.12.2, 1.16.5, 1.18.2 and not taking feature requests to avoid any further burn out. You will still be able to download older versions of the mod for earlier supported Minecraft versions, but they will not be recieving any new features. Thank you for your understanding."
+                "Haven't been posting for a while, and I think I got burned out from working on Hit Indication... I won't get into too much detail of what caused it, but I can assure whoever is reading this, its not anyone's fault.",
+                "I realized how spaghetti and bloated Hit Indication has become, and I decided to take a break from working on it for undetermined amount of time. After my break I'm planning to take my time in refactoring some code and not rushing to get it updates out.",
+                "I've also decided to limit the releases to only 3 main Minecraft versions: 1.12.2, 1.16.5, 1.18.2 and not taking feature requests to avoid any further burn out. You will still be able to download older versions of the mod for earlier supported Minecraft versions, but they will not be receiving any new features. Thank you for your understanding."
             ],
             "image": {
                 "src": "content/img/feed/sad_fox.png",
@@ -18,7 +31,7 @@
             "title": "New Hit Indication Update",
             "date": "24.06.2024",
             "text": [
-                "Well, today has been a long day of debuggin my math, and propagating all new features to all supported by Hit Indication Minecraft versions!.. Took longer than I excepted, as always... But, hey, now you can configure color of indicators and you can enable edge of screen indicators in place of normal ones that they appear around your crosshair, because some people prefer those instead.",
+                "Well, today has been a long day of debugging my math, and propagating all new features to all supported by Hit Indication Minecraft versions!.. Took longer than I excepted, as always... But, hey, now you can configure color of indicators and you can enable edge of screen indicators in place of normal ones that they appear around your crosshair, because some people prefer those instead.",
                 "Haven't been working on wiki much... also new update for Random Respawns and another small inventory related mod is coming soon..."
             ],
             "image": {
@@ -35,7 +48,7 @@
                 "Other than that, didn't make much progress on developing the characters or locations, just tiny additions and tried to pick color pallettes for them, which you can see in the post image. Those are in no way final, I don't think. They certainly need tweaking, especially I need to come up with more features for <a href=\"#/wiki/overseers/hyra\">Hyra</a> and <a href=\"#/wiki/overseers/paraoh\">Paraoh</a>. I'm not sure I'm completely happy with the colors, and I still need to come up with distinct designs for the remaining overseers. Preferably something actually original and not just generic shark, griffon vulture, or whatever. <a href=\"#/wiki/overseers/zemothel\">Zemothel</a> currently feels like any other vulture character. Maybe outfits is what will make them unique and not body coloring. Stuff like that always was really difficult for me."
             ],
             "image": {
-                "src": "content/img/feed/palletes.png",
+                "src": "content/img/feed/pallets.png",
                 "style": "square",
                 "width": 300
             }
@@ -59,8 +72,8 @@
             "text": [
                 "Today I've been porting my Hit Indication mod to a new Minecraft version 1.21... Usually takes like an hour max: Forge setup, it would do all the decomp for the first time (20 minutes), I would copy all the files from previous version, change a few method names here and there, and I would be good to go...",
                 "Well... decomp did take 20 minutes... to then throw an OutOfMemory exception... after like an hour of trying giving it more RAM, and waiting, I figured I had to set Java version in IntelliJ to Java21, and then the exception didn't happen.",
-                "Ok... now the copying thing, just a few changes with how some objects are created and how you get potion effects from the item stack, not that hard... except for when it came to the main thing - <b>RENDERING THE INDICATORS</b>. They completely removed any event related to Gui redering, and I only found out why when I looked through the forge commit history, because Mojang implemented a better system for layered GUI rendering... which, ofcourse, they didn't leave any API to access... Long story short, I ended up using mixins, for a mod that was going strong without them for a while.",
-                "And then I find out that those APIs do exist in NeoForge, and Forge API feature request template even links to NeoForge Discord server, and to this day I was really confused about what's even the reason there are two different incompatable forks of forge, and it's some drama or something... Maybe I do need to move to NeoForge instead for newer versions of Minecraft idk.",
+                "Ok... now the copying thing, just a few changes with how some objects are created and how you get potion effects from the item stack, not that hard... except for when it came to the main thing - <b>RENDERING THE INDICATORS</b>. They completely removed any event related to Gui rendering, and I only found out why when I looked through the forge commit history, because Mojang implemented a better system for layered GUI rendering... which, of course, they didn't leave any API to access... Long story short, I ended up using mixins, for a mod that was going strong without them for a while.",
+                "And then I find out that those APIs do exist in NeoForge, and Forge API feature request template even links to NeoForge Discord server, and to this day I was really confused about what's even the reason there are two different incompatible forks of forge, and it's some drama or something... Maybe I do need to move to NeoForge instead for newer versions of Minecraft idk.",
                 "Anyway, rant over, been quite a ride today, Hit Indication for 1.21 is out, probably not a big deal, but it IS FOR ME!! Also might release a smaller mod at request of a friend that respawns you in a random location each time you die for 1.18.2, nothing big."
             ],
             "image": {
@@ -73,7 +86,7 @@
             "title": "Wiki Section",
             "date": "17.06.2024",
             "text": [
-                "New website update! Replaced character secion with Wiki Section! Currently there's not a lot written, and a lot of the pages are pretty empty, but in the future I do plan on expanding the universe of my characters.",
+                "New website update! Replaced character section with Wiki Section! Currently there's not a lot written, and a lot of the pages are pretty empty, but in the future I do plan on expanding the universe of my characters.",
                 "I'm really overengineer my personal website lmao..."
             ],
             "image": {
@@ -86,8 +99,8 @@
             "title": "Improvement",
             "date": "16.06.2024",
             "text": [
-                "Hii, maybe it's not something most people would notice on my website, but I refactored some code, and turned it into a single page appplication. Transitions between pages should now be more seemless!", 
-                "And as a result developement is also made easier, with some tiny compromises, but the codebase for the website is more maintainable now, which is of most importance."
+                "Hii, maybe it's not something most people would notice on my website, but I refactored some code, and turned it into a single page application. Transitions between pages should now be more seamless!", 
+                "And as a result development is also made easier, with some tiny compromises, but the codebase for the website is more maintainable now, which is of most importance."
             ],
             "image": {
                 "src": "content/img/feed/js_meme.png",
@@ -99,7 +112,7 @@
             "title": "Feed is up!!!!",
             "date": "15.06.2024",
             "text": [
-                "This is the section of my website that I will use for posting some updates, maybe on some projects, or just to drop some random thoughts! Not sure how often there will be anything new, but I've been actively working on imporving developement environment for this website, and I haven't been so passionate about developing something for a while.", 
+                "This is the section of my website that I will use for posting some updates, maybe on some projects, or just to drop some random thoughts! Not sure how often there will be anything new, but I've been actively working on improving development environment for this website, and I haven't been so passionate about developing something for a while.", 
                 "There are also some little mods I'm working on and off with my friend, so if I have any meaningful updates on these they will also appear here and also in Upcoming Projects section... So... stay tuned! Also... enjoy the cute foxingtons flying around!"
             ],
             "image": {
