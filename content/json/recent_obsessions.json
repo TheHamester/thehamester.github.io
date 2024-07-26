@@ -1,6 +1,30 @@
 {
     "songs": [
         {
+            "artist": "Porter Robinson",
+            "name": "Easier to Love You",
+            "url": "https://www.youtube.com/watch?v=ss_B6NKZ00U", 
+            "description": "chill anc cute"
+        },
+        {
+            "artist": "Porter Robinson",
+            "name": "Is There Really No Happiness",
+            "url": "https://www.youtube.com/watch?v=PoTu269qSnw", 
+            "description": "you know people die from nostalgia? jkkk"
+        },
+        {
+            "artist": "Porter Robinson ft. Frost Children",
+            "name": "Mona Lisa",
+            "url": "https://www.youtube.com/watch?v=0IVpAlFtLdQ", 
+            "description": "damn"
+        },
+        {
+            "artist": "Porter Robinson",
+            "name": "Kitsune Maison Freestyle",
+            "url": "https://www.youtube.com/watch?v=WfzG3Yia7Xg", 
+            "description": "porter rap??"
+        },
+        {
             "artist": "Sub Urban",
             "name": "Cradles",
             "url": "https://www.youtube.com/watch?v=Hn4sfC2PbhI", 
@@ -58,7 +82,7 @@
             "artist": "The Stupendium & Dan Bull",
             "name": "Production Line",
             "url": "https://www.youtube.com/watch?v=HYdOZOdjXnI", 
-            "description": "Giftbox... MINE!"
+            "description": "Gift box... MINE!"
         },
         {
             "artist": "Dan Bull",
@@ -133,7 +157,7 @@
             "description": "Sad garfld..."
         },
         {
-            "artist": "Last Dinosours",
+            "artist": "Last Dinosaurs",
             "name": "Sense",
             "url": "https://www.youtube.com/watch?v=0rXdQRiN4-4", 
             "description": "Good vibe!"
