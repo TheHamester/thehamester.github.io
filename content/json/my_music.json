@@ -1,6 +1,10 @@
 {
     "songs": [
         {
+            "name": "Das Faya",
+            "src": "content/audio/Das Faya.mp3"
+        },
+        {
             "name": "Electro Creation",
             "src": "content/audio/Electro Creation.mp3"
         },
