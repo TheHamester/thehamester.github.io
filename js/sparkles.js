@@ -70,7 +70,8 @@ function spawnBackgroundEffects() {
         setTimeout(() => { createSparkle(true); }, i * INIT_SPARKLE_CREATE_INTERVAL);
     
     spawnSparklesInterval = setInterval(() => {
-        setTimeout(() => { createSparkle(false); }, parseInt(Math.floor(Math.random() * NEW_SPARKLE_INTERVAL_SPREAD)))
+        if(!document.hidden)
+            setTimeout(() => { createSparkle(false); }, parseInt(Math.floor(Math.random() * NEW_SPARKLE_INTERVAL_SPREAD)))
     }, NEW_SPARKLE_SCHEDULE_INTERVAL);
 }
 
@@ -98,11 +99,12 @@ function addSparkleElement(sparkle) {
     pageWrapper.appendChild(sparkleElement);
 
     sparkle.interval = setInterval(() => { 
-        sparkelUpdate(sparkle, sparkleElement, pageWrapper) 
+        if(!document.hidden)
+            sparkleUpdate(sparkle, sparkleElement, pageWrapper);
     }, UPDATE_RATE);
 }
 
-function sparkelUpdate(sparkle, sparkleElement, pageWrapper) {
+function sparkleUpdate(sparkle, sparkleElement, pageWrapper) {
     sparkle.y += sparkle.speed;
     sparkle.speed += sparkle.accel;
 
