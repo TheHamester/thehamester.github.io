@@ -44,7 +44,7 @@ export const html = /* html */ `
         <p>
             I do try to create my own music sometimes. Most of the times the process ends by barely even starting, 
             but I can drop some stuff here that did result into some half-decent product or just WIPs.
-            Those I do finish I upload top my <a target="_blank" href="https://hamester.newgrounds.com/">Newgrounds</a> page.
+            Those I do finish I upload to my <a target="_blank" href="https://hamester.newgrounds.com/">Newgrounds</a> page.
             <div id="my-songs">
                 <div class="loader" id="my-songs-loader"></div>
             </div>
