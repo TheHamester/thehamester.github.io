@@ -1,6 +1,19 @@
 {
     "posts": [
         {
+            "title": "Been a while...",
+            "date": "04.09.2024",
+            "text": [
+                "It's been almost 2 months since last post, and honestly... idk, nothing really changed, nothing really happened. It's been on and off a bunch of unproductive days with really rare occasional \"I did something!\". Been pretty depressive, mostly my brain switching between being excited to do something and then a few minutes later this exact excitement diminishing away. So much stuff I just can't get my endorphin deprived brain to do, nothing feels worth it most of the time. Playing games feels like an unfulfilling waste of time, and consuming content feels weird without creating anything new yourself in the world where time waits for nobody.",
+                "On the programming front I haven't done much at all... There was some breakthrough on the music side of my artistic endeavors, for the first time in a few years in an 8 hour session I managed to make a song I could call \"finished\". It's called Das Faya, and you can listen to it either on my <a href=\"/#/music\">Music</a> page or on my <a target=\"_blank\" href=\"https://hamester.newgrounds.com/\">Newgrounds</a> page on which maybe I'll start posting some art I've made before, but I'm not sure, mostly because I like the idea of posting everything in one place to reduce redundancy, and that's what this website was supposed to be in a nutshell, a unified hub for everything me and what I make, so if I do post my art it would probably be here, but at the same time I understand that you can't count on acquiring audience from a personal website if nobody knows who you are, so... yeah.",
+                "I started to follow a new musical artist I like recently, their name is <a target=\"_blank\" href=\"https://mididuck.carrd.co/\">mididuck</a> and their first full album \"ok to be not ok\" is dropping September 7th, and the singles he released in the last few weeks were of outmost greatness, so I can't wait to hear the rest of it. Also first studio album of my favorite musical artist Porter Robinson \"Worlds\" turned 10 years, and he dropped a previously unreleased song from it called \"Hollowheart\" and it's probably one the most beautiful \"Worlds\" era songs, despite him saying that it was supposed to be just an interlude, I genuinely cried when it played during \"Worlds\" listening party."
+            ],
+            "image": {
+                "src": "content/img/feed/latest_audio.png",
+                "style": "square"
+            }
+        },
+        {
             "title": "New character?",
             "date": "14.07.2024",
             "text": [

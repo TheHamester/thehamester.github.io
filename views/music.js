@@ -4,13 +4,13 @@ export const onMount = (params) => { loadRecentObsessions(); loadMyMusic(); }
 
 export const html = /* html */ `
     <p>
-        My music taste mostly contains from EDM, Indie Rock, Hyper Pop, Nerdcore and Metal. When I find new music I like, I usually relisten the hell out of it
+        My music taste mostly contains from EDM, Indie Rock, Hyper Pop, Nerdcore and Metal. When I find new music I like, I usually re-listen the hell out of it
         on repeat for a while, and as a result a lot of the time I have a strong association of a song or an album with a certain time period. I have 2 main 
         playlists on youtube where I put music. The first one is where I put songs I'm obsessing with, the other one is a special one with songs that have liminal/lonely
         feeling to them which create the vibe I really enjoy.
         </p>
         <p>
-            My favourite artists are 
+            My favorite artists are 
             <a target="_blank" href="https://music.youtube.com/channel/UCUt2uP6O_UBJp4aBx5KjQjA">Porter Robinson</a> and 
             <a target="_blank" href="https://music.youtube.com/channel/UC9TynkEiIsDxKjtDZKmiUvw">Madeon</a> on EDM side; 
             <a target="_blank" href="https://music.youtube.com/channel/UC9xRJvhCNHF3Kv8j9jEA6tQ">Tally Hall</a>, 
