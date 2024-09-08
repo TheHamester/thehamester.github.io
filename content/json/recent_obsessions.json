@@ -1,6 +1,30 @@
 {
     "songs": [
         {
+            "artist": "Mididuck",
+            "name": "we dream",
+            "url": "https://www.youtube.com/watch?v=1Cvbu8yEQNE", 
+            "description": "So punchy and groovy... love it, I can hear so much porter influences in this album"
+        },
+        {
+            "artist": "Mididuck",
+            "name": "aimless",
+            "url": "https://www.youtube.com/watch?v=MVs7zMz2bQY", 
+            "description": "Short but it's such a cool lo-fi track going into trance rhythmic haven..."
+        },
+        {
+            "artist": "Mididuck",
+            "name": "aimless",
+            "url": "https://www.youtube.com/watch?v=h5cn73VC0Bg", 
+            "description": "Beautiful guitar, that goes into very nice and chill"
+        },
+        {
+            "artist": "Mididuck",
+            "name": "hope",
+            "url": "https://www.youtube.com/watch?v=-mofTth5zDQ", 
+            "description": "Beginning reminds me of TheFatRat, also it's so funky and jazzy..."
+        },
+        {
             "artist": "Mididuck feat. sofuu",
             "name": "Hollowheart",
             "url": "https://www.youtube.com/watch?v=v8tarUSy064", 
