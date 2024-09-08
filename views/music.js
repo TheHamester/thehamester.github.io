@@ -38,7 +38,10 @@ export const html = /* html */ `
         <div id="recent-obsessions">
             <div class="loader" id="recent-obsessions-loader"></div>
         </div>
-        <a id="load-more-button" href="javascript:getMoreSongs()">Load More</a>
+        <div id="page-controls">
+            <a id="prev-button" href="javascript:prevPage()">&lt&lt Prev</a>
+            <a id="next-button" href="javascript:nextPage()">Next &gt&gt</a>
+        </div>
 
         <h2>My Music</h2>
         <p>

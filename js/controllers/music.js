@@ -1,19 +1,23 @@
-const songPagination = 6;
+const songPagination = 4;
 
 let loadedSongs;
 let songList;
 let mySongList;
+let currentPage;
+let lastPage;
 
 async function loadRecentObsessions(params) {
     loadedSongs = 0;
+    currentPage = 0;
     songList = undefined;
-    mySongList - undefined;
+    mySongList = undefined;
 
     const json = await fetchJSON("content/json/recent_obsessions.json");
     songList = json.songs;
-    getMoreSongs();
-    document.getElementById("recent-obsessions").removeChild(document.getElementById("recent-obsessions-loader"));
-    document.getElementById("load-more-button").style.display = "block";
+    lastPage = Math.floor(songList.length / songPagination) + (songList.length % songPagination != 0 ? 1 : 0) - 1;
+    displayPage(0);
+    document.getElementById("prev-button").innerHTML = "";
+    document.getElementById("prev-button").style.cursor = "default";
 }
 
 async function loadMyMusic() {
@@ -22,6 +26,62 @@ async function loadMyMusic() {
     mySongList = json.songs;
     getMyMusic();
     document.getElementById("my-songs").removeChild(document.getElementById("my-songs-loader"));
+}
+
+function prevPage() {
+    if(currentPage == 0)
+        return;
+
+    currentPage--;
+    if(currentPage == 0) {
+        document.getElementById("prev-button").innerHTML = "";
+        document.getElementById("prev-button").style.cursor = "default";
+    }
+
+    if(currentPage < lastPage) {
+        document.getElementById("next-button").innerHTML = "Next &gt&gt";
+        document.getElementById("next-button").style.cursor = "pointer";
+    }
+    
+    displayPage(currentPage);
+}
+
+function nextPage() {
+    if(currentPage == lastPage)
+        return;
+
+    currentPage++;
+    if(currentPage == lastPage) {
+        document.getElementById("next-button").innerHTML = "";
+        document.getElementById("next-button").style.cursor = "default";
+    }
+
+    if(currentPage > 0) {
+        document.getElementById("prev-button").innerHTML = "&lt&lt Prev";
+        document.getElementById("prev-button").style.cursor = "pointer";
+    }
+
+    displayPage(currentPage);
+}
+
+function displayPage(pageNum) {
+    if(!songList)
+        return;
+
+    const recentObsessions = document.getElementById("recent-obsessions");
+    recentObsessions.innerHTML = "";
+
+    const songBlockDiv = document.createElement("div");
+    songBlockDiv.classList.add("song-block");
+    recentObsessions.appendChild(songBlockDiv);
+
+    const end = Math.min((pageNum + 1) * songPagination, songList.length);
+
+    for(let i = pageNum * songPagination; i < end; i++) {
+        const newSongElement = createSongElement(songList[i]);
+        songBlockDiv.appendChild(newSongElement);
+        loadedSongs++;
+    }
 }
 
 function getMoreSongs() {
