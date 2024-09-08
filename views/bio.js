@@ -5,7 +5,7 @@ export const onMount = (params) => {};
 export const html = /* html */ `
         <div class="pfp-wrapper">
             <img title="Art by Fauvfox" class="circle" src="content/img/ham.png" width="200" height="200">
-            <div class="pronouns">Azzy - any/all</div>
+            <div class="pronouns">Azzy - any/all - 23</div>
         </div>
         <p>
             Hello! My name is Hamester, or you can just call me Ham or Azzy. I'm your local <em class="bisexual">bisexual</em> pyromancer arctic fox!
