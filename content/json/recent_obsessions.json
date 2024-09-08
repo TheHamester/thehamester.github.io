@@ -2,6 +2,12 @@
     "songs": [
         {
             "artist": "Mididuck",
+            "name": "decay",
+            "url": "https://www.youtube.com/watch?v=MVs7zMz2bQY", 
+            "description": "Chill and lo-fi track transitioning into otherworldly trance..."
+        },
+        {
+            "artist": "Mididuck",
             "name": "we dream",
             "url": "https://www.youtube.com/watch?v=1Cvbu8yEQNE", 
             "description": "So punchy and groovy... love it, I can hear so much porter influences in this album"
