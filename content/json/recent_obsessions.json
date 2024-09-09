@@ -2,6 +2,12 @@
     "songs": [
         {
             "artist": "Mididuck",
+            "name": "the fool",
+            "url": "https://www.youtube.com/watch?v=HsFnt4J4uvk", 
+            "description": "don't know quire how to describe it, but feels very unique, the chorus is very nice"
+        },
+        {
+            "artist": "Mididuck",
             "name": "decay",
             "url": "https://www.youtube.com/watch?v=MVs7zMz2bQY", 
             "description": "Chill and lo-fi track transitioning into otherworldly trance..."

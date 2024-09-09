@@ -84,34 +84,6 @@ function displayPage(pageNum) {
     }
 }
 
-function getMoreSongs() {
-    if(!songList)
-        return;
-
-    const recentObsessions = document.getElementById("recent-obsessions");
-    const end = Math.min(loadedSongs + songPagination, songList.length);
-
-    const songBlockDiv = document.createElement("div");
-    songBlockDiv.classList.add("song-block");
-    recentObsessions.appendChild(songBlockDiv);
-
-
-    if(loadedSongs != 0) {
-        const hr = document.createElement("hr");
-        hr.classList.add("separator");
-        songBlockDiv.appendChild(hr);
-    }
-
-    for(let i = loadedSongs; i < end; i++) {
-        const newSongElement = createSongElement(songList[i]);
-        songBlockDiv.appendChild(newSongElement);
-        loadedSongs++;
-    }
-
-    if(loadedSongs >= songList.length)
-        document.getElementById("content").removeChild(document.getElementById("load-more-button"));
-}
-
 function getMyMusic() {
     if(!mySongList)
         return;

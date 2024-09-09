@@ -28,7 +28,7 @@ export const html = /* html */ `
         </p>
         <p>
             I like logic puzzles, really big enjoyer of solving <a target="_blank" href="https://www.nikoli.co.jp/en/puzzles/">Nikoli</a> type puzzles. 
-            My favourite genres are probably Starbattle, LITS, Nurikabe, Heyawake, Filomino and their derivatives.
+            My favorite genres are probably Starbattle, LITS, Nurikabe, Heyawake, Fillomino and their derivatives.
             I used to play chess back in 2021, got to rating of 800 on chess.com, but not anymore nowadays. Also do play Riichi Mahjong sometimes.
         </p>
 
