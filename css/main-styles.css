@@ -223,6 +223,14 @@ ul {
     list-style: none;
 }
 
+.bio-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: row;
+}
+
+
 .links div {
     display: flex;
     align-items: center;
@@ -236,6 +244,7 @@ ul {
     margin: 0px;
     color: var(--text-color);
 }
+
 
 .float-left {
     margin-right: var(--content-margin);
@@ -271,6 +280,7 @@ ul {
     background: var(--notification-bg-color);
     padding: 5px;
     color: var(--notification-border-color);
+    z-index: 10;
 
     animation-name: appear;
     animation-duration: var(--notification-anim-time);

@@ -45,10 +45,6 @@ html:has(.dark) {
     color: var(--text-color-dark);
 }
 
-.dark * .links div p {
-    color: var(--text-color-dark);
-}
-
 .dark * ul {
     color: var(--text-color-dark);
 }
@@ -62,7 +58,11 @@ html:has(.dark) {
     font-weight: bold;
 }
 
-.dark * .links div svg {
+.dark * .bio-links a svg {
+    filter: invert(86%) sepia(22%) saturate(628%) hue-rotate(334deg) brightness(103%) contrast(105%);
+}
+
+.dark * .links svg {
     filter: invert(86%) sepia(22%) saturate(628%) hue-rotate(334deg) brightness(103%) contrast(105%);
 }
 
