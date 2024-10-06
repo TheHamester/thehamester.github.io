@@ -1,6 +1,18 @@
 {
     "songs": [
         {
+            "artist": "Jules Conroy",
+            "name": "Overthinker",
+            "url": "https://youtube.com/watch?v=kAVTmu6jRXw", 
+            "description": "me.."
+        },
+        {
+            "artist": "mididuck",
+            "name": "blizzard",
+            "url": "https://youtube.com/watch?v=v4C1LUCiZ3A", 
+            "description": "very cinematic.. reminds me of Creo music a lot"
+        },
+        {
             "artist": "rixsicgf46",
             "name": "somewhere safe",
             "url": "https://www.youtube.com/watch?v=GZHg5pmxMxA", 
