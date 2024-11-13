@@ -1,6 +1,42 @@
 {
     "songs": [
         {
+            "artist": "Chris Christodoulou",
+            "name": "Oṃ Maṇi Padme Hūṃ, part I",
+            "url": "https://www.youtube.com/watch?v=VmauxZUG5UM", 
+            "description": "holy shit electric violin"
+        },
+        {
+            "artist": "Benj Pasek and Justin Paul",
+            "name": "Waving Through a Window",
+            "url": "https://www.youtube.com/watch?v=kfnMvo87fQU", 
+            "description": "just a neat song"
+        },
+        {
+            "artist": "tom cardy",
+            "name": "Transcendental Cha Cha Cha",
+            "url": "https://www.youtube.com/watch?v=BLzxuIfD9rU", 
+            "description": "existential banger"
+        },
+        {
+            "artist": "Alex Moukala",
+            "name": "Amalgamaniac",
+            "url": "https://www.youtube.com/watch?v=0eevQzTu4DQ", 
+            "description": "cha cha cha"
+        },
+        {
+            "artist": "Josie Brechner (ft. Sarah Hubbard)",
+            "name": "Glass Cages",
+            "url": "https://www.youtube.com/watch?v=KetH-sjKguo", 
+            "description": "violin goes so hard"
+        },
+        {
+            "artist": "Alex Moukala (ft. Aram Zero)",
+            "name": "RAVEVENGE",
+            "url": "https://www.youtube.com/watch?v=evo7GYveMaA", 
+            "description": "banger and a good chart"
+        },
+        {
             "artist": "Jules Conroy",
             "name": "Overthinker",
             "url": "https://youtube.com/watch?v=kAVTmu6jRXw", 
