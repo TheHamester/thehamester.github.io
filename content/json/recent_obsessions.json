@@ -1,6 +1,18 @@
 {
     "songs": [
         {
+            "artist": "Steven Universe - Estelle - Zach Callison",
+            "name": "True Kinda Love (Music Video Version)",
+            "url": "https://www.youtube.com/watch?v=TRHClEFrs5k", 
+            "description": "cute and bouncy"
+        },
+        {
+            "artist": "yoshienjoyer",
+            "name": "... and now for the finale!",
+            "url": "https://www.youtube.com/watch?v=TRHClEFrs5k", 
+            "description": "funky"
+        },
+        {
             "artist": "Chris Christodoulou",
             "name": "Oṃ Maṇi Padme Hūṃ, part I",
             "url": "https://www.youtube.com/watch?v=VmauxZUG5UM", 
