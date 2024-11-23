@@ -1,6 +1,18 @@
 {
     "posts": [
         {
+            "title": "Made a BlueSky",
+            "date": "24.11.2024",
+            "text": [
+                "Decided to make a <a target=\"_blank\" href=\"https://bsky.app/profile/hamester.bsky.social\">BlueSky Account</a>, where I'm gonna post random stuff I make I guess... and If I'm gonna post something into this feed I'll probably also repost it on BlueSky as a post.",
+                "I had conflicting thoughts about having to post same things on multiple platforms and I am a big fan of an idea of unified platform where I can post everything, and... That's what this personal website was trying to accomplish all this time, but... I believe it's fine to keep some redundancy for BlueSky too, besides I'm already posting my music on Newgrounds, so.. fuck it, we ball..."
+            ],
+            "image": {
+                "src": "content/img/feed/bsky.png",
+                "style": "square"
+            }
+        },
+        {
             "title": "Been a while...",
             "date": "04.09.2024",
             "text": [
