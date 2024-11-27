@@ -1,6 +1,18 @@
 {
     "songs": [
         {
+            "artist": "Jesper Kyd",
+            "name": "Disposal Unit (Imperium Mix)",
+            "url": "https://www.youtube.com/watch?v=Ni3CazygOh4", 
+            "description": "bangs"
+        },
+        {
+            "artist": "Jesper Kyd",
+            "name": "Warp Traveller",
+            "url": "https://www.youtube.com/watch?v=6zh2bC-DvR0", 
+            "description": "funky beat to slay monsters to"
+        },
+        {
             "artist": "Steven Universe - Estelle - Zach Callison",
             "name": "True Kinda Love (Music Video Version)",
             "url": "https://www.youtube.com/watch?v=9P1ceu2yZuc", 

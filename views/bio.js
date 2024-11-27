@@ -48,7 +48,7 @@ export const html = /* html */ `
 
         <h2>Games</h2>
         <p>
-            I'm not a big gamer, but I have over 3000 hours in <a target="_blank" href="https://store.steampowered.com/app/322170/Geometry_Dash/">Geometry Dash</a>! 
+            I'm not a big gamer, but I have over 4000 hours in <a target="_blank" href="https://store.steampowered.com/app/322170/Geometry_Dash/">Geometry Dash</a>! 
             Am I good at this game?.. Well... I'm a top 1000 star grinder, not much of a demon slayer, also had a pretty big break so 
             I'm pretty rusty... and don't really play that game too much anymore, but I do come back to it from time to time, 'cause I have a lot of fond 
             memories with it.
