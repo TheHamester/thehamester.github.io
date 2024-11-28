@@ -1,6 +1,18 @@
 {
     "songs": [
         {
+            "artist": "iBrow",
+            "name": "Confidence",
+            "url": "https://www.youtube.com/watch?v=ceFGjge5vRg", 
+            "description": "epic"
+        },
+        {
+            "artist": "Packtion",
+            "name": "Soccer Ball",
+            "url": "https://www.youtube.com/watch?v=mbE5rKXFcWo", 
+            "description": "ye.. we ball"
+        },
+        {
             "artist": "Jesper Kyd",
             "name": "Disposal Unit (Imperium Mix)",
             "url": "https://www.youtube.com/watch?v=Ni3CazygOh4", 
