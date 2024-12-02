@@ -1,6 +1,14 @@
 {
     "posts": [
         {
+            "title": "A poem...",
+            "date": "02.12.2024",
+            "text": [
+                "A cute poem I wrote... Originally there was only the first half, but today I had inspiration to continue it... maybe I'll add to it in the future, who knows?",
+                "<center><img class=\"square\" width=\"650\" src=\"content/img/feed/poem1.png\"></center>"
+            ]
+        },
+        {
             "title": "Made a BlueSky",
             "date": "24.11.2024",
             "text": [
