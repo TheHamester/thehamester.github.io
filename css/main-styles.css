@@ -303,6 +303,15 @@ ul {
     font-weight: bold;
 }
 
+.non-binary {
+    background: linear-gradient(to right, var(--non-binary-1), var(--non-binary-2), var(--non-binary-3), var(--non-binary-4));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-style: normal;
+    font-weight: bold;
+}
+
 /* Loader copied from https://css-loaders.com/ */
 .loader {
     margin: 20px auto;

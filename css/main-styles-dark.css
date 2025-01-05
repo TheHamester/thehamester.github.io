@@ -58,6 +58,15 @@ html:has(.dark) {
     font-weight: bold;
 }
 
+.dark * .non-binary {
+    background: linear-gradient(to right, var(--non-binary-1-dark), var(--non-binary-2-dark), var(--non-binary-3-dark), var(--non-binary-4-dark));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-style: normal;
+    font-weight: bold;
+}
+
 .dark * .bio-links a svg {
     filter: invert(86%) sepia(22%) saturate(628%) hue-rotate(334deg) brightness(103%) contrast(105%);
 }
