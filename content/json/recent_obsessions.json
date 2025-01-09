@@ -1,6 +1,24 @@
 {
     "songs": [
         {
+            "artist": "The Chalkeaters",
+            "name": "TRASH CAN SONG",
+            "url": "https://www.youtube.com/watch?v=M02WlP-ZwD4", 
+            "description": "can't believe i found this <s>trash</s> gold"
+        },
+        {
+            "artist": "iBrow",
+            "name": "POW",
+            "url": "https://www.youtube.com/watch?v=NSX56vrxXls", 
+            "description": "epic"
+        },
+        {
+            "artist": "Artifyber",
+            "name": "Under The Mistletoe",
+            "url": "https://www.youtube.com/watch?v=lokvEKhxAEI", 
+            "description": "funky ending.."
+        },
+        {
             "artist": "YonKaGor",
             "name": "Linger in the Rain",
             "url": "https://www.youtube.com/watch?v=Hd19KBE0hn0", 
