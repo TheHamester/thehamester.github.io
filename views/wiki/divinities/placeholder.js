@@ -1,12 +1,8 @@
-export const title = "Sedosa";
+export const title = "Placeholder";
 export const html = /* html */ `
-    <img title="Art by Axovoxel" class="float-left square" src="content/img/wiki/Sedo.png" width="200">
     <p>
-        Sedosa [sedəʊsa] (She/Her) - The divinity of Change and Morph. Watches over the changes of the universe. 
+        Placeholder [-] (She/Her) - The divinity of Change and Morph. Watches over the changes of the universe. 
         She's in charage of eveything entropy. Can stretch arms infinitely.
-    </p>
-    <p>
-        <i>All rights to this character belong to <a target="_blank" href="https://www.deviantart.com/glitchbound1">Axovoxel</a>.</i>
     </p>
 
     <h2>Origin</h2>

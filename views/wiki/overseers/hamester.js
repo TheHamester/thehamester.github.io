@@ -3,8 +3,8 @@ export const html = /* html */ `
     <h2 id="hamester">Hamester</h2>
     <img title="Art by Axovoxel" class="float-left square" src="content/img/wiki/HamesterPixel.png" width="200">
     <p>
-        Hamester [hæmɛstɚ] (He/Him) - God of Fire, one of the eight folowers of <a href="/#/wiki/overseers/xa">Xa</a>, who is in control of the element of fire. 
-        He is able to withstand the highest of temperatures in the universe, and the heat of his flames is able to melt or even 
+        Hamester [hæmɛstɚ] (They/them) - Deity of Fire, one of the eight folowers of <a href="/#/wiki/overseers/xa">Xa</a>, who is in control of the element of fire. 
+        They are able to withstand the highest of temperatures in the universe, and the heat of their flames is able to melt or even 
         completely disintegrate any matter within seconds.
     </p>
     <p>
@@ -13,9 +13,9 @@ export const html = /* html */ `
 
     <h2>Appearance</h2>
     <p>
-        His physical form resembles an arctic fox with white fur, black ears with brown lynx-like tufts. His arms and legs from 
+        Their physical form resembles an arctic fox with white fur, black ears with brown lynx-like tufts. Their arms and legs from 
         palms to shoulders, and from feet to waste have black to brown to orange to white gradient. 
-        His eyes have a dual colored (blue and orange) iris.
+        Their eyes have a dual colored (blue and orange) iris.
     </p>
 `;
 

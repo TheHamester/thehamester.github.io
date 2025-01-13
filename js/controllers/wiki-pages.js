@@ -8,7 +8,7 @@ const wikiPages = [
 
     // Divinities
     "divinities",
-    "divinities/sedosa", "divinities/anetha",
+    "divinities/placeholder", "divinities/anetha",
 
     // Locations
     "locations",
