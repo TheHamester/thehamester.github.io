@@ -2,7 +2,7 @@ export const title = "Frysen";
 export const html = /* html */ `
     <img title="Art by Axovoxel" class="float-left square" src="content/img/wiki/Frysen.png" width="200">
     <p>
-        Frysen [fɹaɪzɛn] (He/Him) - God of Ice, one of the eight folowers of <a href="/#/wiki/overseers/xa">Xa</a>, who is in control of the element of ice. 
+        Frysen [fɹaɪzɛn] (He/Him) - God of Ice, one of the eight followers of <a href="/#/wiki/overseers/xa">Xa</a>, who is in control of the element of ice. 
         He is able to withstand the lowest of temperatures, and able to instantly freeze anything to absolute zero. 
     </p>
     

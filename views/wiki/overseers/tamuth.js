@@ -1,7 +1,7 @@
 export const title = "Tamuth";
 export const html = /* html */ `
     <p>
-        Tamuth [tæməθ] (She/Her) - Godess of Rot, one of the eight folowers of <a href="/#/wiki/overseers/xa">Xa</a>, who is in control of the element of rot and decay.
+        Tamuth [tæməθ] (She/Her) - Godess of Rot, one of the eight followers of <a href="/#/wiki/overseers/xa">Xa</a>, who is in control of the element of rot and decay.
     </p>
     
     <h2>Appearance</h2>
