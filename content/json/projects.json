@@ -6,7 +6,7 @@
                 {
                     "name": "Hit Indication",
                     "description": "This mod adds indicators to show where you got damaged from, much like in games such as Call of Duty, and Halo. The config options allow you to change stuff such as the opacity of the indicators, their fade out rate, and even whether a blue block indicator should appear if you block an attack with a shield.<br><br>",
-                    "image_src": "content/img/projects/hit-indication.png",
+                    "image_src": "content/img/projects/minecraft-hit-indication.png",
                     "links": [
                         {
                             "resource": "GitHub",
@@ -21,7 +21,7 @@
                 {
                     "name": "Random Respawns",
                     "description": "This mod changes the way respawns in the game work by completely randomizing your respawn location on each death, making it almost semi-hardcore mode. Mod allows you to configure options related to the radius from the world origin within which the new respawn location will be determined, weather the random respawns should occur with respect to your death location, weather it should avoid oceans and/or hazards, and weather time should be set to 0 on death.",
-                    "image_src": "content/img/projects/random-respawns.png",
+                    "image_src": "content/img/projects/minecraft-random-respawns.png",
                     "links": [
                         {
                             "resource": "GitHub",
@@ -36,12 +36,43 @@
             ]
         },
         {
+            "name": "Balatro Mods",
+            "projects": [
+                {
+                    "name": "Azzy's Silly Trinkets",
+                    "description": "This mod adds silly miscellaneous content to the game. Mostly serves as a playground for me to experiment and get more acquainted with Balatro modding.<br>",
+                    "image_src": "content/img/projects/balatro-ast.png",
+                    "image_width": 100,
+                    "image_style": "square",
+                    "links": [
+                        {
+                            "resource": "GitHub",
+                            "url": "https://github.com/TheHamester/azzys-silly-trinkets"
+                        }
+                    ]
+                },
+                {
+                    "name": "Bongcloud",
+                    "description": "This mod adds Chess consumable type, and will have some chess related Jokers in the future. The name comes from the joke Chess openning of the same name.<br>",
+                    "image_src": "content/img/projects/balatro-bongcloud.png",
+                    "image_width": 100,
+                    "image_style": "square",
+                    "links": [
+                        {
+                            "resource": "GitHub",
+                            "url": "https://github.com/TheHamester/azzys-silly-trinkets"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "name": "KTaNE Mods",
             "projects": [
                 {
                     "name": "Diophantine Equations",
                     "description": "Simple module where you have to find a specific set of integers solving a linear diophantine equation. Basically turned one of my uni math homeworks into a module... Not what you usually expect from a well designed KTaNE module, but it was just an experiment, if I liked modding this game. I ended up designing one more module, that I didn't finish and I'm not going to return to KTaNE modding ever, I don't think.",
-                    "image_src": "content/img/projects/diophantine_equations.png",
+                    "image_src": "content/img/projects/ktane-diophantine-equations.png",
                     "links": [
                         {
                             "resource": "GitHub",
@@ -53,12 +84,6 @@
                         }
                     ]
                 }
-            ]
-        },
-        {
-            "name": "Upcoming Projects",
-            "projects": [
-
             ]
         }
     ],

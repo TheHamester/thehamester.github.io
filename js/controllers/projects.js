@@ -60,10 +60,9 @@ function createProjectDiv(project, icons, overallProjectCount) {
     if(project.image_src != "") {
         const projectImg = document.createElement("img");
         projectImg.classList.add(overallProjectCount % 2 == 0 ? "float-left" : "float-right");
-        projectImg.classList.add("circle");
+        projectImg.classList.add(project.image_style ? project.image_style : "circle");
         projectImg.setAttribute("src", project.image_src);
-        projectImg.setAttribute("width", 150);
-        projectImg.setAttribute("height", 150);
+        projectImg.setAttribute("width", project.image_width ? project.image_width : 150);
         projectDiv.appendChild(projectImg);
     }
 

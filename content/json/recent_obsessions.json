@@ -1,376 +1,70 @@
 {
     "songs": [
         {
-            "artist": "The Chalkeaters",
-            "name": "TRASH CAN SONG",
-            "url": "https://www.youtube.com/watch?v=M02WlP-ZwD4", 
-            "description": "can't believe i found this <s>trash</s> gold"
+            "artist": "David Bowie",
+            "name": "Starman",
+            "url": "https://www.youtube.com/watch?v=t365MuktYQs", 
+            "description": "How have I not heard about this song before?.."
         },
         {
-            "artist": "iBrow",
-            "name": "POW",
-            "url": "https://www.youtube.com/watch?v=NSX56vrxXls", 
-            "description": "epic"
+            "artist": "Sturm feat. Stash Club",
+            "name": "Let There be Light (With Lyrics)",
+            "url": "https://www.youtube.com/watch?v=HBiyUduluro", 
+            "description": "love obscure old media references as well as tragic story teling, also the song is a banger..."
         },
         {
-            "artist": "Artifyber",
-            "name": "Under The Mistletoe",
-            "url": "https://www.youtube.com/watch?v=lokvEKhxAEI", 
-            "description": "funky ending.."
+            "artist": "CreativeLime",
+            "name": "Humiliation",
+            "url": "https://www.youtube.com/watch?v=JSmjUuBT1BA", 
+            "description": "The clarinet solo is peaaaaaaak"
         },
         {
-            "artist": "YonKaGor",
-            "name": "Linger in the Rain",
-            "url": "https://www.youtube.com/watch?v=Hd19KBE0hn0", 
-            "description": "sad but cute"
-        },
-        {
-            "artist": "iBrow",
-            "name": "Confidence",
-            "url": "https://www.youtube.com/watch?v=ceFGjge5vRg", 
-            "description": "epic"
-        },
-        {
-            "artist": "Packtion",
-            "name": "Soccer Ball",
-            "url": "https://www.youtube.com/watch?v=mbE5rKXFcWo", 
-            "description": "ye.. we ball"
-        },
-        {
-            "artist": "Jesper Kyd",
-            "name": "Disposal Unit (Imperium Mix)",
-            "url": "https://www.youtube.com/watch?v=Ni3CazygOh4", 
-            "description": "bangs"
-        },
-        {
-            "artist": "Jesper Kyd",
-            "name": "Warp Traveller",
-            "url": "https://www.youtube.com/watch?v=6zh2bC-DvR0", 
-            "description": "funky beat to slay monsters to"
-        },
-        {
-            "artist": "Steven Universe - Estelle - Zach Callison",
-            "name": "True Kinda Love (Music Video Version)",
-            "url": "https://www.youtube.com/watch?v=9P1ceu2yZuc", 
-            "description": "cute and bouncy"
-        },
-        {
-            "artist": "yoshienjoyer",
-            "name": "... and now for the finale!",
-            "url": "https://www.youtube.com/watch?v=TRHClEFrs5k", 
-            "description": "funky"
-        },
-        {
-            "artist": "Chris Christodoulou",
-            "name": "Oṃ Maṇi Padme Hūṃ, part I",
-            "url": "https://www.youtube.com/watch?v=VmauxZUG5UM", 
-            "description": "holy shit electric violin"
-        },
-        {
-            "artist": "Benj Pasek and Justin Paul",
-            "name": "Waving Through a Window",
-            "url": "https://www.youtube.com/watch?v=kfnMvo87fQU", 
-            "description": "just a neat song"
-        },
-        {
-            "artist": "tom cardy",
-            "name": "Transcendental Cha Cha Cha",
-            "url": "https://www.youtube.com/watch?v=BLzxuIfD9rU", 
-            "description": "existential banger"
-        },
-        {
-            "artist": "Alex Moukala",
-            "name": "Amalgamaniac",
-            "url": "https://www.youtube.com/watch?v=0eevQzTu4DQ", 
-            "description": "cha cha cha"
-        },
-        {
-            "artist": "Josie Brechner (ft. Sarah Hubbard)",
-            "name": "Glass Cages",
-            "url": "https://www.youtube.com/watch?v=KetH-sjKguo", 
-            "description": "violin goes so hard"
-        },
-        {
-            "artist": "Alex Moukala (ft. Aram Zero)",
-            "name": "RAVEVENGE",
-            "url": "https://www.youtube.com/watch?v=evo7GYveMaA", 
-            "description": "banger and a good chart"
-        },
-        {
-            "artist": "Jules Conroy",
-            "name": "Overthinker",
-            "url": "https://youtube.com/watch?v=kAVTmu6jRXw", 
-            "description": "me.."
-        },
-        {
-            "artist": "mididuck",
-            "name": "blizzard",
-            "url": "https://youtube.com/watch?v=v4C1LUCiZ3A", 
-            "description": "very cinematic.. reminds me of Creo music a lot"
-        },
-        {
-            "artist": "rixsicgf46",
-            "name": "somewhere safe",
-            "url": "https://www.youtube.com/watch?v=GZHg5pmxMxA", 
-            "description": "would you like to save... yourself...?"
-        },
-        {
-            "artist": "Mididuck",
-            "name": "the fool",
-            "url": "https://www.youtube.com/watch?v=HsFnt4J4uvk", 
-            "description": "don't know quire how to describe it, but feels very unique, the chorus is very nice"
-        },
-        {
-            "artist": "Mididuck",
-            "name": "decay",
-            "url": "https://www.youtube.com/watch?v=MVs7zMz2bQY", 
-            "description": "Chill and lo-fi track transitioning into otherworldly trance..."
-        },
-        {
-            "artist": "Mididuck",
-            "name": "we dream",
-            "url": "https://www.youtube.com/watch?v=1Cvbu8yEQNE", 
-            "description": "So punchy and groovy... love it, I can hear so much porter influences in this album"
-        },
-        {
-            "artist": "Mididuck",
-            "name": "aimless",
-            "url": "https://www.youtube.com/watch?v=h5cn73VC0Bg", 
-            "description": "Beautiful guitar, that goes into very nice and chill"
-        },
-        {
-            "artist": "Mididuck",
-            "name": "hope",
-            "url": "https://www.youtube.com/watch?v=-mofTth5zDQ", 
-            "description": "Beginning reminds me of TheFatRat, also it's so funky and jazzy..."
-        },
-        {
-            "artist": "Mididuck feat. sofuu",
-            "name": "mistakes",
-            "url": "https://www.youtube.com/watch?v=v8tarUSy064", 
-            "description": "Lyrics are pretty relatable, yet another banger by mididuck, like 3rd in a row"
-        },
-        {
-            "artist": "Mididuck",
-            "name": "As long as we breath",
-            "url": "https://www.youtube.com/watch?v=R2D7MDS-VZg", 
-            "description": "Goes really hard"
-        },
-        {
-            "artist": "Mididuck",
-            "name": "Why the frown?",
-            "url": "https://www.youtube.com/watch?v=Vb8T96K0wBI", 
-            "description": "I'm obsessing over the last few notes of the chorus for some reason"
-        },
-        {
-            "artist": "Porter Robinson ft. Amy Millan",
-            "name": "Hollowheart",
-            "url": "https://www.youtube.com/watch?v=bdXPhRj10jQ", 
-            "description": "【=◈︿◈=】 Happy 10 years..."
-        },
-        {
-            "artist": "Ellie Goulding",
-            "name": "Goodness Gracious",
-            "url": "https://www.youtube.com/watch?v=ekPBOVgGRSA", 
-            "description": "ah the good old song from that multigames source map"
-        },
-        {
-            "artist": "Porter Robinson",
-            "name": "Easier to Love You",
-            "url": "https://www.youtube.com/watch?v=ss_B6NKZ00U", 
-            "description": "chill anc cute"
-        },
-        {
-            "artist": "Porter Robinson",
-            "name": "Is There Really No Happiness",
-            "url": "https://www.youtube.com/watch?v=PoTu269qSnw", 
-            "description": "you know people die from nostalgia? jkkk"
-        },
-        {
-            "artist": "Porter Robinson ft. Frost Children",
-            "name": "Mona Lisa",
-            "url": "https://www.youtube.com/watch?v=0IVpAlFtLdQ", 
+            "artist": "Kat x Aku P",
+            "name": "Affection Addiction",
+            "url": "https://www.youtube.com/watch?v=UTcZHzDY3LU", 
             "description": "damn"
         },
         {
-            "artist": "Porter Robinson",
-            "name": "Kitsune Maison Freestyle",
-            "url": "https://www.youtube.com/watch?v=WfzG3Yia7Xg", 
-            "description": "porter rap??"
+            "artist": "Lonely Bunker",
+            "name": "Ghosts",
+            "url": "https://www.youtube.com/watch?v=AVXsd04XC1A", 
+            "description": "made me cry"
+        }, 
+        {
+            "artist": "Lonely Bunker",
+            "name": "Mimic",
+            "url": "https://www.youtube.com/watch?v=k4xMgVBz5Uw", 
+            "description": "love it"
+        },        
+        {
+            "artist": "Lonely Bunker",
+            "name": "Doppelganger",
+            "url": "https://www.youtube.com/watch?v=fOF0P_cGYhs", 
+            "description": "just banger, inspired some thoughts"
         },
         {
-            "artist": "Sub Urban",
-            "name": "Cradles",
-            "url": "https://www.youtube.com/watch?v=Hn4sfC2PbhI", 
-            "description": "classic"
+            "artist": "The Living Tombstone",
+            "name": "Malibu Pier",
+            "url": "https://www.youtube.com/watch?v=RJt_hU9SNLo", 
+            "description": "can't wait for the whole album to drop"
         },
         {
-            "artist": "The Stupendium",
-            "name": "The House Always Wins",
-            "url": "https://www.youtube.com/watch?v=nWJ1PcSt73E", 
-            "description": "The house always wins..."
+            "artist": "Lonely Bunker",
+            "name": "Wait Up",
+            "url": "https://www.youtube.com/watch?v=FGYXAZHJj0M", 
+            "description": "Found this artist from shorts, and got hooked immediately"
         },
         {
-            "artist": "Dan Bull",
-            "name": "Quiet Please!",
-            "url": "https://www.youtube.com/watch?v=eW-iEHkU6nU", 
-            "description": "hush hush hush indeed"
+            "artist": "Boom Kitty, feat. EVW, KingSammelot, Colon",
+            "name": "Geometry Dash Gangster Rap",
+            "url": "https://www.youtube.com/watch?v=MxGBF7Qn7SQ", 
+            "description": "Best thing that came out of April Fools this year"
         },
         {
-            "artist": "Dan Bull",
-            "name": "Flocking Hostile",
-            "url": "https://www.youtube.com/watch?v=vK55-9bYiKM", 
-            "description": "sheep villain ark goes hard"
-        },
-        {
-            "artist": "mididuck",
-            "name": "flickering",
-            "url": "https://www.youtube.com/watch?v=qLJe-osKQzw", 
-            "description": "cute vocal chops"
-        },
-        {
-            "artist": "underscores",
-            "name": "Loansharks (feat. gabby start)",
-            "url": "https://www.youtube.com/watch?v=2U4UOH7mSpU", 
-            "description": "Why it has such nostalgic vibe? idk, for some reason vocal melody reminds me of some old pop songs that were used in Minecraft parodies, like Maroon 5"
-        },
-        {
-            "artist": "Good Kid",
-            "name": "Bubbly",
-            "url": "https://www.youtube.com/watch?v=Bhz-wKJxxHI", 
-            "description": "catchy"
-        },
-        {
-            "artist": "tom cardy",
-            "name": "Hey I Don't Work Here",
-            "url": "https://www.youtube.com/watch?v=BbDa5nbwnpQ", 
-            "description": "tom cardy villain ark moment"
-        },
-        {
-            "artist": "Sixpence None the Richer",
-            "name": "Kiss Me",
-            "url": "https://www.youtube.com/watch?v=hII0JXUJNDo", 
-            "description": "Damn, the original is just as cool as the spooky version.."
-        },
-        {
-            "artist": "The Stupendium & Dan Bull",
-            "name": "Production Line",
-            "url": "https://www.youtube.com/watch?v=HYdOZOdjXnI", 
-            "description": "Gift box... MINE!"
-        },
-        {
-            "artist": "Dan Bull",
-            "name": "FALLOUT 4 SPECIAL RAP",
-            "url": "https://www.youtube.com/watch?v=tuQPfVZbMbg", 
-            "description": "swell"
-        },
-        {
-            "artist": "The 88",
-            "name": "Biggering (Original Demo)",
-            "url": "https://www.youtube.com/watch?v=cpyuolKoeAY", 
-            "description": "biggering moment..."
-        },
-        {
-            "artist": "マサラダ",
-            "name": "㋰責任集合体",
-            "url": "https://www.youtube.com/watch?v=c5_0NPftdlY", 
-            "description": "Funky!"
-        },
-        {
-            "artist": "Jerry Terry",
-            "name": "Kiss Me (Kill Me)",
-            "url": "https://www.youtube.com/watch?v=rsF5EWOQN9Y", 
-            "description": "Jeez, this gave me goosebumps..."
-        },
-        {
-            "artist": "Star",
-            "name": "it's_cold_here",
-            "url": "https://www.youtube.com/watch?v=Gxbwc1VfgYU", 
-            "description": "The vibest of vibes"
-        },
-        {
-            "artist": "Astron",
-            "name": "credits song for my death but im the final boss",
-            "url": "https://www.youtube.com/watch?v=0MOknESeZgA", 
-            "description": "Hits hard, really good vibe"
-        },
-        {
-            "artist": "The Chalkeaters",
-            "name": "Roll out the Fallout!",
-            "url": "https://www.youtube.com/watch?v=pOkLlpSlbvc", 
-            "description": "Another banger"
-        },
-        {
-            "artist": "Porter Robinson",
-            "name": "Russian Roulette",
-            "url": "https://www.youtube.com/watch?v=N6w-UzfGX0c", 
-            "description": "New era is gonna be great..."
-        },
-        {
-            "artist": "Floombo",
-            "name": "Car's Little Song",
-            "url": "https://www.youtube.com/watch?v=atdO6YRg5Cw", 
-            "description": "He made this song for everyone..."
-        },
-        {
-            "artist": "Zroze",
-            "name": "Rambley Review - Zroze Remix",
-            "url": "https://www.youtube.com/watch?v=UEfxK4nGnJ0", 
-            "description": "Great TLT vibe from this"
-        },
-        {
-            "artist": "KennyL",
-            "name": "Paranoia",
-            "url": "https://www.youtube.com/watch?v=4VAGr5-KUTA", 
-            "description": "Instrumental be cooking..."
-        },
-        {
-            "artist": "BitfoxOriginal",
-            "name": "Take Me Jon",
-            "url": "https://www.youtube.com/watch?v=6436PlXgnYY", 
-            "description": "Sad garfld..."
-        },
-        {
-            "artist": "Last Dinosaurs",
-            "name": "Sense",
-            "url": "https://www.youtube.com/watch?v=0rXdQRiN4-4", 
-            "description": "Good vibe!"
-        },
-        {
-            "artist": "JW Francis",
-            "name": "John, Take Me With You",
-            "url": "https://www.youtube.com/watch?v=1mXyiCZ1aYQ", 
-            "description": "Sad garfld... but original"
-        },
-        {
-            "artist": "HoliznaCC0",
-            "name": "In My ChildHood Daze",
-            "url": "https://www.youtube.com/watch?v=vChZVD9Blas", 
-            "description": "Vibe song from Angel Hare"
-        },
-        {
-            "artist": "KennyL",
-            "name": "All Stars",
-            "url": "https://www.youtube.com/watch?v=vJRLDJK6gQM", 
-            "description": "So good..."
-        },
-        {
-            "artist": "Shadrow",
-            "name": "Never Be Alone",
-            "url": "https://www.youtube.com/watch?v=DntCptxHADc", 
-            "description": "Funky FNAF song!"
-        },
-        {
-            "artist": "CG5, TLT, Black Gryph0n",
-            "name": "Stuck Inside",
-            "url": "https://www.youtube.com/watch?v=AWPB2p1CEZQ", 
-            "description": "Great collab!"
-        },
-        {
-            "artist": "JVKE",
-            "name": "golden hour",
-            "url": "https://www.youtube.com/watch?v=8XZ7dKan--4", 
-            "description": "Beautiful..."
+            "artist": "Red Vox",
+            "name": "Telephone",
+            "url": "https://www.youtube.com/watch?v=sTUwN_fkVkM", 
+            "description": "Found this song from a random CSS themed incremental game, it had some based picks too, lmao"
         }
     ]
 }

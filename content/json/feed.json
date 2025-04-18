@@ -1,10 +1,24 @@
 {
     "posts": [
         {
+            "title": "Long time no update",
+            "date": "18.04.2025",
+            "text": [
+                "Been a few month since I've updated the website, been more active on <a target=\"_blank\" href=\"https://bsky.app/profile/hamester.bsky.social\">Bluesky</a>, but not really at the same time...",
+                "Been working on some <a target=\"_blank\" href=\"https://bsky.app/profile/hamester.bsky.social/post/3lmxhgpmt7k2u\">Balatro mods</a>, haven't been writing much poetry and still procrastinating on adding section for all this to the website, as well as updating my wiki section with more info on my characters, cause... I haven't been working on the universe much at all, other than random side characters... Probably not soon, but working on it is certainly something I wanna do, as well as developing this website a bit more... Currently wiki section is unaccessible until I figure out the way to update it more efficiently, like with... Obsidian integration into my workflow, I guess.",
+                "Also, completed Omori, it was an amazing experience..."
+            ],
+            "image": {
+                "src": "content/img/feed/wild.png",
+                "style": "square",
+                "width": 250
+            }
+        },
+        {
             "title": "They/them - here I am",
             "date": "09.01.2025",
             "text": [
-                "After some thinking I've come to a conclusion that I don't really fit decisevely into any of the ends of the gender spectrum... so... from now on I'll be going by they/them pronouns",
+                "After some thinking I've come to a conclusion that I don't really fit decisively into any of the ends of the gender spectrum... so... from now on I'll be going by they/them pronouns",
                 "Also since last post I wrote some new poems and posted them on my <a target=\"_blank\" href=\"https://bsky.app/profile/hamester.bsky.social\">Bluesky</a>. Will probably create a separate section for them on this website in the near future."
             ],
             "image": {
