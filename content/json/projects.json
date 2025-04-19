@@ -53,14 +53,14 @@
                 },
                 {
                     "name": "Bongcloud",
-                    "description": "This mod adds Chess consumable type, and will have some chess related Jokers in the future. The name comes from the joke Chess openning of the same name.<br>",
+                    "description": "This mod adds Chess consumable type, and will have some chess related Jokers in the future. The name comes from the joke Chess opening of the same name.<br>",
                     "image_src": "content/img/projects/balatro-bongcloud.png",
                     "image_width": 100,
                     "image_style": "square",
                     "links": [
                         {
                             "resource": "GitHub",
-                            "url": "https://github.com/TheHamester/azzys-silly-trinkets"
+                            "url": "https://github.com/TheHamester/bongcloud"
                         }
                     ]
                 }
