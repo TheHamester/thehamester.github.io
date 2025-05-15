@@ -52,7 +52,7 @@ function getMorePosts() {
         document.getElementById("content").removeChild(loadMoreButton);
 
     const backToFeed = document.getElementById("back-link");
-    backToFeed.style.display = "none";
+    //backToFeed.style.display = "none";
 }
 
 function loadOnePost(id) {

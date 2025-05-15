@@ -1,7 +1,5 @@
-const routes = ["", "404", "feed", /*"wiki"*/, "projects", "music", "credits"];
+const routes = ["", "404", "feed", "creative-works", "projects", "music", "credits"];
 const paramsRegex = /([^&=#]+)=([^&#]*)/g;
-
-let prevRoute = "";
 
 window.onhashchange = async (e) => { await route(); };
 window.addEventListener("DOMContentLoaded", async e => { await route(); });
@@ -25,7 +23,7 @@ window.onclick = (e) => {
         const imageHeight = Math.min(imageWidth * e.target.naturalHeight / e.target.naturalWidth, window.innerHeight - 200);
 
         imageViewImage.setAttribute("src", e.target.getAttribute("src"));
-        imageViewImage.setAttribute("width", imageWidth);
+        imageViewImage.setAttribute("height", imageHeight);
 
         imageView.style.display = "block";
         imageViewClose.style.transform = `translate(calc(-50% + ${imageWidth}px / 2), calc(-50% - ${imageHeight}px / 2))`;
@@ -33,9 +31,6 @@ window.onclick = (e) => {
 }
 
 async function loadView(jsFileName, params) {
-    const backToFeed = document.getElementById("back-link");
-    backToFeed.style.display = "none";
-    
     await import(jsFileName).then(async (module) => {
         document.getElementById("page-title").innerHTML = await module.title;
         document.getElementById("content").innerHTML = await module.html;
@@ -46,14 +41,26 @@ async function loadView(jsFileName, params) {
 async function navigate(hash, params) {
     document.body.scrollIntoView();
 
-    if(routes.includes(hash)) {
+    const split = hash.split("/");
+    const parent = split.slice(0, split.length - 1).join("/");
+
+    const backToFeed = document.getElementById("back-link");
+    if(split.length > 1) {
+        backToFeed.setAttribute("href", `/#/${parent}`);
+        backToFeed.style.display = "block";
+        backToFeed.innerHTML = "<< Back";
+    } else {
+        backToFeed.style.display = "none";
+    }
+
+    if(legalRoutes.includes(hash)) {
         await loadView(hash ? `/views/${hash}.js` : `/views/bio.js`, parseParams(params));
         recalculatePageResolution();
-        prevRoute = hash;
         return;
     }
 
-    await navigate("404", null);
+    await loadView("404", null)
+    recalculatePageResolution();
 }
 
 function parseParams(params) {
@@ -71,18 +78,18 @@ function parseParams(params) {
 
 async function route() {
     const splitByQuestion = window.location.hash.split("?");
-    const split = splitByQuestion[0].split("/");
     const params = splitByQuestion[1];
 
-    if(split.length == 0 || split.length == 1) {
-        await navigate(window.location.hash.slice(2), params);
+    console.log(params)
+
+    if(splitByQuestion.length > 1) {
+
+        console.log(splitByQuestion[0])
+        await navigate(splitByQuestion[0].slice(2), params);
         return;
     }
 
-    if(split.length >= 2) {
-        await navigate(split[1], params);
-        return;
-    }
+    await navigate(window.location.hash.slice(2), params);
 }
 
 function pushNotification(text) {

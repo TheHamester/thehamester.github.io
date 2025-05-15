@@ -30,7 +30,7 @@ export const html = /* html */ `
         <h2>Music</h2>
         <p>
             I spend a lot of my time sitting and listening to my limited playlist of music, mostly indie, rock, and EDM, 
-                and a lot of the time I listen to the same few songs on repeat until I get tired of them! Also slight fan of hyperpop and metal.
+                and a lot of the time I listen to the same few songs on repeat until I get tired of them! Also slight fan of hyper-pop and metal.
             You can read more about my musical preferences on the <a href="/#/music">Music</a> page!
         </p>
 
@@ -55,7 +55,7 @@ export const html = /* html */ `
         </p>
         <p>
             Overall I'm a big fan of music/rhythm games like <a target="_blank" href="https://github.com/etternagame/etterna">Etterna</a> 
-            and <a target="_blank" href="https://store.steampowered.com/app/977950/A_Dance_of_Fire_and_Ice/">ADOFAI</a>, 
+            and <a target="_blank" href="https://store.steampowered.com/app/977950/A_Dance_of_Fire_and_Ice/">ADoFaI</a>, 
             incremental games like <a target="_blank" href="https://store.steampowered.com/app/1399720/Antimatter_Dimensions/">Antimatter Dimensions</a> 
             and precision platformers like <a target="_blank" href="https://store.steampowered.com/app/504230/Celeste/">Celeste</a>; 
             and of course <a target="_blank" href="https://www.minecraft.net/">Minecraft</a>, whenever I feel like doing anything!

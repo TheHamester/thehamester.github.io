@@ -37,7 +37,6 @@ ul {
 }
 
 #back-link {
-    display: none;
     color: var(--link-color);
 }
 
@@ -69,9 +68,9 @@ ul {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    border-style: solid;
+
     border-radius: 10px;
-    border-width: 5px;
+
     border-color: var(--accent-orange);
 
     image-rendering: pixelated;

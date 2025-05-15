@@ -20,9 +20,6 @@ export const html = /* html */ `
         <li>Sleepy Arctic Fox (Cropped) - by Mark Dumont - <a target="_blank" href="https://www.flickr.com/photos/wcdumonts/8642074270">Source</a> - <a target="_blank" href="https://creativecommons.org/licenses/by-nc/2.0/">License</a></li>
     </ul>
 
-    <h3>Wiki</h3>
-    <p>Most of the character's artwork was made by Axovoxel</p>
-
     <h3>Projects</h3>
     <ul>
         <li>Hit Indication Icon - by Axovoxel</li>
