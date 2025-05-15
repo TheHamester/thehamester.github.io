@@ -80,11 +80,7 @@ async function route() {
     const splitByQuestion = window.location.hash.split("?");
     const params = splitByQuestion[1];
 
-    console.log(params)
-
     if(splitByQuestion.length > 1) {
-
-        console.log(splitByQuestion[0])
         await navigate(splitByQuestion[0].slice(2), params);
         return;
     }

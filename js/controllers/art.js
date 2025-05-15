@@ -21,7 +21,6 @@ async function loadArt() {
     document.getElementById("artworks").removeChild(document.getElementById("artworks-loader"));
 }
 
-
 function getMoreArtworks() {
     if(!artworksList)
         return;

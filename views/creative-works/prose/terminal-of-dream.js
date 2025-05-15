@@ -1,6 +1,6 @@
 export const title = "Terminal of Dream";
 
-export const onMount = (params) => loadArt();
+export const onMount = () => {}
 
 export const html = /* html */ `
     <img src="content/img/art/Ghost Snek x Deer.png" width="300" class="img-center">    
