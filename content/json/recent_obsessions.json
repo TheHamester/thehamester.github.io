@@ -1,5 +1,23 @@
 {
-    "songs": [
+    "songs": [      
+        {
+            "artist": "Amos Roddy",
+            "name": "Tears",
+            "url": "https://www.youtube.com/watch?v=Eo0QjT7mkzs", 
+            "description": "GhastStep be like..."
+        },
+        {
+            "artist": "Musiclide",
+            "name": "Broken Machine",
+            "url": "https://www.youtube.com/watch?v=_QSUUmLYCL4", 
+            "description": "i love oneshot"
+        },
+        {
+            "artist": "The Living Tombstone",
+            "name": "Orphans",
+            "url": "https://www.youtube.com/watch?v=Fmlui2VkKOg", 
+            "description": "THE ALBUM IS SOOOON!!"
+        },
         {
             "artist": "David Bowie",
             "name": "Starman",

@@ -13,6 +13,7 @@ export const html = /* html */ `
     <h2>Chapters</h2>
     <ul>
         <li><a href="/#/creative-works/prose/terminal-of-dream/prologue">Terminal of Dream - Prologue</a></li>
-        <li><i>Terminal of Dream - Part 1 - Soon</i></a>
+        <li><a href="/#/creative-works/prose/terminal-of-dream/part-1">Terminal of Dream - Part 1</a></li>
+        <li><i>Terminal of Dream - Part 2 - Soon</i></a>
     </ul>
 `;

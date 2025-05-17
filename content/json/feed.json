@@ -1,6 +1,19 @@
 {
     "posts": [
         {
+            "title": "Creative works section",
+            "date": "17.05.2025",
+            "text": [
+                "Finally decided to add the section to where I will put all my creative works like art, poetry and other miscellaneous writing.",
+                "Also I've been writing a cute little love story about a deer and a ghost snake, named <a href=\"/#/creative-works/prose/terminal-of-dream\">Terminal of Dream</a>. Currently The Prologue and Part 1 have been written. I've been very enjoying, and honestly never been more obsessed over writing for any of my other characters, I think."
+            ],
+            "image": {
+                "src": "content/img/feed/creative-works.png",
+                "style": "square",
+                "width": 250
+            }
+        },
+        {
             "title": "Long time no update",
             "date": "18.04.2025",
             "text": [

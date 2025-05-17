@@ -24,5 +24,6 @@ const legalRoutes = [
     "creative-works/poetry/singles/sacrificial-fox", 
     "creative-works/prose",
     "creative-works/prose/terminal-of-dream",
-    "creative-works/prose/terminal-of-dream/prologue"
+    "creative-works/prose/terminal-of-dream/prologue",
+    "creative-works/prose/terminal-of-dream/part-1"
 ]
