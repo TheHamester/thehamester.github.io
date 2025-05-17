@@ -19,7 +19,7 @@ export const html = /* html */ `
         <p dir="auto">Harvey was a bit anxious about what was going on, but something told him Solas wasn't lying, and he curiously asked:</p>
         <code>[user@harvey] &gt; An observer, what do you mean by that?</code><br>
         <code>[user@solas]  &gt; i'm just a ssspirit... travelling aimlessly around the universe...</code><br>
-        <p dir="auto">Harvey never heard about spirits, or what comes after death, other than a few ancient texts that he would be given to review back in school, but history was never his strong suit.</p>
+        <p dir="auto">Harvey never heard about spirits, or what comes after death, he would think it would be absolute oblivion, eternal darkness, the end, but could it not be?</p>
         <code>[user@harvey] &gt; So you're not alive?</code><br>
         <code>[user@solas] &gt; not in the sssame way you are... you sssee... after my death I was faced in front of a council of two moths... they said i lead a good life ssso... they let me into thisss... afterlife... to explore the universe freely as a bodyless ssspirit...</code><br>
         <code>[user@harvey] &gt; Are there others like you?</code><br>
