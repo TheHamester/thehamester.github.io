@@ -115,7 +115,7 @@ export const html = /* html */ `
         <code>[user@harvey] &gt; 'Course you can, silly... or... how about Solly?</code><br>
         <code>[user@solas]  &gt; heh... yeeee, my deery...</code><br>
         <code>[user@hearvey] &gt; My silly snek~ How about we... continue Architopia tomorrow... and... we watch some... MORE NERDY VIDEOS before bed</code><br>
-        <code>[user@solas]  &gt; you know the way to your sssilly sssnek's heart... don't you... deary~</code><br>
+        <code>[user@solas]  &gt; you know the way to your sssilly sssnek's heart... don't you... deery~</code><br>
         <code>[user@harvey] &gt; Guess I do, Sol... Guess I do...</code><br>
         <p dir="auto">And so they spent the rest of their evening happily watching nerdy essays and memes, feeling safe and happy in each other's presence, and eventually falling asleep to a random video about modern data preservation methods.</p>
     </div>
