@@ -135,12 +135,12 @@ ul {
 }
 
 #header .nav-links li {
-	padding: 10px;
+	padding: 5px;
+    color: white;
 }
 
 #header .nav-links li a {
     text-decoration: none;
-    color: white;
     font-size: 20px;
 }
 

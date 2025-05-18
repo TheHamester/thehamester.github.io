@@ -2,7 +2,6 @@ const songPagination = 4;
 
 let loadedSongs;
 let songList;
-let mySongList;
 let currentPage;
 let lastPage;
 
@@ -10,7 +9,6 @@ async function loadRecentObsessions(params) {
     loadedSongs = 0;
     currentPage = 0;
     songList = undefined;
-    mySongList = undefined;
 
     const json = await fetchJSON("content/json/recent_obsessions.json");
     songList = json.songs;
@@ -18,14 +16,6 @@ async function loadRecentObsessions(params) {
     displayPage(0);
     document.getElementById("prev-button").innerHTML = "";
     document.getElementById("prev-button").style.cursor = "default";
-}
-
-async function loadMyMusic() {
-    const json = await fetchJSON("content/json/my_music.json");
-
-    mySongList = json.songs;
-    getMyMusic();
-    document.getElementById("my-songs").removeChild(document.getElementById("my-songs-loader"));
 }
 
 function prevPage() {
@@ -84,17 +74,6 @@ function displayPage(pageNum) {
     }
 }
 
-function getMyMusic() {
-    if(!mySongList)
-        return;
-
-    const mySongs = document.getElementById("my-songs");
-    for(let i = 0; i < mySongList.length; i++) {
-        const newSongElement = createMySongElement(mySongList[i]);
-        mySongs.appendChild(newSongElement);
-    }
-}
-
 function createSongElement(song) {
     const div = document.createElement("div");
     const innerDiv = document.createElement("div");
@@ -124,25 +103,4 @@ function createSongElement(song) {
     }
 
     return div;
-}
-
-function createMySongElement(song) {
-    const songDiv = document.createElement("div");
-    songDiv.classList.add("song");
-
-    const nameP = document.createElement("p");
-    nameP.innerHTML = song.name;
-
-    const audio = document.createElement("audio");
-    audio.setAttribute("controls", "");
-
-    const source = document.createElement("source");
-    source.setAttribute("src", song.src);
-    source.setAttribute("type", "audio/" + song.src.split(".")[1]);
-
-    songDiv.appendChild(nameP);
-    songDiv.appendChild(audio);
-    audio.appendChild(source);
-
-    return songDiv;
 }

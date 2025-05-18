@@ -4,7 +4,7 @@ const legalRoutes = [
     "feed", 
     "creative-works", 
     "projects", 
-    "music", 
+    "music-i-like", 
     "credits",
     "creative-works/art", 
     "creative-works/poetry", 
@@ -25,5 +25,6 @@ const legalRoutes = [
     "creative-works/other-writing",
     "creative-works/other-writing/terminal-of-dream",
     "creative-works/other-writing/terminal-of-dream/prologue",
-    "creative-works/other-writing/terminal-of-dream/part-1"
+    "creative-works/other-writing/terminal-of-dream/part-1",
+    "creative-works/music",
 ]

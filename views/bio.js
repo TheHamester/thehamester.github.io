@@ -22,15 +22,16 @@ export const html = /* html */ `
             <div class="pronouns">Azzy - they/them - 24</div>
         </div>
         <p>
-            Hello! My name is Hamester, or you can just call me Ham or Azzy. I'm your local <em class="bisexual">bisexual</em> and <em class="non-binary">non-binary</em> pyromancer arctic fox!
-            You can find more information about my characters and lore on the <a href="/#/wiki">Wiki</a> page! Some updates and random thoughts I will be posting on the
-            <a href="/#/feed">Feed</a> page.
+            Hello! My name is Hamester, or you can just call me Ham or Azzy. 
+            I'm your local <em class="bisexual">bisexual</em> and <em class="non-binary">non-binary</em> pyromancer arctic fox!
+            I'm a mod and software developer, as well as an amature artist and poetry writer.
+            Some updates and random thoughts I will be posting on the <a href="/#/feed">Feed</a> page.
         </p>
 
-        <h2>Music</h2>
+        <h2>Music I Like</h2>
         <p>
             I spend a lot of my time sitting and listening to my limited playlist of music, mostly indie, rock, and EDM, 
-                and a lot of the time I listen to the same few songs on repeat until I get tired of them! Also slight fan of hyper-pop and metal.
+            and a lot of the time I listen to the same few songs on repeat until I get tired of them! Also slight fan of hyper-pop and metal.
             You can read more about my musical preferences on the <a href="/#/music">Music</a> page!
         </p>
 
@@ -38,7 +39,9 @@ export const html = /* html */ `
         <p>
             I'm a nerd! I like coding whenever I have any ideas or motivation, which... is rarely the case... 
             As of now my most notable project is the <a target="_blank" href="https://github.com/TheHamester/HitIndicator">Hit Indication</a> mod for Minecraft. 
-            You can read more about my projects on the <a href="/#/projects">Projects</a> page.
+            For now I mostly code modifications for games like <a target="_blank" href="https://www.minecraft.net/">Minecraft</a>, 
+            and <a target="_blank" href="https://www.playbalatro.com/">Balatro</a>.
+            You can read more about my coding projects on the <a href="/#/projects">Projects</a> page.
         </p>
         <p>
             I like logic puzzles, really big enjoyer of solving <a target="_blank" href="https://www.nikoli.co.jp/en/puzzles/">Nikoli</a> type puzzles. 
@@ -46,18 +49,33 @@ export const html = /* html */ `
             I used to play chess back in 2021, got to rating of 800 on chess.com, but not anymore nowadays. Also do play Riichi Mahjong sometimes.
         </p>
 
+        <h2>Creative Works</h2>
+        <p>
+            Sometimes I like to draw my OCs, and fanarts of friend's OCs. I started off just drawing pixel art, then switched to a more traditional style, to then later come
+            back to drawing in a fine mix of the two. You might argue it's still pixel art, but I like to call it "Low Res", since I draw with my tablet instead of placing
+            individual pixels. You can see my art on the <a href="/#/creative-works/art">Art</a> page, although you won't be seeing any of my traditional stuff there, because I'm not really proud of it, to be honest.
+        </p>
+        <p>
+            I also sometimes get a lot of inspiration to write some cute poems, and I'm mostly proud of how they come out. 
+            You can read them on <a href="/#/creative-works/poetry">Poetry</a> page.
+        </p>
+        <p>
+            Recently also started getting into more story driven, prosaoc writing. Currently really obsessing over writing a gay love story "Terminal of Dream".
+            You can read more about <a href="/#/creative-works/other-writing/terminal-of-dream">here</a>. I think it's pretty cute so far!
+        </p>
+
         <h2>Games</h2>
         <p>
             I'm not a big gamer, but I have over 4000 hours in <a target="_blank" href="https://store.steampowered.com/app/322170/Geometry_Dash/">Geometry Dash</a>! 
-            Am I good at this game?.. Well... I'm a top 1000 star grinder, not much of a demon slayer, also had a pretty big break so 
-            I'm pretty rusty... and don't really play that game too much anymore, but I do come back to it from time to time, 'cause I have a lot of fond 
-            memories with it.
+            Am I good at this game?.. Well... I'm a top 1000 star grinder, might not be soon because of how little I play it recently, and, hence, I'm pretty rusty... 
+            But I do like to come back to this game from time to time, because I have a lot of fond memories with it. I'd say it lead me to being a person who I am today.
         </p>
         <p>
-            Overall I'm a big fan of music/rhythm games like <a target="_blank" href="https://github.com/etternagame/etterna">Etterna</a> 
-            and <a target="_blank" href="https://store.steampowered.com/app/977950/A_Dance_of_Fire_and_Ice/">ADoFaI</a>, 
-            incremental games like <a target="_blank" href="https://store.steampowered.com/app/1399720/Antimatter_Dimensions/">Antimatter Dimensions</a> 
-            and precision platformers like <a target="_blank" href="https://store.steampowered.com/app/504230/Celeste/">Celeste</a>; 
-            and of course <a target="_blank" href="https://www.minecraft.net/">Minecraft</a>, whenever I feel like doing anything!
+            Overall I'm a big fan of music/rhythm games like <a target="_blank" href="https://github.com/etternagame/etterna">Etterna</a>,
+            and <a target="_blank" href="https://store.steampowered.com/app/977950/A_Dance_of_Fire_and_Ice/">ADoFaI</a>; 
+            incremental games and number-go-up games like <a target="_blank" href="https://store.steampowered.com/app/1399720/Antimatter_Dimensions/">Antimatter Dimensions</a>, 
+            and <a target="_blank" href="https://www.playbalatro.com/">Balatro</a>;
+            precision platformers like <a target="_blank" href="https://store.steampowered.com/app/504230/Celeste/">Celeste</a>; 
+            and of course <a target="_blank" href="https://www.minecraft.net/">Minecraft</a>, who isn't?
         </p>
 `;
