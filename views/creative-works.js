@@ -7,11 +7,8 @@ export const html = /* html */ `
             <a class="creative-works-hub-link" href="/#/creative-works/art">Art</a>
             <a class="creative-works-hub-link" href="/#/creative-works/poetry">Poetry</a>
             <a class="creative-works-hub-link" href="/#/creative-works/prose">Prose</a>
-        </div>
-    </ul>
-
+    </div>
     <hr>
-
     <p>
         All posted creative works, including but not limited to art, poetry, and prose, 
         are subject to the <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA-4.0</a> license.

@@ -58,7 +58,7 @@ export const html = /* html */ `
         <code>[user@solas]  &gt; $run brush</code><br>
         <code>[user@solas]  &gt; $run cam</code><br>
         <p dir="auto">A camera LED above the screen glowed blue, and a window of a graphical editor flashed on the screen for a split second before closing.</p>
-        <code>[user@solas]  &gt; $copy harvey.img .\architopia\avatars\Harvey\</code><br>
+        <code>[user@solas]  &gt; $copy harvey.img .\\architopia\\avatars\\Harvey\\</code><br>
         <code>[user@solas]  &gt; take a look at yourself now... uh... open your inventory</code><br>
         <p dir="auto">Harvey opened his inventory and saw pixelated avatar of a brown deer, with red circles around his eyes, reddish-brown antlers, and green eyes. It was like a carbon copy of his own image stylized in blocky art style.</p>
         <code>[user@harvey] &gt; awwww... It looks so cute! You're an artist, Sol</code><br>
