@@ -22,8 +22,8 @@ const legalRoutes = [
     "creative-works/poetry/singles/an-intro", 
     "creative-works/poetry/singles/libra-elementum-genesis", 
     "creative-works/poetry/singles/sacrificial-fox", 
-    "creative-works/prose",
-    "creative-works/prose/terminal-of-dream",
-    "creative-works/prose/terminal-of-dream/prologue",
-    "creative-works/prose/terminal-of-dream/part-1"
+    "creative-works/other-writing",
+    "creative-works/other-writing/terminal-of-dream",
+    "creative-works/other-writing/terminal-of-dream/prologue",
+    "creative-works/other-writing/terminal-of-dream/part-1"
 ]

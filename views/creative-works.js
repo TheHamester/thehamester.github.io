@@ -6,7 +6,7 @@ export const html = /* html */ `
     <div class="creative-works-hub">
             <a class="creative-works-hub-link" href="/#/creative-works/art">Art</a>
             <a class="creative-works-hub-link" href="/#/creative-works/poetry">Poetry</a>
-            <a class="creative-works-hub-link" href="/#/creative-works/prose">Prose</a>
+            <a class="creative-works-hub-link" href="/#/creative-works/other-writing">Other Writing</a>
     </div>
     <hr>
     <p>
