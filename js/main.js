@@ -59,7 +59,7 @@ async function navigate(hash, params) {
         return;
     }
 
-    await loadView("404", null)
+    await loadView("/views/404.js", null)
     recalculatePageResolution();
 }
 
