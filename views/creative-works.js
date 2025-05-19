@@ -3,6 +3,7 @@ export const title = "Creative Works";
 export const onMount = (params) => {};
 
 export const html = /* html */ `
+    <p>Central hub for all my craetive works.</p>
     <div class="creative-works-hub">
             <a class="creative-works-hub-link" href="/#/creative-works/art">Art</a>
             <a class="creative-works-hub-link" href="/#/creative-works/poetry">Poetry</a>

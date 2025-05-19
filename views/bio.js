@@ -60,7 +60,7 @@ export const html = /* html */ `
             You can read them on <a href="/#/creative-works/poetry">Poetry</a> page.
         </p>
         <p>
-            Recently also started getting into more story driven, prosaoc writing. Currently really obsessing over writing a gay love story "Terminal of Dream".
+            Recently also started getting into more story driven, prosaic writing. Currently really obsessing over writing a gay love story "Terminal of Dream".
             You can read more about <a href="/#/creative-works/other-writing/terminal-of-dream">here</a>. I think it's pretty cute so far!
         </p>
 
