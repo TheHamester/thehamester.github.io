@@ -1,6 +1,18 @@
 {
     "art": [
         {
+            "name": "Early Morning Stroll to Work",
+            "src": "Early-Morning-Walk-To-Work.png",
+            "alt": "Pixelated art piece of a deer Harvey in a yellow raincoat, holding a green umbrella. Looking sad into the raining sky under the light of a lamppost. A cyan glow radiating from him, representing his ghost boyfriend Solas near him.",
+            "description": "Yeah.. it's a weekend, yeah... the weather is shit, but a critical vulnarability is critical vulnarability, gotta patch that ASAP..."
+        },       
+        {
+            "name": "Lenn",
+            "src": "Lenn.png",
+            "alt": "A pixelated art piece of a 3/4 moth and 1/4 bat character. She has pink skin, blue wings and antennae. She's wearing a black shirt with a positively charge Pyro-Cryo Elemental Bond. Text on the top says: \"Manager of development at Phyro Archival Services\". Company logo in the opposite corner, representing an ice crystal, with an orange Plus, green 0 and a blue Minus in the top, middle and bottom respectively.",
+            "description": "Harvey's Manager of development at his work place."
+        },        
+        {
             "name": "Harvey x Solas",
             "src": "Ghost Snek x Deer.png",
             "alt": "A low resolution pixel drawing of a deer hugging a laptop with a console window opened on it. A cyan ghost snake with white lines going all around his body is coming out of a screen weaving around a deer and going for a kiss. The deer has faint brown-red fur, green eyes, and red circles around them. Text layered above drawing: And though for now between us there might be a screen; You're my ghost boyfriend in the terminal of dream",
