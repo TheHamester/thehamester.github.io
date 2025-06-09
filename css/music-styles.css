@@ -63,11 +63,10 @@
     align-items: center;
     justify-self: center;
     gap: var(--content-margin);
-    margin: 5px;
 }
 
 .song p {
-    min-width: 200px;
+    min-width: 350px;
 }
 
 .dark * #recent-obsessions div {

@@ -1,6 +1,14 @@
 {
     "songs": [
         {
+            "name": "Terminal of Dream - Instrumental",
+            "src": "content/audio/Terminal of Dream - Instrumental.wav"
+        },
+        {
+            "name": "Terminal of Dream",
+            "src": "content/audio/Terminal of Dream.wav"
+        },
+        {
             "name": "Das Faya",
             "src": "content/audio/Das Faya.mp3"
         },
