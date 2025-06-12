@@ -1,5 +1,23 @@
 {
-    "songs": [      
+    "songs": [   
+        {
+            "artist": "The Living Tombstone",
+            "name": "Boulder",
+            "url": "https://www.youtube.com/watch?v=mY7liPJXGeU", 
+            "description": "One must imagine Rust happy"
+        },   
+        {
+            "artist": "The Living Tombstone",
+            "name": "Somebody",
+            "url": "https://www.youtube.com/watch?v=iAyakT9Tp10", 
+            "description": "true"
+        },   
+        {
+            "artist": "The Living Tombstone",
+            "name": "Goliath",
+            "url": "https://www.youtube.com/watch?v=28nhcCG8lIQ", 
+            "description": "I want to defeat goliathhhhhh..."
+        },   
         {
             "artist": "Amos Roddy",
             "name": "Tears",
