@@ -1,7 +1,13 @@
 {
     "art": [
         {
-            "name": "Mizzle",
+            "name": "Ralsei (Deltarune)",
+            "src": "Ralsei (Deltarune).png",
+            "alt": "Pixelated art peace of a character Ralsei from the game DELTARUNE. A white anthropomorphic goat in a green cloak with a black heart in the middle, pink scarf, and green round glasses. They are on the dark purple background with slight green elements.",
+            "description": "Ralsei, my beloved..."
+        },   
+        {
+            "name": "Mizzle (Deltarune)",
             "src": "Mizzle (Deltarune).png",
             "alt": "Pixelated art piece of a an enemy from deltarune called Mizzle. She's a light blue water spirit with a long snout, wearing a slightly darker dress, and a blue-white hat with pon pons similar to a jester hat. She's holding both hands on her chest with her eyes closed. Sleeping Z particles are coming out.",
             "description": "I loveeeee Mizzleeeee..."
